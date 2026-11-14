@@ -1,3 +1,3 @@
-streamlit>=1.50,<2
-streamlit-local-storage==0.0.25
+streamlit>=1.56,<2
+streamlit-local-storage==0.0.25  # legacy progress recovery only
 pandas>=2.0,<3
