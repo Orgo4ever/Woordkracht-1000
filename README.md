@@ -44,6 +44,20 @@ streamlit run streamlit_app.py
 python test_streamlit_core.py
 ```
 
+### Continuation fix (November 14, 2026)
+
+The Streamlit app now uses an explicit browser-storage bridge in `browser_progress.py` rather than assuming the older asynchronous storage component has finished loading. It:
+
+- **Reads and validates** any existing saved profile before offering to create a new one.
+- **Waits for a confirmed save** after each flashcard rating, word skip, settings update, and backup import before advancing.
+- Keeps the `woordkracht-streamlit-v1` storage key and understands raw and double-encoded legacy JSON.
+- Offers **Try recovering progress from the previous Streamlit version** when an older browser component may have saved data under a different origin.
+- Preserves the existing backup format and keeps the GitHub Pages app unchanged.
+
+**Important limits:** browser storage is specific to a domain, browser, and device. This fix prevents the same browser from restarting a profile, but **does not sync** a phone with a desktop. Use Settings → Download JSON backup and restore it on another device. If browser storage is blocked, an emergency backup option appears. Do not clear site data before confirming your previous progress is safely backed up.
+
+To test: rate a flashcard and wait until the next card is shown, close/reopen the same browser, and confirm **Introduced** and **Due** counts are retained. Repeat after another rating. Run `python test_streamlit_core.py` and `python test_browser_progress.py` for study/recovery regression tests.
+
 ### Progress reliability and privacy
 
 The Streamlit app uses a browser-local-storage component where supported, with **JSON backup and restore** as a portable fallback. **Streamlit Session State is not durable**: it is lost on reload/reconnection if browser storage does not restore the profile. Browser storage may be cleared and does not automatically sync across domains, devices, or browsers. Download backups regularly and import your existing Pages backup once. **Do not commit personal backup JSON files to this public repository.** No login or cloud database is configured.
