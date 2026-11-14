@@ -1,0 +1,29 @@
+'use strict';
+const fs=require('fs'), vm=require('vm'), assert=require('assert');
+const app=fs.readFileSync(__dirname+'/app.js','utf8').replace(/\nboot\(\);\s*$/,'');
+const words=JSON.parse(fs.readFileSync(__dirname+'/words.json','utf8'));
+const ctx={console,localStorage:{setItem:()=>{}},document:{},window:{},Date,JSON,Intl,setTimeout};
+vm.createContext(ctx);
+vm.runInContext(app+`
+function testSetup(words){vocabulary=words;byId=new Map(words.map(w=>[w.id,w]));progress=DEFAULT();render=()=>{};persist=()=>{};}
+globalThis.TEST={testSetup,normalize,verified,counts,getEntry,rateCard,session,localDay,addDays};`,ctx);
+const a=ctx.TEST;
+a.testSetup(words);
+assert.strictEqual(a.normalize('  De  KOFFIE! '),'de koffie');
+assert.strictEqual(a.counts().total,1000);
+assert.strictEqual(a.counts().mastered,0);
+vm.runInContext(`activeId='w0001';responseState={id:'w0001',correct:true,checked:true};rateCard('good')`,ctx);
+assert.strictEqual(a.counts().learned,1);
+assert.strictEqual(a.counts().mastered,0,'one correct attempt is not sufficient');
+assert.strictEqual(a.counts().today,1);
+let first=vm.runInContext(`progress.cards['w0001']`,ctx);
+assert.strictEqual(first.due,a.addDays(a.localDay(),1));
+vm.runInContext(`activeId='w0001';responseState={id:'w0001',correct:true,checked:true};rateCard('good')`,ctx);
+assert.strictEqual(a.counts().mastered,0,'same-day repetitions do not verify mastery');
+vm.runInContext(`progress.cards['w0001'].successDates.push(addDays(localDay(),1))`,ctx);
+assert.strictEqual(a.counts().mastered,1,'two successful dates verify mastery');
+vm.runInContext(`activeId='w0002';responseState={id:'w0002',correct:false,revealed:true};rateCard('again')`,ctx);
+assert.strictEqual(a.counts().mastered,1,'reveals/misses must not give mastery');
+assert.strictEqual(a.counts().today,2);
+assert(a.counts().due>=1);
+console.log('PASS: app source parses; local normalization, new words, SRS schedule, conservative two-day verification, wrong answer');
