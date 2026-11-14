@@ -7,7 +7,7 @@ import sys
 mock_streamlit = MagicMock()
 mock_streamlit.components.v2.component.return_value = MagicMock()
 sys.modules.setdefault("streamlit", mock_streamlit)
-from browser_progress import decode_browser_value, JS
+from browser_progress import decode_browser_value, recover_prefer_new, STORAGE_KEY, LEGACY_KEY, JS
 from vocab_core import fresh_progress, json_backup
 
 
@@ -18,6 +18,20 @@ class BrowserStorageTests(unittest.TestCase):
         for raw in (json_backup(p), json.dumps(json_backup(p)), json.dumps({"value": json_backup(p)})):
             restored = decode_browser_value(raw)
             self.assertEqual(restored["cards"], p["cards"])
+
+    def test_nested_legacy_wrappers_and_safe_migration(self):
+        p = fresh_progress("2026-11-14")
+        p["cards"]["w0100"] = {"firstSeen": "2026-11-14", "due": "2026-11-15", "attempts": 2}
+        legacy = json.dumps({"data": {"profile": json_backup(p)}})
+        restored, source = recover_prefer_new("{}", legacy)
+        self.assertEqual(source, "legacy")
+        self.assertEqual(restored["cards"], p["cards"])
+        restored, source = recover_prefer_new(json_backup(p), '{"missing":true}')
+        self.assertEqual(source, "current")
+        self.assertEqual(restored["cards"], p["cards"])
+        self.assertEqual(recover_prefer_new("null", "{}"), (None, None))
+        self.assertNotEqual(STORAGE_KEY, LEGACY_KEY)
+        self.assertIn("window.localStorage.getItem(legacyKey)", JS)
 
     def test_invalid_never_creates_blank_profile(self):
         with self.assertRaises((ValueError, TypeError, json.JSONDecodeError)):
