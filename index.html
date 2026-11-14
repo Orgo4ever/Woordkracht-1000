@@ -30,6 +30,9 @@
     <div class="modal-body">
       <label class="field-label" for="daily-goal">New words per day (suggested: 35)</label>
       <input id="daily-goal" type="number" min="1" max="100" step="1" value="35">
+      <label class="settings-toggle"><input id="show-a1" type="checkbox"> Include basic A1 words (off by default)</label>
+      <p class="hint">These A1 labels are manual estimates, not official CEFR certifications. Use “Too easy · skip” on other simple words.</p>
+      <button type="button" class="full-button" id="reset-skipped">Restore personally skipped words</button>
       <p class="hint">Progress is stored in this browser on this device. If you clear browser data or change devices, you need your backup file.</p>
       <button type="button" class="full-button" id="export-button">↓ Download progress backup</button>
       <label class="full-button import-label" for="import-file">↑ Restore progress from backup</label>
