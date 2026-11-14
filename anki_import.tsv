@@ -1,0 +1,1003 @@
+#separator:Tab
+#html:false
+#columns:Front	Back	Tags
+I	ik	glue_words
+you (informal singular)	jij	glue_words
+you (informal)	je	glue_words
+you (formal)	u	glue_words
+he	hij	glue_words
+she	zij	glue_words
+she or they	ze	glue_words
+we	wij	glue_words
+we (informal)	we	glue_words
+you (plural)	jullie	glue_words
+it / the (neuter)	het	glue_words
+the (common)	de	glue_words
+not	niet	glue_words
+no / not any	geen	glue_words
+indeed / do (emphatic)	wel	glue_words
+and	en	glue_words
+but / only	maar	glue_words
+or	of	glue_words
+because (subordinating)	omdat	glue_words
+because (coordinating)	want	glue_words
+if / when / as	als	glue_words
+that (het-word)	dat	glue_words
+that / those	die	glue_words
+this (het-word)	dit	glue_words
+this / these	deze	glue_words
+who	wie	glue_words
+what	wat	glue_words
+where	waar	glue_words
+when	wanneer	glue_words
+why	waarom	glue_words
+how	hoe	glue_words
+how much / many	hoeveel	glue_words
+with	met	glue_words
+for / before	voor	glue_words
+of / from	van	glue_words
+to / toward	naar	glue_words
+at / near	bij	glue_words
+in	in	glue_words
+on	op	glue_words
+around / in order to	om	glue_words
+to (infinitive marker)	te	glue_words
+without	zonder	glue_words
+between	tussen	glue_words
+until / to	tot	glue_words
+through / by	door	glue_words
+nobody	niemand	glue_words
+nothing	niets	glue_words
+everything	alles	glue_words
+something	iets	glue_words
+everyone	iedereen	glue_words
+many / much	veel	glue_words
+few / little	weinig	glue_words
+more	meer	glue_words
+less	minder	glue_words
+every	elke	glue_words
+all (of them)	allemaal	glue_words
+each other	elkaar	glue_words
+oneself (reflexive)	zich	glue_words
+my	mijn	glue_words
+your (informal)	jouw	glue_words
+his / to be	zijn	glue_words
+our (de-word)	onze	glue_words
+us	ons	glue_words
+gladly / would like to	graag	glue_words
+thanks	bedankt	glue_words
+please / here you go (formal)	alstublieft	glue_words
+only / alone	alleen	glue_words
+oneself	zelf	glue_words
+together	samen	glue_words
+a / an	een	glue_words
+both	beide	glue_words
+a little bit	een beetje	glue_words
+a few	een paar	glue_words
+hello	hallo	glue_words
+hi	hoi	glue_words
+good morning	goedemorgen	glue_words
+good afternoon	goedemiddag	glue_words
+good evening	goedenavond	glue_words
+thank you (informal)	dankjewel	glue_words
+please / here you go (informal)	alsjeblieft	glue_words
+you are welcome	graag gedaan	glue_words
+sorry	sorry	glue_words
+goodbye	tot ziens	glue_words
+how are you	hoe gaat het	glue_words
+I'm doing well	het gaat goed	glue_words
+I am	ik ben	glue_words
+you are	jij bent	glue_words
+he is	hij is	glue_words
+we are	wij zijn	glue_words
+I have	ik heb	glue_words
+you have	jij hebt	glue_words
+he has	hij heeft	glue_words
+I want	ik wil	glue_words
+I can	ik kan	glue_words
+I must / have to	ik moet	glue_words
+himself / herself (reflexive)	zichzelf	glue_words
+myself	ikzelf	glue_words
+me	mij	glue_words
+me (unstressed)	me	glue_words
+you (object)	jou	glue_words
+him	hem	glue_words
+her	haar	glue_words
+them (object)	hen	glue_words
+their or them	hun	glue_words
+your (formal)	uw	glue_words
+ourselves	onszelf	glue_words
+yours (plural)	van jullie	glue_words
+which (het-word)	welk	glue_words
+which (de-word/plural)	welke	glue_words
+with what	waarmee	glue_words
+what for	waarvoor	glue_words
+of which / whose	waarvan	glue_words
+in which	waarin	glue_words
+where to	waarheen	glue_words
+toward what	waarnaar	glue_words
+probably	waarschijnlijk	glue_words
+maybe	misschien	glue_words
+yes	ja	glue_words
+no	nee	glue_words
+also	ook	glue_words
+even	zelfs	glue_words
+so / therefore	dus	glue_words
+unless	tenzij	glue_words
+while	terwijl	glue_words
+although	hoewel	glue_words
+so that	zodat	glue_words
+before (conjunction)	voordat	glue_words
+after (conjunction)	nadat	glue_words
+until (conjunction)	totdat	glue_words
+how long	hoelang	glue_words
+to have	hebben	essential_verbs
+to become	worden	essential_verbs
+to go	gaan	essential_verbs
+to come	komen	essential_verbs
+to do	doen	essential_verbs
+to make	maken	essential_verbs
+can / to be able	kunnen	essential_verbs
+may / to be allowed	mogen	essential_verbs
+must / to have to	moeten	essential_verbs
+to want	willen	essential_verbs
+will / shall	zullen	essential_verbs
+to let	laten	essential_verbs
+to know (fact)	weten	essential_verbs
+to know (person/place)	kennen	essential_verbs
+to think	denken	essential_verbs
+to believe	geloven	essential_verbs
+to find / think (opinion)	vinden	essential_verbs
+to understand	begrijpen	essential_verbs
+to learn	leren	essential_verbs
+to study	studeren	essential_verbs
+to remember	onthouden	essential_verbs
+to forget	vergeten	essential_verbs
+to remember / remind	herinneren	essential_verbs
+to say	zeggen	essential_verbs
+to tell	vertellen	essential_verbs
+to ask	vragen	essential_verbs
+to answer	antwoorden	essential_verbs
+to speak	spreken	essential_verbs
+to talk	praten	essential_verbs
+to listen	luisteren	essential_verbs
+to hear	horen	essential_verbs
+to see	zien	essential_verbs
+to look	kijken	essential_verbs
+to read	lezen	essential_verbs
+to write	schrijven	essential_verbs
+to spell	spellen	essential_verbs
+to mean	bedoelen	essential_verbs
+to call / name	noemen	essential_verbs
+to be called	heten	essential_verbs
+to explain	uitleggen	essential_verbs
+to describe	beschrijven	essential_verbs
+to translate	vertalen	essential_verbs
+to try	proberen	essential_verbs
+to practice	oefenen	essential_verbs
+to use	gebruiken	essential_verbs
+to work	werken	essential_verbs
+to look for	zoeken	essential_verbs
+to get	krijgen	essential_verbs
+to give	geven	essential_verbs
+to take	nemen	essential_verbs
+to bring	brengen	essential_verbs
+to fetch	halen	essential_verbs
+to hold / keep	houden	essential_verbs
+to grab	pakken	essential_verbs
+to put (upright)	zetten	essential_verbs
+to put (lying down)	leggen	essential_verbs
+to stand	staan	essential_verbs
+to sit	zitten	essential_verbs
+to lie	liggen	essential_verbs
+to walk	lopen	essential_verbs
+to walk / hike	wandelen	essential_verbs
+to run	rennen	essential_verbs
+to cycle	fietsen	essential_verbs
+to drive / ride	rijden	essential_verbs
+to travel	reizen	essential_verbs
+to fly	vliegen	essential_verbs
+to swim	zwemmen	essential_verbs
+to stop	stoppen	essential_verbs
+to begin	beginnen	essential_verbs
+to start	starten	essential_verbs
+to end	eindigen	essential_verbs
+to stay	blijven	essential_verbs
+to wait	wachten	essential_verbs
+to follow	volgen	essential_verbs
+to leave	verlaten	essential_verbs
+to depart	vertrekken	essential_verbs
+to arrive	aankomen	essential_verbs
+to come back	terugkomen	essential_verbs
+to go back	teruggaan	essential_verbs
+to board	instappen	essential_verbs
+to get off	uitstappen	essential_verbs
+to change	veranderen	essential_verbs
+to replace	vervangen	essential_verbs
+to choose	kiezen	essential_verbs
+to decide	beslissen	essential_verbs
+to arrange	regelen	essential_verbs
+to plan	plannen	essential_verbs
+to organize	organiseren	essential_verbs
+to prepare	voorbereiden	essential_verbs
+to check	controleren	essential_verbs
+to compare	vergelijken	essential_verbs
+to improve	verbeteren	essential_verbs
+to solve	oplossen	essential_verbs
+to repair / recover	herstellen	essential_verbs
+to repair	repareren	essential_verbs
+to open	openen	essential_verbs
+to close	sluiten	essential_verbs
+to finish	beëindigen	essential_verbs
+to succeed	lukken	essential_verbs
+to fail	mislukken	essential_verbs
+to help	helpen	essential_verbs
+to support	ondersteunen	essential_verbs
+to care / ensure	zorgen	essential_verbs
+to take care of	zorgen voor	essential_verbs
+to meet	ontmoeten	essential_verbs
+to visit	bezoeken	essential_verbs
+to invite	uitnodigen	essential_verbs
+to call	bellen	essential_verbs
+to text (message)	appen	essential_verbs
+to send	sturen	essential_verbs
+to receive	ontvangen	essential_verbs
+to reply to	beantwoorden	essential_verbs
+to email	mailen	essential_verbs
+to share	delen	essential_verbs
+to discuss	bespreken	essential_verbs
+to consult	overleggen	essential_verbs
+to collaborate	samenwerken	essential_verbs
+to ask for	vragen om	essential_verbs
+to thank	bedanken	essential_verbs
+to apologize	excuseren	essential_verbs
+to promise	beloven	essential_verbs
+to trust	vertrouwen	essential_verbs
+to hope	hopen	essential_verbs
+to expect	verwachten	essential_verbs
+to wish	wensen	essential_verbs
+to feel	voelen	essential_verbs
+to love / like	houden van	essential_verbs
+to like	leuk vinden	essential_verbs
+to hate	haten	essential_verbs
+to miss	missen	essential_verbs
+to laugh	lachen	essential_verbs
+to cry	huilen	essential_verbs
+to smile	glimlachen	essential_verbs
+to fear	vrezen	essential_verbs
+to be startled	schrikken	essential_verbs
+to sleep	slapen	essential_verbs
+to wake up	wakker worden	essential_verbs
+to get up	opstaan	essential_verbs
+to warm up	opwarmen	essential_verbs
+to rest	uitrusten	essential_verbs
+to relax	ontspannen	essential_verbs
+to eat	eten	essential_verbs
+to drink	drinken	essential_verbs
+to cook	koken	essential_verbs
+to bake / fry	bakken	essential_verbs
+to cut	snijden	essential_verbs
+to taste	proeven	essential_verbs
+to smell	ruiken	essential_verbs
+to order	bestellen	essential_verbs
+to buy	kopen	essential_verbs
+to sell	verkopen	essential_verbs
+to pay	betalen	essential_verbs
+to cost	kosten	essential_verbs
+to save (money)	besparen	essential_verbs
+to save up	sparen	essential_verbs
+to borrow / lend	lenen	essential_verbs
+to rent	huren	essential_verbs
+to reserve	reserveren	essential_verbs
+to book	boeken	essential_verbs
+to cancel	annuleren	essential_verbs
+to confirm	bevestigen	essential_verbs
+to return (item)	terugsturen	essential_verbs
+to exchange	ruilen	essential_verbs
+to wear / carry	dragen	essential_verbs
+to wash	wassen	essential_verbs
+to clean	schoonmaken	essential_verbs
+to shower	douchen	essential_verbs
+to dress	aankleden	essential_verbs
+to undress	uitkleden	essential_verbs
+to brush / polish	poetsen	essential_verbs
+to tidy up	opruimen	essential_verbs
+to build	bouwen	essential_verbs
+to move house	verhuizen	essential_verbs
+to live (reside)	wonen	essential_verbs
+to live (be alive)	leven	essential_verbs
+to grow	groeien	essential_verbs
+to develop	ontwikkelen	essential_verbs
+to happen	gebeuren	essential_verbs
+to arise	ontstaan	essential_verbs
+to exist	bestaan	essential_verbs
+to mean	betekenen	essential_verbs
+to seem	lijken	essential_verbs
+to turn out	blijken	essential_verbs
+to fit	passen	essential_verbs
+to go with / suit	passen bij	essential_verbs
+to belong with	horen bij	essential_verbs
+to apply / be valid	gelden	essential_verbs
+to need	nodig hebben	essential_verbs
+to be missing	ontbreken	essential_verbs
+to ask about	vragen naar	essential_verbs
+to touch / hit	raken	essential_verbs
+to lose	verliezen	essential_verbs
+to win	winnen	essential_verbs
+to play	spelen	essential_verbs
+to practice with	oefenen met	essential_verbs
+to count	tellen	essential_verbs
+to measure	meten	essential_verbs
+to weigh	wegen	essential_verbs
+to raise / increase	verhogen	essential_verbs
+to lower / decrease	verlagen	essential_verbs
+to rise	stijgen	essential_verbs
+to fall / decline	dalen	essential_verbs
+to fall	vallen	essential_verbs
+to break	breken	essential_verbs
+to turn	draaien	essential_verbs
+now	nu	time_and_location
+first	eerst	time_and_location
+then	dan	time_and_location
+after that	daarna	time_and_location
+here	hier	time_and_location
+there	daar	time_and_location
+there (unstressed)	er	time_and_location
+today	vandaag	time_and_location
+tomorrow	morgen	time_and_location
+yesterday	gisteren	time_and_location
+always	altijd	time_and_location
+never	nooit	time_and_location
+sometimes	soms	time_and_location
+often	vaak	time_and_location
+usually	meestal	time_and_location
+still / yet	nog	time_and_location
+already	al	time_and_location
+only / not until	pas	time_and_location
+again	weer	time_and_location
+back	terug	time_and_location
+immediately	meteen	time_and_location
+for a moment	even	time_and_location
+actually	eigenlijk	time_and_location
+nevertheless / still	toch	time_and_location
+fortunately	gelukkig	time_and_location
+unfortunately	helaas	time_and_location
+indeed	inderdaad	time_and_location
+of course	natuurlijk	time_and_location
+exactly	precies	time_and_location
+almost	bijna	time_and_location
+approximately	ongeveer	time_and_location
+for example	bijvoorbeeld	time_and_location
+moreover	bovendien	time_and_location
+besides that	daarnaast	time_and_location
+that's why	daarom	time_and_location
+as a result	daardoor	time_and_location
+namely / you see	namelijk	time_and_location
+again	opnieuw	time_and_location
+eventually	uiteindelijk	time_and_location
+soon	binnenkort	time_and_location
+in a little while	straks	time_and_location
+just now	zojuist	time_and_location
+just now (earlier)	daarnet	time_and_location
+still (continuing)	nog steeds	time_and_location
+subsequently	vervolgens	time_and_location
+before it	ervoor	time_and_location
+everywhere	overal	time_and_location
+somewhere	ergens	time_and_location
+nowhere	nergens	time_and_location
+to here	hierheen	time_and_location
+to there	daarheen	time_and_location
+after this	hierna	time_and_location
+before that / for that	daarvoor	time_and_location
+because of this	hierdoor	time_and_location
+through it	erdoor	time_and_location
+hereby / with this	hierbij	time_and_location
+in addition / with that	daarbij	time_and_location
+with this	hiermee	time_and_location
+with that	daarmee	time_and_location
+about this	hierover	time_and_location
+about that	daarover	time_and_location
+nothing but	alleen maar	time_and_location
+simply / just the way it is	nu eenmaal	time_and_location
+forward	vooruit	time_and_location
+backward	achteruit	time_and_location
+left	links	time_and_location
+right	rechts	time_and_location
+straight ahead	rechtdoor	time_and_location
+upward	omhoog	time_and_location
+downward	omlaag	time_and_location
+nearby	dichtbij	time_and_location
+far away	ver weg	time_and_location
+at the top	bovenaan	time_and_location
+at the bottom	onderaan	time_and_location
+at the front	vooraan	time_and_location
+at the back	achteraan	time_and_location
+later	later	time_and_location
+formerly / in the past	vroeger	time_and_location
+then (past)	toen	time_and_location
+nowadays	tegenwoordig	time_and_location
+currently	momenteel	time_and_location
+day before yesterday	eergisteren	time_and_location
+day after tomorrow	overmorgen	time_and_location
+this morning	vanmorgen	time_and_location
+this afternoon	vanmiddag	time_and_location
+this evening	vanavond	time_and_location
+tonight / last night	vannacht	time_and_location
+morning	ochtend	time_and_location
+afternoon	middag	time_and_location
+evening	avond	time_and_location
+night	nacht	time_and_location
+early	vroeg	time_and_location
+late	laat	time_and_location
+regularly	regelmatig	time_and_location
+occasionally	af en toe	time_and_location
+rarely	zelden	time_and_location
+hardly ever	bijna nooit	time_and_location
+every day	elke dag	time_and_location
+weekly	wekelijks	time_and_location
+monthly	maandelijks	time_and_location
+yearly	jaarlijks	time_and_location
+daily	dagelijks	time_and_location
+right away	direct	time_and_location
+finally	eindelijk	time_and_location
+for now	voorlopig	time_and_location
+previously	voorheen	time_and_location
+so far	tot nu toe	time_and_location
+by that time	tegen die tijd	time_and_location
+by now	inmiddels	time_and_location
+as soon as	zodra	time_and_location
+suddenly	ineens	time_and_location
+suddenly	plotseling	time_and_location
+gradually	geleidelijk	time_and_location
+quickly	snel	time_and_location
+slowly	langzaam	time_and_location
+good	goed	descriptions
+bad	slecht	descriptions
+nice / fun	leuk	descriptions
+beautiful	mooi	descriptions
+pleasant	fijn	descriptions
+important	belangrijk	descriptions
+necessary	nodig	descriptions
+possible	mogelijk	descriptions
+impossible	onmogelijk	descriptions
+clear	duidelijk	descriptions
+unclear	onduidelijk	descriptions
+difficult	moeilijk	descriptions
+easy	makkelijk	descriptions
+simple	eenvoudig	descriptions
+ordinary	gewoon	descriptions
+different	anders	descriptions
+big	groot	descriptions
+small	klein	descriptions
+new	nieuw	descriptions
+old	oud	descriptions
+busy	druk	descriptions
+calm / quiet	rustig	descriptions
+ready / finished	klaar	descriptions
+busy (doing)	bezig	descriptions
+tired	moe	descriptions
+ill	ziek	descriptions
+healthy	gezond	descriptions
+safe	veilig	descriptions
+warm	warm	descriptions
+cold	koud	descriptions
+angry	boos	descriptions
+happy	blij	descriptions
+afraid	bang	descriptions
+sad	verdrietig	descriptions
+nervous	zenuwachtig	descriptions
+satisfied	tevreden	descriptions
+kind / nice	aardig	descriptions
+honest	eerlijk	descriptions
+strange	vreemd	descriptions
+dirty	vies	descriptions
+clean	schoon	descriptions
+fine / excellent	prima	descriptions
+okay	oké	descriptions
+ugly	lelijk	descriptions
+pleasant	prettig	descriptions
+cozy / sociable	gezellig	descriptions
+interesting	interessant	descriptions
+boring	saai	descriptions
+unimportant	onbelangrijk	descriptions
+sure	zeker	descriptions
+uncertain	onzeker	descriptions
+understandable	begrijpelijk	descriptions
+complicated	ingewikkeld	descriptions
+handy / useful	handig	descriptions
+useful	nuttig	descriptions
+practical	praktisch	descriptions
+logical	logisch	descriptions
+normal	normaal	descriptions
+special	speciaal	descriptions
+the same	hetzelfde	descriptions
+comparable	vergelijkbaar	descriptions
+different	verschillend	descriptions
+more important	belangrijker	descriptions
+better	beter	descriptions
+worse	slechter	descriptions
+sufficient	voldoende	descriptions
+insufficient	onvoldoende	descriptions
+accurate	nauwkeurig	descriptions
+correct	correct	descriptions
+wrong	verkeerd	descriptions
+untrue	onwaar	descriptions
+wrong	fout	descriptions
+quiet / silent	stil	descriptions
+loud	luid	descriptions
+hard / loud	hard	descriptions
+soft	zacht	descriptions
+slow	traag	descriptions
+long / tall	lang	descriptions
+short	kort	descriptions
+high	hoog	descriptions
+low	laag	descriptions
+wide	breed	descriptions
+narrow	smal	descriptions
+thick / fat	dik	descriptions
+thin	dun	descriptions
+heavy	zwaar	descriptions
+light	licht	descriptions
+strong	sterk	descriptions
+weak	zwak	descriptions
+young	jong	descriptions
+modern	modern	descriptions
+old-fashioned	ouderwets	descriptions
+fresh	vers	descriptions
+tidy	netjes	descriptions
+messy	rommelig	descriptions
+full	vol	descriptions
+empty	leeg	descriptions
+open	open	descriptions
+closed	dicht	descriptions
+broken	kapot	descriptions
+intact	heel	descriptions
+unsafe	onveilig	descriptions
+dangerous	gevaarlijk	descriptions
+unhealthy	ongezond	descriptions
+awake	wakker	descriptions
+sleepy	slaperig	descriptions
+hungry	hongerig	descriptions
+thirsty	dorstig	descriptions
+delicious / pleasant	lekker	descriptions
+hot	heet	descriptions
+cool	koel	descriptions
+wet	nat	descriptions
+dry	droog	descriptions
+sunny	zonnig	descriptions
+cloudy	bewolkt	descriptions
+rainy	regenachtig	descriptions
+windy	winderig	descriptions
+clear / bright	helder	descriptions
+dark	donker	descriptions
+red	rood	descriptions
+blue	blauw	descriptions
+green	groen	descriptions
+yellow	geel	descriptions
+orange	oranje	descriptions
+purple	paars	descriptions
+pink	roze	descriptions
+black	zwart	descriptions
+white	wit	descriptions
+gray	grijs	descriptions
+brown	bruin	descriptions
+zero	nul	numbers_and_amounts
+one (emphasized)	één	numbers_and_amounts
+two	twee	numbers_and_amounts
+three	drie	numbers_and_amounts
+four	vier	numbers_and_amounts
+five	vijf	numbers_and_amounts
+six	zes	numbers_and_amounts
+seven	zeven	numbers_and_amounts
+eight	acht	numbers_and_amounts
+nine	negen	numbers_and_amounts
+ten	tien	numbers_and_amounts
+eleven	elf	numbers_and_amounts
+twelve	twaalf	numbers_and_amounts
+thirteen	dertien	numbers_and_amounts
+fourteen	veertien	numbers_and_amounts
+fifteen	vijftien	numbers_and_amounts
+sixteen	zestien	numbers_and_amounts
+seventeen	zeventien	numbers_and_amounts
+eighteen	achttien	numbers_and_amounts
+nineteen	negentien	numbers_and_amounts
+twenty	twintig	numbers_and_amounts
+thirty	dertig	numbers_and_amounts
+forty	veertig	numbers_and_amounts
+fifty	vijftig	numbers_and_amounts
+sixty	zestig	numbers_and_amounts
+seventy	zeventig	numbers_and_amounts
+eighty	tachtig	numbers_and_amounts
+ninety	negentig	numbers_and_amounts
+hundred	honderd	numbers_and_amounts
+thousand	duizend	numbers_and_amounts
+million	miljoen	numbers_and_amounts
+first	eerste	numbers_and_amounts
+second	tweede	numbers_and_amounts
+third	derde	numbers_and_amounts
+fourth	vierde	numbers_and_amounts
+fifth	vijfde	numbers_and_amounts
+last	laatste	numbers_and_amounts
+half	helft	numbers_and_amounts
+quarter	kwart	numbers_and_amounts
+double	dubbel	numbers_and_amounts
+single	enkel	numbers_and_amounts
+a little bit	beetje	numbers_and_amounts
+number / count	het aantal	numbers_and_amounts
+half (noun)	de helft	numbers_and_amounts
+one third	het derde deel	numbers_and_amounts
+one time / once	een keer	numbers_and_amounts
+twice	twee keer	numbers_and_amounts
+per person	per persoon	numbers_and_amounts
+person	de persoon	people_and_communication
+people	de mensen	people_and_communication
+man	de man	people_and_communication
+woman	de vrouw	people_and_communication
+child	het kind	people_and_communication
+boy	de jongen	people_and_communication
+girl	het meisje	people_and_communication
+adult	de volwassene	people_and_communication
+baby	de baby	people_and_communication
+family	de familie	people_and_communication
+household / family	het gezin	people_and_communication
+partner	de partner	people_and_communication
+husband	de echtgenoot	people_and_communication
+wife	de echtgenote	people_and_communication
+father	de vader	people_and_communication
+mother	de moeder	people_and_communication
+parent	de ouder	people_and_communication
+son	de zoon	people_and_communication
+daughter	de dochter	people_and_communication
+brother	de broer	people_and_communication
+sister	de zus	people_and_communication
+grandfather	de opa	people_and_communication
+grandmother	de oma	people_and_communication
+uncle	de oom	people_and_communication
+aunt	de tante	people_and_communication
+nephew / cousin	de neef	people_and_communication
+niece / cousin	de nicht	people_and_communication
+friend (male)	de vriend	people_and_communication
+friend (female) / girlfriend	de vriendin	people_and_communication
+male neighbor	de buurman	people_and_communication
+female neighbor	de buurvrouw	people_and_communication
+neighbor	de buur	people_and_communication
+colleague	de collega	people_and_communication
+boss	de baas	people_and_communication
+customer	de klant	people_and_communication
+employee	de medewerker	people_and_communication
+team	het team	people_and_communication
+group	de groep	people_and_communication
+guest	de gast	people_and_communication
+visitor	de bezoeker	people_and_communication
+resident	de inwoner	people_and_communication
+Dutch person	de Nederlander	people_and_communication
+foreigner	de buitenlander	people_and_communication
+introduction	de kennismaking	people_and_communication
+contact	het contact	people_and_communication
+conversation	het gesprek	people_and_communication
+question	de vraag	people_and_communication
+answer	het antwoord	people_and_communication
+message	het bericht	people_and_communication
+email	de e-mail	people_and_communication
+phone call	het telefoontje	people_and_communication
+word	het woord	people_and_communication
+sentence	de zin	people_and_communication
+language	de taal	people_and_communication
+Dutch language	het Nederlands	people_and_communication
+English language	het Engels	people_and_communication
+story	het verhaal	people_and_communication
+explanation	de uitleg	people_and_communication
+example	het voorbeeld	people_and_communication
+difference	het verschil	people_and_communication
+similarity	de overeenkomst	people_and_communication
+idea	het idee	people_and_communication
+topic	het onderwerp	people_and_communication
+news	het nieuws	people_and_communication
+information	de informatie	people_and_communication
+opinion	de mening	people_and_communication
+advice	het advies	people_and_communication
+reason	de reden	people_and_communication
+problem	het probleem	people_and_communication
+solution	de oplossing	people_and_communication
+choice	de keuze	people_and_communication
+decision	het besluit	people_and_communication
+plan	het plan	people_and_communication
+goal	het doel	people_and_communication
+result	het resultaat	people_and_communication
+success	het succes	people_and_communication
+mistake	de fout	people_and_communication
+misunderstanding	het misverstand	people_and_communication
+appointment / agreement	de afspraak	people_and_communication
+request	het verzoek	people_and_communication
+house	het huis	everyday_home
+room	de kamer	everyday_home
+kitchen	de keuken	everyday_home
+bathroom	de badkamer	everyday_home
+door	de deur	everyday_home
+window	het raam	everyday_home
+key	de sleutel	everyday_home
+table	de tafel	everyday_home
+chair	de stoel	everyday_home
+sofa	de bank	everyday_home
+bed	het bed	everyday_home
+cabinet	de kast	everyday_home
+phone	de telefoon	everyday_home
+laptop	de laptop	everyday_home
+computer	de computer	everyday_home
+refrigerator	de koelkast	everyday_home
+washing machine	de wasmachine	everyday_home
+toilet	het toilet	everyday_home
+coat	de jas	everyday_home
+trousers	de broek	everyday_home
+shoe	de schoen	everyday_home
+sock	de sok	everyday_home
+towel	de handdoek	everyday_home
+shower	de douche	everyday_home
+toothbrush	de tandenborstel	everyday_home
+charger	de oplader	everyday_home
+internet	het internet	everyday_home
+home / dwelling	de woning	everyday_home
+apartment	het appartement	everyday_home
+living room	de woonkamer	everyday_home
+bedroom	de slaapkamer	everyday_home
+hallway	de gang	everyday_home
+stairs	de trap	everyday_home
+floor / level	de verdieping	everyday_home
+roof	het dak	everyday_home
+wall	de muur	everyday_home
+floor	de vloer	everyday_home
+ceiling	het plafond	everyday_home
+lock	het slot	everyday_home
+doorbell	de bel	everyday_home
+garden	de tuin	everyday_home
+balcony	het balkon	everyday_home
+terrace	het terras	everyday_home
+shed	de schuur	everyday_home
+fence / gate	het hek	everyday_home
+driveway	de oprit	everyday_home
+furniture	het meubilair	everyday_home
+desk	het bureau	everyday_home
+pillow	het kussen	everyday_home
+blanket	de deken	everyday_home
+sheet	het laken	everyday_home
+mattress	de matras	everyday_home
+curtain	het gordijn	everyday_home
+carpet	het tapijt	everyday_home
+light	het licht	everyday_home
+electrical outlet	het stopcontact	everyday_home
+plug	de stekker	everyday_home
+cord	het snoer	everyday_home
+lamp	de lamp	everyday_home
+television	de televisie	everyday_home
+remote control	de afstandsbediening	everyday_home
+screen	het scherm	everyday_home
+battery	de batterij	everyday_home
+password	het wachtwoord	everyday_home
+account	het account	everyday_home
+freezer	de vriezer	everyday_home
+stove	het fornuis	everyday_home
+oven	de oven	everyday_home
+microwave	de magnetron	everyday_home
+device	het apparaat	everyday_home
+dryer	de droger	everyday_home
+dishwasher	de vaatwasser	everyday_home
+vacuum cleaner	de stofzuiger	everyday_home
+tap / faucet	de kraan	everyday_home
+water	het water	everyday_home
+heating	de verwarming	everyday_home
+radiator	de radiator	everyday_home
+waste	het afval	everyday_home
+garbage	het vuilnis	everyday_home
+trash can	de vuilnisbak	everyday_home
+bag	de zak	everyday_home
+box	de doos	everyday_home
+bottle	de fles	everyday_home
+glass	het glas	everyday_home
+plate	het bord	everyday_home
+bowl	de kom	everyday_home
+mug	de mok	everyday_home
+cup	het kopje	everyday_home
+spoon	de lepel	everyday_home
+fork	de vork	everyday_home
+food	het eten	food_and_shopping
+drink	het drinken	food_and_shopping
+breakfast	het ontbijt	food_and_shopping
+lunch	de lunch	food_and_shopping
+dinner	het avondeten	food_and_shopping
+supermarket	de supermarkt	food_and_shopping
+shop	de winkel	food_and_shopping
+restaurant	het restaurant	food_and_shopping
+coffee	de koffie	food_and_shopping
+tea	de thee	food_and_shopping
+bread	het brood	food_and_shopping
+cheese	de kaas	food_and_shopping
+egg	het ei	food_and_shopping
+apple	de appel	food_and_shopping
+potato	de aardappel	food_and_shopping
+vegetable	de groente	food_and_shopping
+fruit	het fruit	food_and_shopping
+price	de prijs	food_and_shopping
+discount	de korting	food_and_shopping
+checkout	de kassa	food_and_shopping
+bill	de rekening	food_and_shopping
+money	het geld	food_and_shopping
+product	het product	food_and_shopping
+size	de maat	food_and_shopping
+receipt	het bonnetje	food_and_shopping
+meal	de maaltijd	food_and_shopping
+café	het café	food_and_shopping
+slice of bread	de boterham	food_and_shopping
+bread roll	het broodje	food_and_shopping
+sandwich topping	het beleg	food_and_shopping
+butter	de boter	food_and_shopping
+milk	de melk	food_and_shopping
+yogurt	de yoghurt	food_and_shopping
+meat	het vlees	food_and_shopping
+chicken	de kip	food_and_shopping
+beef	het rundvlees	food_and_shopping
+pork	het varkensvlees	food_and_shopping
+fish	de vis	food_and_shopping
+salt	het zout	food_and_shopping
+pepper	de peper	food_and_shopping
+sugar	de suiker	food_and_shopping
+honey	de honing	food_and_shopping
+flour	het meel	food_and_shopping
+dough	het deeg	food_and_shopping
+rice	de rijst	food_and_shopping
+pasta	de pasta	food_and_shopping
+fries	de friet	food_and_shopping
+pear	de peer	food_and_shopping
+banana	de banaan	food_and_shopping
+orange (fruit)	de sinaasappel	food_and_shopping
+strawberry	de aardbei	food_and_shopping
+grape	de druif	food_and_shopping
+lemon	de citroen	food_and_shopping
+tomato	de tomaat	food_and_shopping
+cucumber	de komkommer	food_and_shopping
+carrot	de wortel	food_and_shopping
+onion	de ui	food_and_shopping
+garlic	de knoflook	food_and_shopping
+lettuce	de sla	food_and_shopping
+broccoli	de broccoli	food_and_shopping
+bell pepper	de paprika	food_and_shopping
+pea	de erwt	food_and_shopping
+bean	de boon	food_and_shopping
+mushroom	de champignon	food_and_shopping
+soup	de soep	food_and_shopping
+street	de straat	travel_and_public_life
+road	de weg	travel_and_public_life
+municipality	de gemeente	travel_and_public_life
+form	het formulier	travel_and_public_life
+passport	het paspoort	travel_and_public_life
+bus	de bus	travel_and_public_life
+train	de trein	travel_and_public_life
+bicycle	de fiets	travel_and_public_life
+car	de auto	travel_and_public_life
+station	het station	travel_and_public_life
+platform	het perron	travel_and_public_life
+stop (bus/tram)	de halte	travel_and_public_life
+delay	de vertraging	travel_and_public_life
+transfer	de overstap	travel_and_public_life
+route	de route	travel_and_public_life
+journey	de reis	travel_and_public_life
+destination	de bestemming	travel_and_public_life
+hospital	het ziekenhuis	travel_and_public_life
+general practitioner	de huisarts	travel_and_public_life
+pharmacy	de apotheek	travel_and_public_life
+doctor	de arts	travel_and_public_life
+insurance	de verzekering	travel_and_public_life
+sidewalk	de stoep	travel_and_public_life
+cycle path	het fietspad	travel_and_public_life
+intersection	het kruispunt	travel_and_public_life
+traffic light	het stoplicht	travel_and_public_life
+pedestrian crossing	het zebrapad	travel_and_public_life
+roundabout	de rotonde	travel_and_public_life
+bridge	de brug	travel_and_public_life
+tunnel	de tunnel	travel_and_public_life
+village	het dorp	travel_and_public_life
+city	de stad	travel_and_public_life
+neighborhood	de wijk	travel_and_public_life
+town center	het centrum	travel_and_public_life
+neighborhood	de buurt	travel_and_public_life
+surroundings	de omgeving	travel_and_public_life
+address	het adres	travel_and_public_life
+number	het nummer	travel_and_public_life
+postal code	de postcode	travel_and_public_life
+building	het gebouw	travel_and_public_life
+office	het kantoor	travel_and_public_life
+company	het bedrijf	travel_and_public_life
+town hall	het gemeentehuis	travel_and_public_life
+service desk	het loket	travel_and_public_life
+document	het document	travel_and_public_life
+proof / certificate	het bewijs	travel_and_public_life
+permit	de vergunning	travel_and_public_life
+identity card	de identiteitskaart	travel_and_public_life
+signature	de handtekening	travel_and_public_life
+subscription	het abonnement	travel_and_public_life
+contract	het contract	travel_and_public_life
+public transport	het openbaar vervoer	travel_and_public_life
+transport	het vervoer	travel_and_public_life
+traffic	het verkeer	travel_and_public_life
+vehicle	het voertuig	travel_and_public_life
+work	het werk	work,_study_and_planning
+job	de baan	work,_study_and_planning
+position / role	de functie	work,_study_and_planning
+task	de taak	work,_study_and_planning
+project	het project	work,_study_and_planning
+assignment	de opdracht	work,_study_and_planning
+meeting	de vergadering	work,_study_and_planning
+job opening	de vacature	work,_study_and_planning
+job application	de sollicitatie	work,_study_and_planning
+job interview	het sollicitatiegesprek	work,_study_and_planning
+resume / CV	het cv	work,_study_and_planning
+education / course	de opleiding	work,_study_and_planning
+course	de cursus	work,_study_and_planning
+exam	het examen	work,_study_and_planning
+experience	de ervaring	work,_study_and_planning
+knowledge	de kennis	work,_study_and_planning
+skill	de vaardigheid	work,_study_and_planning
+deadline	de deadline	work,_study_and_planning
+report	het rapport	work,_study_and_planning
+analysis	de analyse	work,_study_and_planning
+data / details	de gegevens	work,_study_and_planning
+data	de data	work,_study_and_planning
+chart	de grafiek	work,_study_and_planning
+proposal	het voorstel	work,_study_and_planning
+process	het proces	work,_study_and_planning
+system	het systeem	work,_study_and_planning
+profession	het beroep	work,_study_and_planning
+salary	het salaris	work,_study_and_planning
+wage	het loon	work,_study_and_planning
+income	het inkomen	work,_study_and_planning
+hour	het uur	work,_study_and_planning
+minute	de minuut	work,_study_and_planning
+second	de seconde	work,_study_and_planning
+timetable / schedule	het rooster	work,_study_and_planning
+planning / schedule	de planning	work,_study_and_planning
+diary / calendar	de agenda	work,_study_and_planning
+responsibility	de verantwoordelijkheid	work,_study_and_planning
+step	de stap	work,_study_and_planning
+component	het onderdeel	work,_study_and_planning
+program	het programma	work,_study_and_planning
+file	het bestand	work,_study_and_planning
+file type	het bestandstype	work,_study_and_planning
+overview	het overzicht	work,_study_and_planning
+report / minutes	het verslag	work,_study_and_planning
+number / grade	het cijfer	work,_study_and_planning
+number	het getal	work,_study_and_planning
+percentage	het percentage	work,_study_and_planning
+average	het gemiddelde	work,_study_and_planning
+total	het totaal	work,_study_and_planning
+outcome	de uitkomst	work,_study_and_planning
+day	de dag	nature,_leisure_and_daily_events
+week	de week	nature,_leisure_and_daily_events
+month	de maand	nature,_leisure_and_daily_events
+year	het jaar	nature,_leisure_and_daily_events
+weekend	het weekend	nature,_leisure_and_daily_events
+Monday	maandag	nature,_leisure_and_daily_events
+Tuesday	dinsdag	nature,_leisure_and_daily_events
+Wednesday	woensdag	nature,_leisure_and_daily_events
+Thursday	donderdag	nature,_leisure_and_daily_events
+Friday	vrijdag	nature,_leisure_and_daily_events
+Saturday	zaterdag	nature,_leisure_and_daily_events
+Sunday	zondag	nature,_leisure_and_daily_events
+spring	de lente	nature,_leisure_and_daily_events
+summer	de zomer	nature,_leisure_and_daily_events
+autumn	de herfst	nature,_leisure_and_daily_events
+winter	de winter	nature,_leisure_and_daily_events
+sun	de zon	nature,_leisure_and_daily_events
+rain	de regen	nature,_leisure_and_daily_events
+wind	de wind	nature,_leisure_and_daily_events
+weather	het weer	nature,_leisure_and_daily_events
+horse	het paard	nature,_leisure_and_daily_events
+dog	de hond	nature,_leisure_and_daily_events
+cat	de kat	nature,_leisure_and_daily_events
+January	januari	nature,_leisure_and_daily_events
+February	februari	nature,_leisure_and_daily_events
+March	maart	nature,_leisure_and_daily_events
+April	april	nature,_leisure_and_daily_events
+May	mei	nature,_leisure_and_daily_events
+June	juni	nature,_leisure_and_daily_events
+July	juli	nature,_leisure_and_daily_events
+August	augustus	nature,_leisure_and_daily_events
+September	september	nature,_leisure_and_daily_events
