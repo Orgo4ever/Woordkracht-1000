@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#11271d">
+  <meta name="description" content="A focused 30-day Dutch vocabulary trainer: 1000 useful words, retrieval practice, and offline progress.">
+  <title>Woordkracht 1000 — Dutch vocabulary</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="site-header">
+      <div class="brand"><span class="brand-mark">W<span>•</span></span><div><strong>Woordkracht</strong><small>ONE THOUSAND USEFUL WORDS</small></div></div>
+      <button class="icon-button" id="settings-button" type="button" aria-label="Settings and backup" title="Settings and backup">⚙</button>
+    </header>
+    <main id="app" aria-live="polite"><div class="loading">Loading your vocabulary…</div></main>
+    <nav class="bottom-nav" aria-label="Main navigation">
+      <button type="button" class="nav active" data-tab="today"><span class="nav-emoji">✦</span><span>Today</span></button>
+      <button type="button" class="nav" data-tab="review"><span class="nav-emoji">↻</span><span>Review</span></button>
+      <button type="button" class="nav" data-tab="words"><span class="nav-emoji">▦</span><span>Words</span></button>
+      <button type="button" class="nav" data-tab="insights"><span class="nav-emoji">▥</span><span>Progress</span></button>
+    </nav>
+  </div>
+  <dialog id="settings-modal" class="modal">
+    <form method="dialog" class="modal-head"><strong>Settings &amp; your data</strong><button aria-label="Close settings" class="close" type="submit">×</button></form>
+    <div class="modal-body">
+      <label class="field-label" for="daily-goal">New words per day (suggested: 35)</label>
+      <input id="daily-goal" type="number" min="1" max="100" step="1" value="35">
+      <p class="hint">Progress is stored in this browser on this device. If you clear browser data or change devices, you need your backup file.</p>
+      <button type="button" class="full-button" id="export-button">↓ Download progress backup</button>
+      <label class="full-button import-label" for="import-file">↑ Restore progress from backup</label>
+      <input id="import-file" type="file" accept=".json,application/json" hidden>
+      <p class="hint">Restoring replaces the current progress on this device. Keep regular backups.</p>
+      <div id="settings-msg" role="status" class="hint"></div>
+    </div>
+  </dialog>
+</body>
+</html>
