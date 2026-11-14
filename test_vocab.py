@@ -24,3 +24,8 @@ for file in ['index.html','styles.css','app.js','manifest.webmanifest','sw.js','
     assert (root / file).exists(), f'Missing {file}'
 print('PASS: 1000 unique and complete Dutch vocabulary entries, critical terms, app assets')
 print('Categories:', dict(Counter(w['category'] for w in words)))
+
+a1 = json.loads((root / 'a1-words.json').read_text(encoding='utf-8'))['excluded']
+assert len(a1) == len(set(a1)) == 552
+assert set(a1).issubset({w['nl'] for w in words})
+print('PASS: 552 estimated A1 words; 448 A2+ candidates remain')
