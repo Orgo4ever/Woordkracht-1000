@@ -1,0 +1,9002 @@
+[
+  {
+    "id": "w0001",
+    "nl": "ik",
+    "en": "I",
+    "category": "Glue words",
+    "rank": 1,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0002",
+    "nl": "jij",
+    "en": "you (informal singular)",
+    "category": "Glue words",
+    "rank": 2,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0003",
+    "nl": "je",
+    "en": "you (informal)",
+    "category": "Glue words",
+    "rank": 3,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0004",
+    "nl": "u",
+    "en": "you (formal)",
+    "category": "Glue words",
+    "rank": 4,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0005",
+    "nl": "hij",
+    "en": "he",
+    "category": "Glue words",
+    "rank": 5,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0006",
+    "nl": "zij",
+    "en": "she",
+    "category": "Glue words",
+    "rank": 6,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0007",
+    "nl": "ze",
+    "en": "she or they",
+    "category": "Glue words",
+    "rank": 7,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0008",
+    "nl": "wij",
+    "en": "we",
+    "category": "Glue words",
+    "rank": 8,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0009",
+    "nl": "we",
+    "en": "we (informal)",
+    "category": "Glue words",
+    "rank": 9,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0010",
+    "nl": "jullie",
+    "en": "you (plural)",
+    "category": "Glue words",
+    "rank": 10,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0011",
+    "nl": "het",
+    "en": "it / the (neuter)",
+    "category": "Glue words",
+    "rank": 11,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0012",
+    "nl": "de",
+    "en": "the (common)",
+    "category": "Glue words",
+    "rank": 12,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0013",
+    "nl": "niet",
+    "en": "not",
+    "category": "Glue words",
+    "rank": 13,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0014",
+    "nl": "geen",
+    "en": "no / not any",
+    "category": "Glue words",
+    "rank": 14,
+    "example_nl": "Ik heb geen vraag.",
+    "example_en": "I don't have a question."
+  },
+  {
+    "id": "w0015",
+    "nl": "wel",
+    "en": "indeed / do (emphatic)",
+    "category": "Glue words",
+    "rank": 15,
+    "example_nl": "Ik heb wel tijd.",
+    "example_en": "I do have time."
+  },
+  {
+    "id": "w0016",
+    "nl": "en",
+    "en": "and",
+    "category": "Glue words",
+    "rank": 16,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0017",
+    "nl": "maar",
+    "en": "but / only",
+    "category": "Glue words",
+    "rank": 17,
+    "example_nl": "Ik wil gaan, maar ik heb geen tijd.",
+    "example_en": "I want to go, but I don't have time."
+  },
+  {
+    "id": "w0018",
+    "nl": "of",
+    "en": "or",
+    "category": "Glue words",
+    "rank": 18,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0019",
+    "nl": "omdat",
+    "en": "because (subordinating)",
+    "category": "Glue words",
+    "rank": 19,
+    "example_nl": "Ik blijf thuis omdat ik moe ben.",
+    "example_en": "I am staying home because I am tired."
+  },
+  {
+    "id": "w0020",
+    "nl": "want",
+    "en": "because (coordinating)",
+    "category": "Glue words",
+    "rank": 20,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0021",
+    "nl": "als",
+    "en": "if / when / as",
+    "category": "Glue words",
+    "rank": 21,
+    "example_nl": "Als het regent, blijf ik thuis.",
+    "example_en": "If it rains, I will stay home."
+  },
+  {
+    "id": "w0022",
+    "nl": "dat",
+    "en": "that (het-word)",
+    "category": "Glue words",
+    "rank": 22,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0023",
+    "nl": "die",
+    "en": "that / those",
+    "category": "Glue words",
+    "rank": 23,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0024",
+    "nl": "dit",
+    "en": "this (het-word)",
+    "category": "Glue words",
+    "rank": 24,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0025",
+    "nl": "deze",
+    "en": "this / these",
+    "category": "Glue words",
+    "rank": 25,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0026",
+    "nl": "wie",
+    "en": "who",
+    "category": "Glue words",
+    "rank": 26,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0027",
+    "nl": "wat",
+    "en": "what",
+    "category": "Glue words",
+    "rank": 27,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0028",
+    "nl": "waar",
+    "en": "where",
+    "category": "Glue words",
+    "rank": 28,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0029",
+    "nl": "wanneer",
+    "en": "when",
+    "category": "Glue words",
+    "rank": 29,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0030",
+    "nl": "waarom",
+    "en": "why",
+    "category": "Glue words",
+    "rank": 30,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0031",
+    "nl": "hoe",
+    "en": "how",
+    "category": "Glue words",
+    "rank": 31,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0032",
+    "nl": "hoeveel",
+    "en": "how much / many",
+    "category": "Glue words",
+    "rank": 32,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0033",
+    "nl": "met",
+    "en": "with",
+    "category": "Glue words",
+    "rank": 33,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0034",
+    "nl": "voor",
+    "en": "for / before",
+    "category": "Glue words",
+    "rank": 34,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0035",
+    "nl": "van",
+    "en": "of / from",
+    "category": "Glue words",
+    "rank": 35,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0036",
+    "nl": "naar",
+    "en": "to / toward",
+    "category": "Glue words",
+    "rank": 36,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0037",
+    "nl": "bij",
+    "en": "at / near",
+    "category": "Glue words",
+    "rank": 37,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0038",
+    "nl": "in",
+    "en": "in",
+    "category": "Glue words",
+    "rank": 38,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0039",
+    "nl": "op",
+    "en": "on",
+    "category": "Glue words",
+    "rank": 39,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0040",
+    "nl": "om",
+    "en": "around / in order to",
+    "category": "Glue words",
+    "rank": 40,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0041",
+    "nl": "te",
+    "en": "to (infinitive marker)",
+    "category": "Glue words",
+    "rank": 41,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0042",
+    "nl": "zonder",
+    "en": "without",
+    "category": "Glue words",
+    "rank": 42,
+    "example_nl": "Ik ga zonder mijn telefoon.",
+    "example_en": "I'm going without my phone."
+  },
+  {
+    "id": "w0043",
+    "nl": "tussen",
+    "en": "between",
+    "category": "Glue words",
+    "rank": 43,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0044",
+    "nl": "tot",
+    "en": "until / to",
+    "category": "Glue words",
+    "rank": 44,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0045",
+    "nl": "door",
+    "en": "through / by",
+    "category": "Glue words",
+    "rank": 45,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0046",
+    "nl": "niemand",
+    "en": "nobody",
+    "category": "Glue words",
+    "rank": 46,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0047",
+    "nl": "niets",
+    "en": "nothing",
+    "category": "Glue words",
+    "rank": 47,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0048",
+    "nl": "alles",
+    "en": "everything",
+    "category": "Glue words",
+    "rank": 48,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0049",
+    "nl": "iets",
+    "en": "something",
+    "category": "Glue words",
+    "rank": 49,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0050",
+    "nl": "iedereen",
+    "en": "everyone",
+    "category": "Glue words",
+    "rank": 50,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0051",
+    "nl": "veel",
+    "en": "many / much",
+    "category": "Glue words",
+    "rank": 51,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0052",
+    "nl": "weinig",
+    "en": "few / little",
+    "category": "Glue words",
+    "rank": 52,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0053",
+    "nl": "meer",
+    "en": "more",
+    "category": "Glue words",
+    "rank": 53,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0054",
+    "nl": "minder",
+    "en": "less",
+    "category": "Glue words",
+    "rank": 54,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0055",
+    "nl": "elke",
+    "en": "every",
+    "category": "Glue words",
+    "rank": 55,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0056",
+    "nl": "allemaal",
+    "en": "all (of them)",
+    "category": "Glue words",
+    "rank": 56,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0057",
+    "nl": "elkaar",
+    "en": "each other",
+    "category": "Glue words",
+    "rank": 57,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0058",
+    "nl": "zich",
+    "en": "oneself (reflexive)",
+    "category": "Glue words",
+    "rank": 58,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0059",
+    "nl": "mijn",
+    "en": "my",
+    "category": "Glue words",
+    "rank": 59,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0060",
+    "nl": "jouw",
+    "en": "your (informal)",
+    "category": "Glue words",
+    "rank": 60,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0061",
+    "nl": "zijn",
+    "en": "his / to be",
+    "category": "Glue words",
+    "rank": 61,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0062",
+    "nl": "onze",
+    "en": "our (de-word)",
+    "category": "Glue words",
+    "rank": 62,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0063",
+    "nl": "ons",
+    "en": "us",
+    "category": "Glue words",
+    "rank": 63,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0064",
+    "nl": "graag",
+    "en": "gladly / would like to",
+    "category": "Glue words",
+    "rank": 64,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0065",
+    "nl": "bedankt",
+    "en": "thanks",
+    "category": "Glue words",
+    "rank": 65,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0066",
+    "nl": "alstublieft",
+    "en": "please / here you go (formal)",
+    "category": "Glue words",
+    "rank": 66,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0067",
+    "nl": "alleen",
+    "en": "only / alone",
+    "category": "Glue words",
+    "rank": 67,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0068",
+    "nl": "zelf",
+    "en": "oneself",
+    "category": "Glue words",
+    "rank": 68,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0069",
+    "nl": "samen",
+    "en": "together",
+    "category": "Glue words",
+    "rank": 69,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0070",
+    "nl": "een",
+    "en": "a / an",
+    "category": "Glue words",
+    "rank": 70,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0071",
+    "nl": "beide",
+    "en": "both",
+    "category": "Glue words",
+    "rank": 71,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0072",
+    "nl": "een beetje",
+    "en": "a little bit",
+    "category": "Glue words",
+    "rank": 72,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0073",
+    "nl": "een paar",
+    "en": "a few",
+    "category": "Glue words",
+    "rank": 73,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0074",
+    "nl": "hallo",
+    "en": "hello",
+    "category": "Glue words",
+    "rank": 74,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0075",
+    "nl": "hoi",
+    "en": "hi",
+    "category": "Glue words",
+    "rank": 75,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0076",
+    "nl": "goedemorgen",
+    "en": "good morning",
+    "category": "Glue words",
+    "rank": 76,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0077",
+    "nl": "goedemiddag",
+    "en": "good afternoon",
+    "category": "Glue words",
+    "rank": 77,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0078",
+    "nl": "goedenavond",
+    "en": "good evening",
+    "category": "Glue words",
+    "rank": 78,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0079",
+    "nl": "dankjewel",
+    "en": "thank you (informal)",
+    "category": "Glue words",
+    "rank": 79,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0080",
+    "nl": "alsjeblieft",
+    "en": "please / here you go (informal)",
+    "category": "Glue words",
+    "rank": 80,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0081",
+    "nl": "graag gedaan",
+    "en": "you are welcome",
+    "category": "Glue words",
+    "rank": 81,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0082",
+    "nl": "sorry",
+    "en": "sorry",
+    "category": "Glue words",
+    "rank": 82,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0083",
+    "nl": "tot ziens",
+    "en": "goodbye",
+    "category": "Glue words",
+    "rank": 83,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0084",
+    "nl": "hoe gaat het",
+    "en": "how are you",
+    "category": "Glue words",
+    "rank": 84,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0085",
+    "nl": "het gaat goed",
+    "en": "I'm doing well",
+    "category": "Glue words",
+    "rank": 85,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0086",
+    "nl": "ik ben",
+    "en": "I am",
+    "category": "Glue words",
+    "rank": 86,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0087",
+    "nl": "jij bent",
+    "en": "you are",
+    "category": "Glue words",
+    "rank": 87,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0088",
+    "nl": "hij is",
+    "en": "he is",
+    "category": "Glue words",
+    "rank": 88,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0089",
+    "nl": "wij zijn",
+    "en": "we are",
+    "category": "Glue words",
+    "rank": 89,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0090",
+    "nl": "ik heb",
+    "en": "I have",
+    "category": "Glue words",
+    "rank": 90,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0091",
+    "nl": "jij hebt",
+    "en": "you have",
+    "category": "Glue words",
+    "rank": 91,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0092",
+    "nl": "hij heeft",
+    "en": "he has",
+    "category": "Glue words",
+    "rank": 92,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0093",
+    "nl": "ik wil",
+    "en": "I want",
+    "category": "Glue words",
+    "rank": 93,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0094",
+    "nl": "ik kan",
+    "en": "I can",
+    "category": "Glue words",
+    "rank": 94,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0095",
+    "nl": "ik moet",
+    "en": "I must / have to",
+    "category": "Glue words",
+    "rank": 95,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0096",
+    "nl": "zichzelf",
+    "en": "himself / herself (reflexive)",
+    "category": "Glue words",
+    "rank": 96,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0097",
+    "nl": "ikzelf",
+    "en": "myself",
+    "category": "Glue words",
+    "rank": 97,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0098",
+    "nl": "mij",
+    "en": "me",
+    "category": "Glue words",
+    "rank": 98,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0099",
+    "nl": "me",
+    "en": "me (unstressed)",
+    "category": "Glue words",
+    "rank": 99,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0100",
+    "nl": "jou",
+    "en": "you (object)",
+    "category": "Glue words",
+    "rank": 100,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0101",
+    "nl": "hem",
+    "en": "him",
+    "category": "Glue words",
+    "rank": 101,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0102",
+    "nl": "haar",
+    "en": "her",
+    "category": "Glue words",
+    "rank": 102,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0103",
+    "nl": "hen",
+    "en": "them (object)",
+    "category": "Glue words",
+    "rank": 103,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0104",
+    "nl": "hun",
+    "en": "their or them",
+    "category": "Glue words",
+    "rank": 104,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0105",
+    "nl": "uw",
+    "en": "your (formal)",
+    "category": "Glue words",
+    "rank": 105,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0106",
+    "nl": "onszelf",
+    "en": "ourselves",
+    "category": "Glue words",
+    "rank": 106,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0107",
+    "nl": "van jullie",
+    "en": "yours (plural)",
+    "category": "Glue words",
+    "rank": 107,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0108",
+    "nl": "welk",
+    "en": "which (het-word)",
+    "category": "Glue words",
+    "rank": 108,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0109",
+    "nl": "welke",
+    "en": "which (de-word/plural)",
+    "category": "Glue words",
+    "rank": 109,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0110",
+    "nl": "waarmee",
+    "en": "with what",
+    "category": "Glue words",
+    "rank": 110,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0111",
+    "nl": "waarvoor",
+    "en": "what for",
+    "category": "Glue words",
+    "rank": 111,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0112",
+    "nl": "waarvan",
+    "en": "of which / whose",
+    "category": "Glue words",
+    "rank": 112,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0113",
+    "nl": "waarin",
+    "en": "in which",
+    "category": "Glue words",
+    "rank": 113,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0114",
+    "nl": "waarheen",
+    "en": "where to",
+    "category": "Glue words",
+    "rank": 114,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0115",
+    "nl": "waarnaar",
+    "en": "toward what",
+    "category": "Glue words",
+    "rank": 115,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0116",
+    "nl": "waarschijnlijk",
+    "en": "probably",
+    "category": "Glue words",
+    "rank": 116,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0117",
+    "nl": "misschien",
+    "en": "maybe",
+    "category": "Glue words",
+    "rank": 117,
+    "example_nl": "Misschien kom ik morgen.",
+    "example_en": "Maybe I'll come tomorrow."
+  },
+  {
+    "id": "w0118",
+    "nl": "ja",
+    "en": "yes",
+    "category": "Glue words",
+    "rank": 118,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0119",
+    "nl": "nee",
+    "en": "no",
+    "category": "Glue words",
+    "rank": 119,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0120",
+    "nl": "ook",
+    "en": "also",
+    "category": "Glue words",
+    "rank": 120,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0121",
+    "nl": "zelfs",
+    "en": "even",
+    "category": "Glue words",
+    "rank": 121,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0122",
+    "nl": "dus",
+    "en": "so / therefore",
+    "category": "Glue words",
+    "rank": 122,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0123",
+    "nl": "tenzij",
+    "en": "unless",
+    "category": "Glue words",
+    "rank": 123,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0124",
+    "nl": "terwijl",
+    "en": "while",
+    "category": "Glue words",
+    "rank": 124,
+    "example_nl": "Ik luister terwijl ik kook.",
+    "example_en": "I listen while I cook."
+  },
+  {
+    "id": "w0125",
+    "nl": "hoewel",
+    "en": "although",
+    "category": "Glue words",
+    "rank": 125,
+    "example_nl": "Hoewel het koud is, ga ik wandelen.",
+    "example_en": "Although it's cold, I'm going for a walk."
+  },
+  {
+    "id": "w0126",
+    "nl": "zodat",
+    "en": "so that",
+    "category": "Glue words",
+    "rank": 126,
+    "example_nl": "Ik schrijf het op zodat ik het onthoud.",
+    "example_en": "I write it down so that I remember it."
+  },
+  {
+    "id": "w0127",
+    "nl": "voordat",
+    "en": "before (conjunction)",
+    "category": "Glue words",
+    "rank": 127,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0128",
+    "nl": "nadat",
+    "en": "after (conjunction)",
+    "category": "Glue words",
+    "rank": 128,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0129",
+    "nl": "totdat",
+    "en": "until (conjunction)",
+    "category": "Glue words",
+    "rank": 129,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0130",
+    "nl": "hoelang",
+    "en": "how long",
+    "category": "Glue words",
+    "rank": 130,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0131",
+    "nl": "hebben",
+    "en": "to have",
+    "category": "Essential verbs",
+    "rank": 131,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0132",
+    "nl": "worden",
+    "en": "to become",
+    "category": "Essential verbs",
+    "rank": 132,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0133",
+    "nl": "gaan",
+    "en": "to go",
+    "category": "Essential verbs",
+    "rank": 133,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0134",
+    "nl": "komen",
+    "en": "to come",
+    "category": "Essential verbs",
+    "rank": 134,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0135",
+    "nl": "doen",
+    "en": "to do",
+    "category": "Essential verbs",
+    "rank": 135,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0136",
+    "nl": "maken",
+    "en": "to make",
+    "category": "Essential verbs",
+    "rank": 136,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0137",
+    "nl": "kunnen",
+    "en": "can / to be able",
+    "category": "Essential verbs",
+    "rank": 137,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0138",
+    "nl": "mogen",
+    "en": "may / to be allowed",
+    "category": "Essential verbs",
+    "rank": 138,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0139",
+    "nl": "moeten",
+    "en": "must / to have to",
+    "category": "Essential verbs",
+    "rank": 139,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0140",
+    "nl": "willen",
+    "en": "to want",
+    "category": "Essential verbs",
+    "rank": 140,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0141",
+    "nl": "zullen",
+    "en": "will / shall",
+    "category": "Essential verbs",
+    "rank": 141,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0142",
+    "nl": "laten",
+    "en": "to let",
+    "category": "Essential verbs",
+    "rank": 142,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0143",
+    "nl": "weten",
+    "en": "to know (fact)",
+    "category": "Essential verbs",
+    "rank": 143,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0144",
+    "nl": "kennen",
+    "en": "to know (person/place)",
+    "category": "Essential verbs",
+    "rank": 144,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0145",
+    "nl": "denken",
+    "en": "to think",
+    "category": "Essential verbs",
+    "rank": 145,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0146",
+    "nl": "geloven",
+    "en": "to believe",
+    "category": "Essential verbs",
+    "rank": 146,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0147",
+    "nl": "vinden",
+    "en": "to find / think (opinion)",
+    "category": "Essential verbs",
+    "rank": 147,
+    "example_nl": "Ik vind het een goed idee.",
+    "example_en": "I think it's a good idea."
+  },
+  {
+    "id": "w0148",
+    "nl": "begrijpen",
+    "en": "to understand",
+    "category": "Essential verbs",
+    "rank": 148,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0149",
+    "nl": "leren",
+    "en": "to learn",
+    "category": "Essential verbs",
+    "rank": 149,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0150",
+    "nl": "studeren",
+    "en": "to study",
+    "category": "Essential verbs",
+    "rank": 150,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0151",
+    "nl": "onthouden",
+    "en": "to remember",
+    "category": "Essential verbs",
+    "rank": 151,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0152",
+    "nl": "vergeten",
+    "en": "to forget",
+    "category": "Essential verbs",
+    "rank": 152,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0153",
+    "nl": "herinneren",
+    "en": "to remember / remind",
+    "category": "Essential verbs",
+    "rank": 153,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0154",
+    "nl": "zeggen",
+    "en": "to say",
+    "category": "Essential verbs",
+    "rank": 154,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0155",
+    "nl": "vertellen",
+    "en": "to tell",
+    "category": "Essential verbs",
+    "rank": 155,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0156",
+    "nl": "vragen",
+    "en": "to ask",
+    "category": "Essential verbs",
+    "rank": 156,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0157",
+    "nl": "antwoorden",
+    "en": "to answer",
+    "category": "Essential verbs",
+    "rank": 157,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0158",
+    "nl": "spreken",
+    "en": "to speak",
+    "category": "Essential verbs",
+    "rank": 158,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0159",
+    "nl": "praten",
+    "en": "to talk",
+    "category": "Essential verbs",
+    "rank": 159,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0160",
+    "nl": "luisteren",
+    "en": "to listen",
+    "category": "Essential verbs",
+    "rank": 160,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0161",
+    "nl": "horen",
+    "en": "to hear",
+    "category": "Essential verbs",
+    "rank": 161,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0162",
+    "nl": "zien",
+    "en": "to see",
+    "category": "Essential verbs",
+    "rank": 162,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0163",
+    "nl": "kijken",
+    "en": "to look",
+    "category": "Essential verbs",
+    "rank": 163,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0164",
+    "nl": "lezen",
+    "en": "to read",
+    "category": "Essential verbs",
+    "rank": 164,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0165",
+    "nl": "schrijven",
+    "en": "to write",
+    "category": "Essential verbs",
+    "rank": 165,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0166",
+    "nl": "spellen",
+    "en": "to spell",
+    "category": "Essential verbs",
+    "rank": 166,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0167",
+    "nl": "bedoelen",
+    "en": "to mean",
+    "category": "Essential verbs",
+    "rank": 167,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0168",
+    "nl": "noemen",
+    "en": "to call / name",
+    "category": "Essential verbs",
+    "rank": 168,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0169",
+    "nl": "heten",
+    "en": "to be called",
+    "category": "Essential verbs",
+    "rank": 169,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0170",
+    "nl": "uitleggen",
+    "en": "to explain",
+    "category": "Essential verbs",
+    "rank": 170,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0171",
+    "nl": "beschrijven",
+    "en": "to describe",
+    "category": "Essential verbs",
+    "rank": 171,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0172",
+    "nl": "vertalen",
+    "en": "to translate",
+    "category": "Essential verbs",
+    "rank": 172,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0173",
+    "nl": "proberen",
+    "en": "to try",
+    "category": "Essential verbs",
+    "rank": 173,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0174",
+    "nl": "oefenen",
+    "en": "to practice",
+    "category": "Essential verbs",
+    "rank": 174,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0175",
+    "nl": "gebruiken",
+    "en": "to use",
+    "category": "Essential verbs",
+    "rank": 175,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0176",
+    "nl": "werken",
+    "en": "to work",
+    "category": "Essential verbs",
+    "rank": 176,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0177",
+    "nl": "zoeken",
+    "en": "to look for",
+    "category": "Essential verbs",
+    "rank": 177,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0178",
+    "nl": "krijgen",
+    "en": "to get",
+    "category": "Essential verbs",
+    "rank": 178,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0179",
+    "nl": "geven",
+    "en": "to give",
+    "category": "Essential verbs",
+    "rank": 179,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0180",
+    "nl": "nemen",
+    "en": "to take",
+    "category": "Essential verbs",
+    "rank": 180,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0181",
+    "nl": "brengen",
+    "en": "to bring",
+    "category": "Essential verbs",
+    "rank": 181,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0182",
+    "nl": "halen",
+    "en": "to fetch",
+    "category": "Essential verbs",
+    "rank": 182,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0183",
+    "nl": "houden",
+    "en": "to hold / keep",
+    "category": "Essential verbs",
+    "rank": 183,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0184",
+    "nl": "pakken",
+    "en": "to grab",
+    "category": "Essential verbs",
+    "rank": 184,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0185",
+    "nl": "zetten",
+    "en": "to put (upright)",
+    "category": "Essential verbs",
+    "rank": 185,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0186",
+    "nl": "leggen",
+    "en": "to put (lying down)",
+    "category": "Essential verbs",
+    "rank": 186,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0187",
+    "nl": "staan",
+    "en": "to stand",
+    "category": "Essential verbs",
+    "rank": 187,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0188",
+    "nl": "zitten",
+    "en": "to sit",
+    "category": "Essential verbs",
+    "rank": 188,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0189",
+    "nl": "liggen",
+    "en": "to lie",
+    "category": "Essential verbs",
+    "rank": 189,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0190",
+    "nl": "lopen",
+    "en": "to walk",
+    "category": "Essential verbs",
+    "rank": 190,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0191",
+    "nl": "wandelen",
+    "en": "to walk / hike",
+    "category": "Essential verbs",
+    "rank": 191,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0192",
+    "nl": "rennen",
+    "en": "to run",
+    "category": "Essential verbs",
+    "rank": 192,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0193",
+    "nl": "fietsen",
+    "en": "to cycle",
+    "category": "Essential verbs",
+    "rank": 193,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0194",
+    "nl": "rijden",
+    "en": "to drive / ride",
+    "category": "Essential verbs",
+    "rank": 194,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0195",
+    "nl": "reizen",
+    "en": "to travel",
+    "category": "Essential verbs",
+    "rank": 195,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0196",
+    "nl": "vliegen",
+    "en": "to fly",
+    "category": "Essential verbs",
+    "rank": 196,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0197",
+    "nl": "zwemmen",
+    "en": "to swim",
+    "category": "Essential verbs",
+    "rank": 197,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0198",
+    "nl": "stoppen",
+    "en": "to stop",
+    "category": "Essential verbs",
+    "rank": 198,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0199",
+    "nl": "beginnen",
+    "en": "to begin",
+    "category": "Essential verbs",
+    "rank": 199,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0200",
+    "nl": "starten",
+    "en": "to start",
+    "category": "Essential verbs",
+    "rank": 200,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0201",
+    "nl": "eindigen",
+    "en": "to end",
+    "category": "Essential verbs",
+    "rank": 201,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0202",
+    "nl": "blijven",
+    "en": "to stay",
+    "category": "Essential verbs",
+    "rank": 202,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0203",
+    "nl": "wachten",
+    "en": "to wait",
+    "category": "Essential verbs",
+    "rank": 203,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0204",
+    "nl": "volgen",
+    "en": "to follow",
+    "category": "Essential verbs",
+    "rank": 204,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0205",
+    "nl": "verlaten",
+    "en": "to leave",
+    "category": "Essential verbs",
+    "rank": 205,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0206",
+    "nl": "vertrekken",
+    "en": "to depart",
+    "category": "Essential verbs",
+    "rank": 206,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0207",
+    "nl": "aankomen",
+    "en": "to arrive",
+    "category": "Essential verbs",
+    "rank": 207,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0208",
+    "nl": "terugkomen",
+    "en": "to come back",
+    "category": "Essential verbs",
+    "rank": 208,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0209",
+    "nl": "teruggaan",
+    "en": "to go back",
+    "category": "Essential verbs",
+    "rank": 209,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0210",
+    "nl": "instappen",
+    "en": "to board",
+    "category": "Essential verbs",
+    "rank": 210,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0211",
+    "nl": "uitstappen",
+    "en": "to get off",
+    "category": "Essential verbs",
+    "rank": 211,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0212",
+    "nl": "veranderen",
+    "en": "to change",
+    "category": "Essential verbs",
+    "rank": 212,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0213",
+    "nl": "vervangen",
+    "en": "to replace",
+    "category": "Essential verbs",
+    "rank": 213,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0214",
+    "nl": "kiezen",
+    "en": "to choose",
+    "category": "Essential verbs",
+    "rank": 214,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0215",
+    "nl": "beslissen",
+    "en": "to decide",
+    "category": "Essential verbs",
+    "rank": 215,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0216",
+    "nl": "regelen",
+    "en": "to arrange",
+    "category": "Essential verbs",
+    "rank": 216,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0217",
+    "nl": "plannen",
+    "en": "to plan",
+    "category": "Essential verbs",
+    "rank": 217,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0218",
+    "nl": "organiseren",
+    "en": "to organize",
+    "category": "Essential verbs",
+    "rank": 218,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0219",
+    "nl": "voorbereiden",
+    "en": "to prepare",
+    "category": "Essential verbs",
+    "rank": 219,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0220",
+    "nl": "controleren",
+    "en": "to check",
+    "category": "Essential verbs",
+    "rank": 220,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0221",
+    "nl": "vergelijken",
+    "en": "to compare",
+    "category": "Essential verbs",
+    "rank": 221,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0222",
+    "nl": "verbeteren",
+    "en": "to improve",
+    "category": "Essential verbs",
+    "rank": 222,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0223",
+    "nl": "oplossen",
+    "en": "to solve",
+    "category": "Essential verbs",
+    "rank": 223,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0224",
+    "nl": "herstellen",
+    "en": "to repair / recover",
+    "category": "Essential verbs",
+    "rank": 224,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0225",
+    "nl": "repareren",
+    "en": "to repair",
+    "category": "Essential verbs",
+    "rank": 225,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0226",
+    "nl": "openen",
+    "en": "to open",
+    "category": "Essential verbs",
+    "rank": 226,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0227",
+    "nl": "sluiten",
+    "en": "to close",
+    "category": "Essential verbs",
+    "rank": 227,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0228",
+    "nl": "beëindigen",
+    "en": "to finish",
+    "category": "Essential verbs",
+    "rank": 228,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0229",
+    "nl": "lukken",
+    "en": "to succeed",
+    "category": "Essential verbs",
+    "rank": 229,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0230",
+    "nl": "mislukken",
+    "en": "to fail",
+    "category": "Essential verbs",
+    "rank": 230,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0231",
+    "nl": "helpen",
+    "en": "to help",
+    "category": "Essential verbs",
+    "rank": 231,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0232",
+    "nl": "ondersteunen",
+    "en": "to support",
+    "category": "Essential verbs",
+    "rank": 232,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0233",
+    "nl": "zorgen",
+    "en": "to care / ensure",
+    "category": "Essential verbs",
+    "rank": 233,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0234",
+    "nl": "zorgen voor",
+    "en": "to take care of",
+    "category": "Essential verbs",
+    "rank": 234,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0235",
+    "nl": "ontmoeten",
+    "en": "to meet",
+    "category": "Essential verbs",
+    "rank": 235,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0236",
+    "nl": "bezoeken",
+    "en": "to visit",
+    "category": "Essential verbs",
+    "rank": 236,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0237",
+    "nl": "uitnodigen",
+    "en": "to invite",
+    "category": "Essential verbs",
+    "rank": 237,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0238",
+    "nl": "bellen",
+    "en": "to call",
+    "category": "Essential verbs",
+    "rank": 238,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0239",
+    "nl": "appen",
+    "en": "to text (message)",
+    "category": "Essential verbs",
+    "rank": 239,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0240",
+    "nl": "sturen",
+    "en": "to send",
+    "category": "Essential verbs",
+    "rank": 240,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0241",
+    "nl": "ontvangen",
+    "en": "to receive",
+    "category": "Essential verbs",
+    "rank": 241,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0242",
+    "nl": "beantwoorden",
+    "en": "to reply to",
+    "category": "Essential verbs",
+    "rank": 242,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0243",
+    "nl": "mailen",
+    "en": "to email",
+    "category": "Essential verbs",
+    "rank": 243,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0244",
+    "nl": "delen",
+    "en": "to share",
+    "category": "Essential verbs",
+    "rank": 244,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0245",
+    "nl": "bespreken",
+    "en": "to discuss",
+    "category": "Essential verbs",
+    "rank": 245,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0246",
+    "nl": "overleggen",
+    "en": "to consult",
+    "category": "Essential verbs",
+    "rank": 246,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0247",
+    "nl": "samenwerken",
+    "en": "to collaborate",
+    "category": "Essential verbs",
+    "rank": 247,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0248",
+    "nl": "vragen om",
+    "en": "to ask for",
+    "category": "Essential verbs",
+    "rank": 248,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0249",
+    "nl": "bedanken",
+    "en": "to thank",
+    "category": "Essential verbs",
+    "rank": 249,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0250",
+    "nl": "excuseren",
+    "en": "to apologize",
+    "category": "Essential verbs",
+    "rank": 250,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0251",
+    "nl": "beloven",
+    "en": "to promise",
+    "category": "Essential verbs",
+    "rank": 251,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0252",
+    "nl": "vertrouwen",
+    "en": "to trust",
+    "category": "Essential verbs",
+    "rank": 252,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0253",
+    "nl": "hopen",
+    "en": "to hope",
+    "category": "Essential verbs",
+    "rank": 253,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0254",
+    "nl": "verwachten",
+    "en": "to expect",
+    "category": "Essential verbs",
+    "rank": 254,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0255",
+    "nl": "wensen",
+    "en": "to wish",
+    "category": "Essential verbs",
+    "rank": 255,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0256",
+    "nl": "voelen",
+    "en": "to feel",
+    "category": "Essential verbs",
+    "rank": 256,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0257",
+    "nl": "houden van",
+    "en": "to love / like",
+    "category": "Essential verbs",
+    "rank": 257,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0258",
+    "nl": "leuk vinden",
+    "en": "to like",
+    "category": "Essential verbs",
+    "rank": 258,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0259",
+    "nl": "haten",
+    "en": "to hate",
+    "category": "Essential verbs",
+    "rank": 259,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0260",
+    "nl": "missen",
+    "en": "to miss",
+    "category": "Essential verbs",
+    "rank": 260,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0261",
+    "nl": "lachen",
+    "en": "to laugh",
+    "category": "Essential verbs",
+    "rank": 261,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0262",
+    "nl": "huilen",
+    "en": "to cry",
+    "category": "Essential verbs",
+    "rank": 262,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0263",
+    "nl": "glimlachen",
+    "en": "to smile",
+    "category": "Essential verbs",
+    "rank": 263,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0264",
+    "nl": "vrezen",
+    "en": "to fear",
+    "category": "Essential verbs",
+    "rank": 264,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0265",
+    "nl": "schrikken",
+    "en": "to be startled",
+    "category": "Essential verbs",
+    "rank": 265,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0266",
+    "nl": "slapen",
+    "en": "to sleep",
+    "category": "Essential verbs",
+    "rank": 266,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0267",
+    "nl": "wakker worden",
+    "en": "to wake up",
+    "category": "Essential verbs",
+    "rank": 267,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0268",
+    "nl": "opstaan",
+    "en": "to get up",
+    "category": "Essential verbs",
+    "rank": 268,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0269",
+    "nl": "opwarmen",
+    "en": "to warm up",
+    "category": "Essential verbs",
+    "rank": 269,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0270",
+    "nl": "uitrusten",
+    "en": "to rest",
+    "category": "Essential verbs",
+    "rank": 270,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0271",
+    "nl": "ontspannen",
+    "en": "to relax",
+    "category": "Essential verbs",
+    "rank": 271,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0272",
+    "nl": "eten",
+    "en": "to eat",
+    "category": "Essential verbs",
+    "rank": 272,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0273",
+    "nl": "drinken",
+    "en": "to drink",
+    "category": "Essential verbs",
+    "rank": 273,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0274",
+    "nl": "koken",
+    "en": "to cook",
+    "category": "Essential verbs",
+    "rank": 274,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0275",
+    "nl": "bakken",
+    "en": "to bake / fry",
+    "category": "Essential verbs",
+    "rank": 275,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0276",
+    "nl": "snijden",
+    "en": "to cut",
+    "category": "Essential verbs",
+    "rank": 276,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0277",
+    "nl": "proeven",
+    "en": "to taste",
+    "category": "Essential verbs",
+    "rank": 277,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0278",
+    "nl": "ruiken",
+    "en": "to smell",
+    "category": "Essential verbs",
+    "rank": 278,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0279",
+    "nl": "bestellen",
+    "en": "to order",
+    "category": "Essential verbs",
+    "rank": 279,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0280",
+    "nl": "kopen",
+    "en": "to buy",
+    "category": "Essential verbs",
+    "rank": 280,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0281",
+    "nl": "verkopen",
+    "en": "to sell",
+    "category": "Essential verbs",
+    "rank": 281,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0282",
+    "nl": "betalen",
+    "en": "to pay",
+    "category": "Essential verbs",
+    "rank": 282,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0283",
+    "nl": "kosten",
+    "en": "to cost",
+    "category": "Essential verbs",
+    "rank": 283,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0284",
+    "nl": "besparen",
+    "en": "to save (money)",
+    "category": "Essential verbs",
+    "rank": 284,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0285",
+    "nl": "sparen",
+    "en": "to save up",
+    "category": "Essential verbs",
+    "rank": 285,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0286",
+    "nl": "lenen",
+    "en": "to borrow / lend",
+    "category": "Essential verbs",
+    "rank": 286,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0287",
+    "nl": "huren",
+    "en": "to rent",
+    "category": "Essential verbs",
+    "rank": 287,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0288",
+    "nl": "reserveren",
+    "en": "to reserve",
+    "category": "Essential verbs",
+    "rank": 288,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0289",
+    "nl": "boeken",
+    "en": "to book",
+    "category": "Essential verbs",
+    "rank": 289,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0290",
+    "nl": "annuleren",
+    "en": "to cancel",
+    "category": "Essential verbs",
+    "rank": 290,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0291",
+    "nl": "bevestigen",
+    "en": "to confirm",
+    "category": "Essential verbs",
+    "rank": 291,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0292",
+    "nl": "terugsturen",
+    "en": "to return (item)",
+    "category": "Essential verbs",
+    "rank": 292,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0293",
+    "nl": "ruilen",
+    "en": "to exchange",
+    "category": "Essential verbs",
+    "rank": 293,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0294",
+    "nl": "dragen",
+    "en": "to wear / carry",
+    "category": "Essential verbs",
+    "rank": 294,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0295",
+    "nl": "wassen",
+    "en": "to wash",
+    "category": "Essential verbs",
+    "rank": 295,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0296",
+    "nl": "schoonmaken",
+    "en": "to clean",
+    "category": "Essential verbs",
+    "rank": 296,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0297",
+    "nl": "douchen",
+    "en": "to shower",
+    "category": "Essential verbs",
+    "rank": 297,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0298",
+    "nl": "aankleden",
+    "en": "to dress",
+    "category": "Essential verbs",
+    "rank": 298,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0299",
+    "nl": "uitkleden",
+    "en": "to undress",
+    "category": "Essential verbs",
+    "rank": 299,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0300",
+    "nl": "poetsen",
+    "en": "to brush / polish",
+    "category": "Essential verbs",
+    "rank": 300,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0301",
+    "nl": "opruimen",
+    "en": "to tidy up",
+    "category": "Essential verbs",
+    "rank": 301,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0302",
+    "nl": "bouwen",
+    "en": "to build",
+    "category": "Essential verbs",
+    "rank": 302,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0303",
+    "nl": "verhuizen",
+    "en": "to move house",
+    "category": "Essential verbs",
+    "rank": 303,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0304",
+    "nl": "wonen",
+    "en": "to live (reside)",
+    "category": "Essential verbs",
+    "rank": 304,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0305",
+    "nl": "leven",
+    "en": "to live (be alive)",
+    "category": "Essential verbs",
+    "rank": 305,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0306",
+    "nl": "groeien",
+    "en": "to grow",
+    "category": "Essential verbs",
+    "rank": 306,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0307",
+    "nl": "ontwikkelen",
+    "en": "to develop",
+    "category": "Essential verbs",
+    "rank": 307,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0308",
+    "nl": "gebeuren",
+    "en": "to happen",
+    "category": "Essential verbs",
+    "rank": 308,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0309",
+    "nl": "ontstaan",
+    "en": "to arise",
+    "category": "Essential verbs",
+    "rank": 309,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0310",
+    "nl": "bestaan",
+    "en": "to exist",
+    "category": "Essential verbs",
+    "rank": 310,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0311",
+    "nl": "betekenen",
+    "en": "to mean",
+    "category": "Essential verbs",
+    "rank": 311,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0312",
+    "nl": "lijken",
+    "en": "to seem",
+    "category": "Essential verbs",
+    "rank": 312,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0313",
+    "nl": "blijken",
+    "en": "to turn out",
+    "category": "Essential verbs",
+    "rank": 313,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0314",
+    "nl": "passen",
+    "en": "to fit",
+    "category": "Essential verbs",
+    "rank": 314,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0315",
+    "nl": "passen bij",
+    "en": "to go with / suit",
+    "category": "Essential verbs",
+    "rank": 315,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0316",
+    "nl": "horen bij",
+    "en": "to belong with",
+    "category": "Essential verbs",
+    "rank": 316,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0317",
+    "nl": "gelden",
+    "en": "to apply / be valid",
+    "category": "Essential verbs",
+    "rank": 317,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0318",
+    "nl": "nodig hebben",
+    "en": "to need",
+    "category": "Essential verbs",
+    "rank": 318,
+    "example_nl": "Ik heb hulp nodig.",
+    "example_en": "I need help."
+  },
+  {
+    "id": "w0319",
+    "nl": "ontbreken",
+    "en": "to be missing",
+    "category": "Essential verbs",
+    "rank": 319,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0320",
+    "nl": "vragen naar",
+    "en": "to ask about",
+    "category": "Essential verbs",
+    "rank": 320,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0321",
+    "nl": "raken",
+    "en": "to touch / hit",
+    "category": "Essential verbs",
+    "rank": 321,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0322",
+    "nl": "verliezen",
+    "en": "to lose",
+    "category": "Essential verbs",
+    "rank": 322,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0323",
+    "nl": "winnen",
+    "en": "to win",
+    "category": "Essential verbs",
+    "rank": 323,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0324",
+    "nl": "spelen",
+    "en": "to play",
+    "category": "Essential verbs",
+    "rank": 324,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0325",
+    "nl": "oefenen met",
+    "en": "to practice with",
+    "category": "Essential verbs",
+    "rank": 325,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0326",
+    "nl": "tellen",
+    "en": "to count",
+    "category": "Essential verbs",
+    "rank": 326,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0327",
+    "nl": "meten",
+    "en": "to measure",
+    "category": "Essential verbs",
+    "rank": 327,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0328",
+    "nl": "wegen",
+    "en": "to weigh",
+    "category": "Essential verbs",
+    "rank": 328,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0329",
+    "nl": "verhogen",
+    "en": "to raise / increase",
+    "category": "Essential verbs",
+    "rank": 329,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0330",
+    "nl": "verlagen",
+    "en": "to lower / decrease",
+    "category": "Essential verbs",
+    "rank": 330,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0331",
+    "nl": "stijgen",
+    "en": "to rise",
+    "category": "Essential verbs",
+    "rank": 331,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0332",
+    "nl": "dalen",
+    "en": "to fall / decline",
+    "category": "Essential verbs",
+    "rank": 332,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0333",
+    "nl": "vallen",
+    "en": "to fall",
+    "category": "Essential verbs",
+    "rank": 333,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0334",
+    "nl": "breken",
+    "en": "to break",
+    "category": "Essential verbs",
+    "rank": 334,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0335",
+    "nl": "draaien",
+    "en": "to turn",
+    "category": "Essential verbs",
+    "rank": 335,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0336",
+    "nl": "nu",
+    "en": "now",
+    "category": "Time and location",
+    "rank": 336,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0337",
+    "nl": "eerst",
+    "en": "first",
+    "category": "Time and location",
+    "rank": 337,
+    "example_nl": "Eerst werk ik, dan eet ik.",
+    "example_en": "First I work, then I eat."
+  },
+  {
+    "id": "w0338",
+    "nl": "dan",
+    "en": "then",
+    "category": "Time and location",
+    "rank": 338,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0339",
+    "nl": "daarna",
+    "en": "after that",
+    "category": "Time and location",
+    "rank": 339,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0340",
+    "nl": "hier",
+    "en": "here",
+    "category": "Time and location",
+    "rank": 340,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0341",
+    "nl": "daar",
+    "en": "there",
+    "category": "Time and location",
+    "rank": 341,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0342",
+    "nl": "er",
+    "en": "there (unstressed)",
+    "category": "Time and location",
+    "rank": 342,
+    "example_nl": "Er staat een fiets voor de deur.",
+    "example_en": "There is a bike in front of the door."
+  },
+  {
+    "id": "w0343",
+    "nl": "vandaag",
+    "en": "today",
+    "category": "Time and location",
+    "rank": 343,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0344",
+    "nl": "morgen",
+    "en": "tomorrow",
+    "category": "Time and location",
+    "rank": 344,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0345",
+    "nl": "gisteren",
+    "en": "yesterday",
+    "category": "Time and location",
+    "rank": 345,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0346",
+    "nl": "altijd",
+    "en": "always",
+    "category": "Time and location",
+    "rank": 346,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0347",
+    "nl": "nooit",
+    "en": "never",
+    "category": "Time and location",
+    "rank": 347,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0348",
+    "nl": "soms",
+    "en": "sometimes",
+    "category": "Time and location",
+    "rank": 348,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0349",
+    "nl": "vaak",
+    "en": "often",
+    "category": "Time and location",
+    "rank": 349,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0350",
+    "nl": "meestal",
+    "en": "usually",
+    "category": "Time and location",
+    "rank": 350,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0351",
+    "nl": "nog",
+    "en": "still / yet",
+    "category": "Time and location",
+    "rank": 351,
+    "example_nl": "Ik ben nog niet klaar.",
+    "example_en": "I'm not finished yet."
+  },
+  {
+    "id": "w0352",
+    "nl": "al",
+    "en": "already",
+    "category": "Time and location",
+    "rank": 352,
+    "example_nl": "Ik ben al klaar.",
+    "example_en": "I'm already finished."
+  },
+  {
+    "id": "w0353",
+    "nl": "pas",
+    "en": "only / not until",
+    "category": "Time and location",
+    "rank": 353,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0354",
+    "nl": "weer",
+    "en": "again",
+    "category": "Time and location",
+    "rank": 354,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0355",
+    "nl": "terug",
+    "en": "back",
+    "category": "Time and location",
+    "rank": 355,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0356",
+    "nl": "meteen",
+    "en": "immediately",
+    "category": "Time and location",
+    "rank": 356,
+    "example_nl": "Ik kom meteen.",
+    "example_en": "I'll come right away."
+  },
+  {
+    "id": "w0357",
+    "nl": "even",
+    "en": "for a moment",
+    "category": "Time and location",
+    "rank": 357,
+    "example_nl": "Wacht even, alsjeblieft.",
+    "example_en": "Wait a moment, please."
+  },
+  {
+    "id": "w0358",
+    "nl": "eigenlijk",
+    "en": "actually",
+    "category": "Time and location",
+    "rank": 358,
+    "example_nl": "Eigenlijk wil ik liever fietsen.",
+    "example_en": "Actually I would rather cycle."
+  },
+  {
+    "id": "w0359",
+    "nl": "toch",
+    "en": "nevertheless / still",
+    "category": "Time and location",
+    "rank": 359,
+    "example_nl": "Ik ben moe, maar ik ga toch.",
+    "example_en": "I'm tired, but I'm going anyway."
+  },
+  {
+    "id": "w0360",
+    "nl": "gelukkig",
+    "en": "fortunately",
+    "category": "Time and location",
+    "rank": 360,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0361",
+    "nl": "helaas",
+    "en": "unfortunately",
+    "category": "Time and location",
+    "rank": 361,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0362",
+    "nl": "inderdaad",
+    "en": "indeed",
+    "category": "Time and location",
+    "rank": 362,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0363",
+    "nl": "natuurlijk",
+    "en": "of course",
+    "category": "Time and location",
+    "rank": 363,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0364",
+    "nl": "precies",
+    "en": "exactly",
+    "category": "Time and location",
+    "rank": 364,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0365",
+    "nl": "bijna",
+    "en": "almost",
+    "category": "Time and location",
+    "rank": 365,
+    "example_nl": "Ik ben bijna klaar.",
+    "example_en": "I'm almost finished."
+  },
+  {
+    "id": "w0366",
+    "nl": "ongeveer",
+    "en": "approximately",
+    "category": "Time and location",
+    "rank": 366,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0367",
+    "nl": "bijvoorbeeld",
+    "en": "for example",
+    "category": "Time and location",
+    "rank": 367,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0368",
+    "nl": "bovendien",
+    "en": "moreover",
+    "category": "Time and location",
+    "rank": 368,
+    "example_nl": "Het is goedkoop en bovendien dichtbij.",
+    "example_en": "It's cheap and also nearby."
+  },
+  {
+    "id": "w0369",
+    "nl": "daarnaast",
+    "en": "besides that",
+    "category": "Time and location",
+    "rank": 369,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0370",
+    "nl": "daarom",
+    "en": "that's why",
+    "category": "Time and location",
+    "rank": 370,
+    "example_nl": "Ik ben ziek, daarom blijf ik thuis.",
+    "example_en": "I'm sick, so I'm staying home."
+  },
+  {
+    "id": "w0371",
+    "nl": "daardoor",
+    "en": "as a result",
+    "category": "Time and location",
+    "rank": 371,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0372",
+    "nl": "namelijk",
+    "en": "namely / you see",
+    "category": "Time and location",
+    "rank": 372,
+    "example_nl": "Ik kan niet, want ik moet namelijk werken.",
+    "example_en": "I can't, because I have to work."
+  },
+  {
+    "id": "w0373",
+    "nl": "opnieuw",
+    "en": "again",
+    "category": "Time and location",
+    "rank": 373,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0374",
+    "nl": "uiteindelijk",
+    "en": "eventually",
+    "category": "Time and location",
+    "rank": 374,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0375",
+    "nl": "binnenkort",
+    "en": "soon",
+    "category": "Time and location",
+    "rank": 375,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0376",
+    "nl": "straks",
+    "en": "in a little while",
+    "category": "Time and location",
+    "rank": 376,
+    "example_nl": "Ik bel je straks.",
+    "example_en": "I'll call you in a little while."
+  },
+  {
+    "id": "w0377",
+    "nl": "zojuist",
+    "en": "just now",
+    "category": "Time and location",
+    "rank": 377,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0378",
+    "nl": "daarnet",
+    "en": "just now (earlier)",
+    "category": "Time and location",
+    "rank": 378,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0379",
+    "nl": "nog steeds",
+    "en": "still (continuing)",
+    "category": "Time and location",
+    "rank": 379,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0380",
+    "nl": "vervolgens",
+    "en": "subsequently",
+    "category": "Time and location",
+    "rank": 380,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0381",
+    "nl": "ervoor",
+    "en": "before it",
+    "category": "Time and location",
+    "rank": 381,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0382",
+    "nl": "overal",
+    "en": "everywhere",
+    "category": "Time and location",
+    "rank": 382,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0383",
+    "nl": "ergens",
+    "en": "somewhere",
+    "category": "Time and location",
+    "rank": 383,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0384",
+    "nl": "nergens",
+    "en": "nowhere",
+    "category": "Time and location",
+    "rank": 384,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0385",
+    "nl": "hierheen",
+    "en": "to here",
+    "category": "Time and location",
+    "rank": 385,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0386",
+    "nl": "daarheen",
+    "en": "to there",
+    "category": "Time and location",
+    "rank": 386,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0387",
+    "nl": "hierna",
+    "en": "after this",
+    "category": "Time and location",
+    "rank": 387,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0388",
+    "nl": "daarvoor",
+    "en": "before that / for that",
+    "category": "Time and location",
+    "rank": 388,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0389",
+    "nl": "hierdoor",
+    "en": "because of this",
+    "category": "Time and location",
+    "rank": 389,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0390",
+    "nl": "erdoor",
+    "en": "through it",
+    "category": "Time and location",
+    "rank": 390,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0391",
+    "nl": "hierbij",
+    "en": "hereby / with this",
+    "category": "Time and location",
+    "rank": 391,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0392",
+    "nl": "daarbij",
+    "en": "in addition / with that",
+    "category": "Time and location",
+    "rank": 392,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0393",
+    "nl": "hiermee",
+    "en": "with this",
+    "category": "Time and location",
+    "rank": 393,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0394",
+    "nl": "daarmee",
+    "en": "with that",
+    "category": "Time and location",
+    "rank": 394,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0395",
+    "nl": "hierover",
+    "en": "about this",
+    "category": "Time and location",
+    "rank": 395,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0396",
+    "nl": "daarover",
+    "en": "about that",
+    "category": "Time and location",
+    "rank": 396,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0397",
+    "nl": "alleen maar",
+    "en": "nothing but",
+    "category": "Time and location",
+    "rank": 397,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0398",
+    "nl": "nu eenmaal",
+    "en": "simply / just the way it is",
+    "category": "Time and location",
+    "rank": 398,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0399",
+    "nl": "vooruit",
+    "en": "forward",
+    "category": "Time and location",
+    "rank": 399,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0400",
+    "nl": "achteruit",
+    "en": "backward",
+    "category": "Time and location",
+    "rank": 400,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0401",
+    "nl": "links",
+    "en": "left",
+    "category": "Time and location",
+    "rank": 401,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0402",
+    "nl": "rechts",
+    "en": "right",
+    "category": "Time and location",
+    "rank": 402,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0403",
+    "nl": "rechtdoor",
+    "en": "straight ahead",
+    "category": "Time and location",
+    "rank": 403,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0404",
+    "nl": "omhoog",
+    "en": "upward",
+    "category": "Time and location",
+    "rank": 404,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0405",
+    "nl": "omlaag",
+    "en": "downward",
+    "category": "Time and location",
+    "rank": 405,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0406",
+    "nl": "dichtbij",
+    "en": "nearby",
+    "category": "Time and location",
+    "rank": 406,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0407",
+    "nl": "ver weg",
+    "en": "far away",
+    "category": "Time and location",
+    "rank": 407,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0408",
+    "nl": "bovenaan",
+    "en": "at the top",
+    "category": "Time and location",
+    "rank": 408,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0409",
+    "nl": "onderaan",
+    "en": "at the bottom",
+    "category": "Time and location",
+    "rank": 409,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0410",
+    "nl": "vooraan",
+    "en": "at the front",
+    "category": "Time and location",
+    "rank": 410,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0411",
+    "nl": "achteraan",
+    "en": "at the back",
+    "category": "Time and location",
+    "rank": 411,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0412",
+    "nl": "later",
+    "en": "later",
+    "category": "Time and location",
+    "rank": 412,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0413",
+    "nl": "vroeger",
+    "en": "formerly / in the past",
+    "category": "Time and location",
+    "rank": 413,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0414",
+    "nl": "toen",
+    "en": "then (past)",
+    "category": "Time and location",
+    "rank": 414,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0415",
+    "nl": "tegenwoordig",
+    "en": "nowadays",
+    "category": "Time and location",
+    "rank": 415,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0416",
+    "nl": "momenteel",
+    "en": "currently",
+    "category": "Time and location",
+    "rank": 416,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0417",
+    "nl": "eergisteren",
+    "en": "day before yesterday",
+    "category": "Time and location",
+    "rank": 417,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0418",
+    "nl": "overmorgen",
+    "en": "day after tomorrow",
+    "category": "Time and location",
+    "rank": 418,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0419",
+    "nl": "vanmorgen",
+    "en": "this morning",
+    "category": "Time and location",
+    "rank": 419,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0420",
+    "nl": "vanmiddag",
+    "en": "this afternoon",
+    "category": "Time and location",
+    "rank": 420,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0421",
+    "nl": "vanavond",
+    "en": "this evening",
+    "category": "Time and location",
+    "rank": 421,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0422",
+    "nl": "vannacht",
+    "en": "tonight / last night",
+    "category": "Time and location",
+    "rank": 422,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0423",
+    "nl": "ochtend",
+    "en": "morning",
+    "category": "Time and location",
+    "rank": 423,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0424",
+    "nl": "middag",
+    "en": "afternoon",
+    "category": "Time and location",
+    "rank": 424,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0425",
+    "nl": "avond",
+    "en": "evening",
+    "category": "Time and location",
+    "rank": 425,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0426",
+    "nl": "nacht",
+    "en": "night",
+    "category": "Time and location",
+    "rank": 426,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0427",
+    "nl": "vroeg",
+    "en": "early",
+    "category": "Time and location",
+    "rank": 427,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0428",
+    "nl": "laat",
+    "en": "late",
+    "category": "Time and location",
+    "rank": 428,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0429",
+    "nl": "regelmatig",
+    "en": "regularly",
+    "category": "Time and location",
+    "rank": 429,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0430",
+    "nl": "af en toe",
+    "en": "occasionally",
+    "category": "Time and location",
+    "rank": 430,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0431",
+    "nl": "zelden",
+    "en": "rarely",
+    "category": "Time and location",
+    "rank": 431,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0432",
+    "nl": "bijna nooit",
+    "en": "hardly ever",
+    "category": "Time and location",
+    "rank": 432,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0433",
+    "nl": "elke dag",
+    "en": "every day",
+    "category": "Time and location",
+    "rank": 433,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0434",
+    "nl": "wekelijks",
+    "en": "weekly",
+    "category": "Time and location",
+    "rank": 434,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0435",
+    "nl": "maandelijks",
+    "en": "monthly",
+    "category": "Time and location",
+    "rank": 435,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0436",
+    "nl": "jaarlijks",
+    "en": "yearly",
+    "category": "Time and location",
+    "rank": 436,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0437",
+    "nl": "dagelijks",
+    "en": "daily",
+    "category": "Time and location",
+    "rank": 437,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0438",
+    "nl": "direct",
+    "en": "right away",
+    "category": "Time and location",
+    "rank": 438,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0439",
+    "nl": "eindelijk",
+    "en": "finally",
+    "category": "Time and location",
+    "rank": 439,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0440",
+    "nl": "voorlopig",
+    "en": "for now",
+    "category": "Time and location",
+    "rank": 440,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0441",
+    "nl": "voorheen",
+    "en": "previously",
+    "category": "Time and location",
+    "rank": 441,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0442",
+    "nl": "tot nu toe",
+    "en": "so far",
+    "category": "Time and location",
+    "rank": 442,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0443",
+    "nl": "tegen die tijd",
+    "en": "by that time",
+    "category": "Time and location",
+    "rank": 443,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0444",
+    "nl": "inmiddels",
+    "en": "by now",
+    "category": "Time and location",
+    "rank": 444,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0445",
+    "nl": "zodra",
+    "en": "as soon as",
+    "category": "Time and location",
+    "rank": 445,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0446",
+    "nl": "ineens",
+    "en": "suddenly",
+    "category": "Time and location",
+    "rank": 446,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0447",
+    "nl": "plotseling",
+    "en": "suddenly",
+    "category": "Time and location",
+    "rank": 447,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0448",
+    "nl": "geleidelijk",
+    "en": "gradually",
+    "category": "Time and location",
+    "rank": 448,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0449",
+    "nl": "snel",
+    "en": "quickly",
+    "category": "Time and location",
+    "rank": 449,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0450",
+    "nl": "langzaam",
+    "en": "slowly",
+    "category": "Time and location",
+    "rank": 450,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0451",
+    "nl": "goed",
+    "en": "good",
+    "category": "Descriptions",
+    "rank": 451,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0452",
+    "nl": "slecht",
+    "en": "bad",
+    "category": "Descriptions",
+    "rank": 452,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0453",
+    "nl": "leuk",
+    "en": "nice / fun",
+    "category": "Descriptions",
+    "rank": 453,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0454",
+    "nl": "mooi",
+    "en": "beautiful",
+    "category": "Descriptions",
+    "rank": 454,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0455",
+    "nl": "fijn",
+    "en": "pleasant",
+    "category": "Descriptions",
+    "rank": 455,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0456",
+    "nl": "belangrijk",
+    "en": "important",
+    "category": "Descriptions",
+    "rank": 456,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0457",
+    "nl": "nodig",
+    "en": "necessary",
+    "category": "Descriptions",
+    "rank": 457,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0458",
+    "nl": "mogelijk",
+    "en": "possible",
+    "category": "Descriptions",
+    "rank": 458,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0459",
+    "nl": "onmogelijk",
+    "en": "impossible",
+    "category": "Descriptions",
+    "rank": 459,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0460",
+    "nl": "duidelijk",
+    "en": "clear",
+    "category": "Descriptions",
+    "rank": 460,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0461",
+    "nl": "onduidelijk",
+    "en": "unclear",
+    "category": "Descriptions",
+    "rank": 461,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0462",
+    "nl": "moeilijk",
+    "en": "difficult",
+    "category": "Descriptions",
+    "rank": 462,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0463",
+    "nl": "makkelijk",
+    "en": "easy",
+    "category": "Descriptions",
+    "rank": 463,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0464",
+    "nl": "eenvoudig",
+    "en": "simple",
+    "category": "Descriptions",
+    "rank": 464,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0465",
+    "nl": "gewoon",
+    "en": "ordinary",
+    "category": "Descriptions",
+    "rank": 465,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0466",
+    "nl": "anders",
+    "en": "different",
+    "category": "Descriptions",
+    "rank": 466,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0467",
+    "nl": "groot",
+    "en": "big",
+    "category": "Descriptions",
+    "rank": 467,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0468",
+    "nl": "klein",
+    "en": "small",
+    "category": "Descriptions",
+    "rank": 468,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0469",
+    "nl": "nieuw",
+    "en": "new",
+    "category": "Descriptions",
+    "rank": 469,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0470",
+    "nl": "oud",
+    "en": "old",
+    "category": "Descriptions",
+    "rank": 470,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0471",
+    "nl": "druk",
+    "en": "busy",
+    "category": "Descriptions",
+    "rank": 471,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0472",
+    "nl": "rustig",
+    "en": "calm / quiet",
+    "category": "Descriptions",
+    "rank": 472,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0473",
+    "nl": "klaar",
+    "en": "ready / finished",
+    "category": "Descriptions",
+    "rank": 473,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0474",
+    "nl": "bezig",
+    "en": "busy (doing)",
+    "category": "Descriptions",
+    "rank": 474,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0475",
+    "nl": "moe",
+    "en": "tired",
+    "category": "Descriptions",
+    "rank": 475,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0476",
+    "nl": "ziek",
+    "en": "ill",
+    "category": "Descriptions",
+    "rank": 476,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0477",
+    "nl": "gezond",
+    "en": "healthy",
+    "category": "Descriptions",
+    "rank": 477,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0478",
+    "nl": "veilig",
+    "en": "safe",
+    "category": "Descriptions",
+    "rank": 478,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0479",
+    "nl": "warm",
+    "en": "warm",
+    "category": "Descriptions",
+    "rank": 479,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0480",
+    "nl": "koud",
+    "en": "cold",
+    "category": "Descriptions",
+    "rank": 480,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0481",
+    "nl": "boos",
+    "en": "angry",
+    "category": "Descriptions",
+    "rank": 481,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0482",
+    "nl": "blij",
+    "en": "happy",
+    "category": "Descriptions",
+    "rank": 482,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0483",
+    "nl": "bang",
+    "en": "afraid",
+    "category": "Descriptions",
+    "rank": 483,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0484",
+    "nl": "verdrietig",
+    "en": "sad",
+    "category": "Descriptions",
+    "rank": 484,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0485",
+    "nl": "zenuwachtig",
+    "en": "nervous",
+    "category": "Descriptions",
+    "rank": 485,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0486",
+    "nl": "tevreden",
+    "en": "satisfied",
+    "category": "Descriptions",
+    "rank": 486,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0487",
+    "nl": "aardig",
+    "en": "kind / nice",
+    "category": "Descriptions",
+    "rank": 487,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0488",
+    "nl": "eerlijk",
+    "en": "honest",
+    "category": "Descriptions",
+    "rank": 488,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0489",
+    "nl": "vreemd",
+    "en": "strange",
+    "category": "Descriptions",
+    "rank": 489,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0490",
+    "nl": "vies",
+    "en": "dirty",
+    "category": "Descriptions",
+    "rank": 490,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0491",
+    "nl": "schoon",
+    "en": "clean",
+    "category": "Descriptions",
+    "rank": 491,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0492",
+    "nl": "prima",
+    "en": "fine / excellent",
+    "category": "Descriptions",
+    "rank": 492,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0493",
+    "nl": "oké",
+    "en": "okay",
+    "category": "Descriptions",
+    "rank": 493,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0494",
+    "nl": "lelijk",
+    "en": "ugly",
+    "category": "Descriptions",
+    "rank": 494,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0495",
+    "nl": "prettig",
+    "en": "pleasant",
+    "category": "Descriptions",
+    "rank": 495,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0496",
+    "nl": "gezellig",
+    "en": "cozy / sociable",
+    "category": "Descriptions",
+    "rank": 496,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0497",
+    "nl": "interessant",
+    "en": "interesting",
+    "category": "Descriptions",
+    "rank": 497,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0498",
+    "nl": "saai",
+    "en": "boring",
+    "category": "Descriptions",
+    "rank": 498,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0499",
+    "nl": "onbelangrijk",
+    "en": "unimportant",
+    "category": "Descriptions",
+    "rank": 499,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0500",
+    "nl": "zeker",
+    "en": "sure",
+    "category": "Descriptions",
+    "rank": 500,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0501",
+    "nl": "onzeker",
+    "en": "uncertain",
+    "category": "Descriptions",
+    "rank": 501,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0502",
+    "nl": "begrijpelijk",
+    "en": "understandable",
+    "category": "Descriptions",
+    "rank": 502,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0503",
+    "nl": "ingewikkeld",
+    "en": "complicated",
+    "category": "Descriptions",
+    "rank": 503,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0504",
+    "nl": "handig",
+    "en": "handy / useful",
+    "category": "Descriptions",
+    "rank": 504,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0505",
+    "nl": "nuttig",
+    "en": "useful",
+    "category": "Descriptions",
+    "rank": 505,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0506",
+    "nl": "praktisch",
+    "en": "practical",
+    "category": "Descriptions",
+    "rank": 506,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0507",
+    "nl": "logisch",
+    "en": "logical",
+    "category": "Descriptions",
+    "rank": 507,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0508",
+    "nl": "normaal",
+    "en": "normal",
+    "category": "Descriptions",
+    "rank": 508,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0509",
+    "nl": "speciaal",
+    "en": "special",
+    "category": "Descriptions",
+    "rank": 509,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0510",
+    "nl": "hetzelfde",
+    "en": "the same",
+    "category": "Descriptions",
+    "rank": 510,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0511",
+    "nl": "vergelijkbaar",
+    "en": "comparable",
+    "category": "Descriptions",
+    "rank": 511,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0512",
+    "nl": "verschillend",
+    "en": "different",
+    "category": "Descriptions",
+    "rank": 512,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0513",
+    "nl": "belangrijker",
+    "en": "more important",
+    "category": "Descriptions",
+    "rank": 513,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0514",
+    "nl": "beter",
+    "en": "better",
+    "category": "Descriptions",
+    "rank": 514,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0515",
+    "nl": "slechter",
+    "en": "worse",
+    "category": "Descriptions",
+    "rank": 515,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0516",
+    "nl": "voldoende",
+    "en": "sufficient",
+    "category": "Descriptions",
+    "rank": 516,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0517",
+    "nl": "onvoldoende",
+    "en": "insufficient",
+    "category": "Descriptions",
+    "rank": 517,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0518",
+    "nl": "nauwkeurig",
+    "en": "accurate",
+    "category": "Descriptions",
+    "rank": 518,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0519",
+    "nl": "correct",
+    "en": "correct",
+    "category": "Descriptions",
+    "rank": 519,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0520",
+    "nl": "verkeerd",
+    "en": "wrong",
+    "category": "Descriptions",
+    "rank": 520,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0521",
+    "nl": "onwaar",
+    "en": "untrue",
+    "category": "Descriptions",
+    "rank": 521,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0522",
+    "nl": "fout",
+    "en": "wrong",
+    "category": "Descriptions",
+    "rank": 522,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0523",
+    "nl": "stil",
+    "en": "quiet / silent",
+    "category": "Descriptions",
+    "rank": 523,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0524",
+    "nl": "luid",
+    "en": "loud",
+    "category": "Descriptions",
+    "rank": 524,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0525",
+    "nl": "hard",
+    "en": "hard / loud",
+    "category": "Descriptions",
+    "rank": 525,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0526",
+    "nl": "zacht",
+    "en": "soft",
+    "category": "Descriptions",
+    "rank": 526,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0527",
+    "nl": "traag",
+    "en": "slow",
+    "category": "Descriptions",
+    "rank": 527,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0528",
+    "nl": "lang",
+    "en": "long / tall",
+    "category": "Descriptions",
+    "rank": 528,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0529",
+    "nl": "kort",
+    "en": "short",
+    "category": "Descriptions",
+    "rank": 529,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0530",
+    "nl": "hoog",
+    "en": "high",
+    "category": "Descriptions",
+    "rank": 530,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0531",
+    "nl": "laag",
+    "en": "low",
+    "category": "Descriptions",
+    "rank": 531,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0532",
+    "nl": "breed",
+    "en": "wide",
+    "category": "Descriptions",
+    "rank": 532,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0533",
+    "nl": "smal",
+    "en": "narrow",
+    "category": "Descriptions",
+    "rank": 533,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0534",
+    "nl": "dik",
+    "en": "thick / fat",
+    "category": "Descriptions",
+    "rank": 534,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0535",
+    "nl": "dun",
+    "en": "thin",
+    "category": "Descriptions",
+    "rank": 535,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0536",
+    "nl": "zwaar",
+    "en": "heavy",
+    "category": "Descriptions",
+    "rank": 536,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0537",
+    "nl": "licht",
+    "en": "light",
+    "category": "Descriptions",
+    "rank": 537,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0538",
+    "nl": "sterk",
+    "en": "strong",
+    "category": "Descriptions",
+    "rank": 538,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0539",
+    "nl": "zwak",
+    "en": "weak",
+    "category": "Descriptions",
+    "rank": 539,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0540",
+    "nl": "jong",
+    "en": "young",
+    "category": "Descriptions",
+    "rank": 540,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0541",
+    "nl": "modern",
+    "en": "modern",
+    "category": "Descriptions",
+    "rank": 541,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0542",
+    "nl": "ouderwets",
+    "en": "old-fashioned",
+    "category": "Descriptions",
+    "rank": 542,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0543",
+    "nl": "vers",
+    "en": "fresh",
+    "category": "Descriptions",
+    "rank": 543,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0544",
+    "nl": "netjes",
+    "en": "tidy",
+    "category": "Descriptions",
+    "rank": 544,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0545",
+    "nl": "rommelig",
+    "en": "messy",
+    "category": "Descriptions",
+    "rank": 545,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0546",
+    "nl": "vol",
+    "en": "full",
+    "category": "Descriptions",
+    "rank": 546,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0547",
+    "nl": "leeg",
+    "en": "empty",
+    "category": "Descriptions",
+    "rank": 547,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0548",
+    "nl": "open",
+    "en": "open",
+    "category": "Descriptions",
+    "rank": 548,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0549",
+    "nl": "dicht",
+    "en": "closed",
+    "category": "Descriptions",
+    "rank": 549,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0550",
+    "nl": "kapot",
+    "en": "broken",
+    "category": "Descriptions",
+    "rank": 550,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0551",
+    "nl": "heel",
+    "en": "intact",
+    "category": "Descriptions",
+    "rank": 551,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0552",
+    "nl": "onveilig",
+    "en": "unsafe",
+    "category": "Descriptions",
+    "rank": 552,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0553",
+    "nl": "gevaarlijk",
+    "en": "dangerous",
+    "category": "Descriptions",
+    "rank": 553,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0554",
+    "nl": "ongezond",
+    "en": "unhealthy",
+    "category": "Descriptions",
+    "rank": 554,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0555",
+    "nl": "wakker",
+    "en": "awake",
+    "category": "Descriptions",
+    "rank": 555,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0556",
+    "nl": "slaperig",
+    "en": "sleepy",
+    "category": "Descriptions",
+    "rank": 556,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0557",
+    "nl": "hongerig",
+    "en": "hungry",
+    "category": "Descriptions",
+    "rank": 557,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0558",
+    "nl": "dorstig",
+    "en": "thirsty",
+    "category": "Descriptions",
+    "rank": 558,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0559",
+    "nl": "lekker",
+    "en": "delicious / pleasant",
+    "category": "Descriptions",
+    "rank": 559,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0560",
+    "nl": "heet",
+    "en": "hot",
+    "category": "Descriptions",
+    "rank": 560,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0561",
+    "nl": "koel",
+    "en": "cool",
+    "category": "Descriptions",
+    "rank": 561,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0562",
+    "nl": "nat",
+    "en": "wet",
+    "category": "Descriptions",
+    "rank": 562,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0563",
+    "nl": "droog",
+    "en": "dry",
+    "category": "Descriptions",
+    "rank": 563,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0564",
+    "nl": "zonnig",
+    "en": "sunny",
+    "category": "Descriptions",
+    "rank": 564,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0565",
+    "nl": "bewolkt",
+    "en": "cloudy",
+    "category": "Descriptions",
+    "rank": 565,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0566",
+    "nl": "regenachtig",
+    "en": "rainy",
+    "category": "Descriptions",
+    "rank": 566,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0567",
+    "nl": "winderig",
+    "en": "windy",
+    "category": "Descriptions",
+    "rank": 567,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0568",
+    "nl": "helder",
+    "en": "clear / bright",
+    "category": "Descriptions",
+    "rank": 568,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0569",
+    "nl": "donker",
+    "en": "dark",
+    "category": "Descriptions",
+    "rank": 569,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0570",
+    "nl": "rood",
+    "en": "red",
+    "category": "Descriptions",
+    "rank": 570,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0571",
+    "nl": "blauw",
+    "en": "blue",
+    "category": "Descriptions",
+    "rank": 571,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0572",
+    "nl": "groen",
+    "en": "green",
+    "category": "Descriptions",
+    "rank": 572,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0573",
+    "nl": "geel",
+    "en": "yellow",
+    "category": "Descriptions",
+    "rank": 573,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0574",
+    "nl": "oranje",
+    "en": "orange",
+    "category": "Descriptions",
+    "rank": 574,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0575",
+    "nl": "paars",
+    "en": "purple",
+    "category": "Descriptions",
+    "rank": 575,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0576",
+    "nl": "roze",
+    "en": "pink",
+    "category": "Descriptions",
+    "rank": 576,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0577",
+    "nl": "zwart",
+    "en": "black",
+    "category": "Descriptions",
+    "rank": 577,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0578",
+    "nl": "wit",
+    "en": "white",
+    "category": "Descriptions",
+    "rank": 578,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0579",
+    "nl": "grijs",
+    "en": "gray",
+    "category": "Descriptions",
+    "rank": 579,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0580",
+    "nl": "bruin",
+    "en": "brown",
+    "category": "Descriptions",
+    "rank": 580,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0581",
+    "nl": "nul",
+    "en": "zero",
+    "category": "Numbers and amounts",
+    "rank": 581,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0582",
+    "nl": "één",
+    "en": "one (emphasized)",
+    "category": "Numbers and amounts",
+    "rank": 582,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0583",
+    "nl": "twee",
+    "en": "two",
+    "category": "Numbers and amounts",
+    "rank": 583,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0584",
+    "nl": "drie",
+    "en": "three",
+    "category": "Numbers and amounts",
+    "rank": 584,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0585",
+    "nl": "vier",
+    "en": "four",
+    "category": "Numbers and amounts",
+    "rank": 585,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0586",
+    "nl": "vijf",
+    "en": "five",
+    "category": "Numbers and amounts",
+    "rank": 586,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0587",
+    "nl": "zes",
+    "en": "six",
+    "category": "Numbers and amounts",
+    "rank": 587,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0588",
+    "nl": "zeven",
+    "en": "seven",
+    "category": "Numbers and amounts",
+    "rank": 588,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0589",
+    "nl": "acht",
+    "en": "eight",
+    "category": "Numbers and amounts",
+    "rank": 589,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0590",
+    "nl": "negen",
+    "en": "nine",
+    "category": "Numbers and amounts",
+    "rank": 590,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0591",
+    "nl": "tien",
+    "en": "ten",
+    "category": "Numbers and amounts",
+    "rank": 591,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0592",
+    "nl": "elf",
+    "en": "eleven",
+    "category": "Numbers and amounts",
+    "rank": 592,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0593",
+    "nl": "twaalf",
+    "en": "twelve",
+    "category": "Numbers and amounts",
+    "rank": 593,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0594",
+    "nl": "dertien",
+    "en": "thirteen",
+    "category": "Numbers and amounts",
+    "rank": 594,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0595",
+    "nl": "veertien",
+    "en": "fourteen",
+    "category": "Numbers and amounts",
+    "rank": 595,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0596",
+    "nl": "vijftien",
+    "en": "fifteen",
+    "category": "Numbers and amounts",
+    "rank": 596,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0597",
+    "nl": "zestien",
+    "en": "sixteen",
+    "category": "Numbers and amounts",
+    "rank": 597,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0598",
+    "nl": "zeventien",
+    "en": "seventeen",
+    "category": "Numbers and amounts",
+    "rank": 598,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0599",
+    "nl": "achttien",
+    "en": "eighteen",
+    "category": "Numbers and amounts",
+    "rank": 599,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0600",
+    "nl": "negentien",
+    "en": "nineteen",
+    "category": "Numbers and amounts",
+    "rank": 600,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0601",
+    "nl": "twintig",
+    "en": "twenty",
+    "category": "Numbers and amounts",
+    "rank": 601,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0602",
+    "nl": "dertig",
+    "en": "thirty",
+    "category": "Numbers and amounts",
+    "rank": 602,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0603",
+    "nl": "veertig",
+    "en": "forty",
+    "category": "Numbers and amounts",
+    "rank": 603,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0604",
+    "nl": "vijftig",
+    "en": "fifty",
+    "category": "Numbers and amounts",
+    "rank": 604,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0605",
+    "nl": "zestig",
+    "en": "sixty",
+    "category": "Numbers and amounts",
+    "rank": 605,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0606",
+    "nl": "zeventig",
+    "en": "seventy",
+    "category": "Numbers and amounts",
+    "rank": 606,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0607",
+    "nl": "tachtig",
+    "en": "eighty",
+    "category": "Numbers and amounts",
+    "rank": 607,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0608",
+    "nl": "negentig",
+    "en": "ninety",
+    "category": "Numbers and amounts",
+    "rank": 608,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0609",
+    "nl": "honderd",
+    "en": "hundred",
+    "category": "Numbers and amounts",
+    "rank": 609,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0610",
+    "nl": "duizend",
+    "en": "thousand",
+    "category": "Numbers and amounts",
+    "rank": 610,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0611",
+    "nl": "miljoen",
+    "en": "million",
+    "category": "Numbers and amounts",
+    "rank": 611,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0612",
+    "nl": "eerste",
+    "en": "first",
+    "category": "Numbers and amounts",
+    "rank": 612,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0613",
+    "nl": "tweede",
+    "en": "second",
+    "category": "Numbers and amounts",
+    "rank": 613,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0614",
+    "nl": "derde",
+    "en": "third",
+    "category": "Numbers and amounts",
+    "rank": 614,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0615",
+    "nl": "vierde",
+    "en": "fourth",
+    "category": "Numbers and amounts",
+    "rank": 615,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0616",
+    "nl": "vijfde",
+    "en": "fifth",
+    "category": "Numbers and amounts",
+    "rank": 616,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0617",
+    "nl": "laatste",
+    "en": "last",
+    "category": "Numbers and amounts",
+    "rank": 617,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0618",
+    "nl": "helft",
+    "en": "half",
+    "category": "Numbers and amounts",
+    "rank": 618,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0619",
+    "nl": "kwart",
+    "en": "quarter",
+    "category": "Numbers and amounts",
+    "rank": 619,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0620",
+    "nl": "dubbel",
+    "en": "double",
+    "category": "Numbers and amounts",
+    "rank": 620,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0621",
+    "nl": "enkel",
+    "en": "single",
+    "category": "Numbers and amounts",
+    "rank": 621,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0622",
+    "nl": "beetje",
+    "en": "a little bit",
+    "category": "Numbers and amounts",
+    "rank": 622,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0623",
+    "nl": "het aantal",
+    "en": "number / count",
+    "category": "Numbers and amounts",
+    "rank": 623,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0624",
+    "nl": "de helft",
+    "en": "half (noun)",
+    "category": "Numbers and amounts",
+    "rank": 624,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0625",
+    "nl": "het derde deel",
+    "en": "one third",
+    "category": "Numbers and amounts",
+    "rank": 625,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0626",
+    "nl": "een keer",
+    "en": "one time / once",
+    "category": "Numbers and amounts",
+    "rank": 626,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0627",
+    "nl": "twee keer",
+    "en": "twice",
+    "category": "Numbers and amounts",
+    "rank": 627,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0628",
+    "nl": "per persoon",
+    "en": "per person",
+    "category": "Numbers and amounts",
+    "rank": 628,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0629",
+    "nl": "de persoon",
+    "en": "person",
+    "category": "People and communication",
+    "rank": 629,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0630",
+    "nl": "de mensen",
+    "en": "people",
+    "category": "People and communication",
+    "rank": 630,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0631",
+    "nl": "de man",
+    "en": "man",
+    "category": "People and communication",
+    "rank": 631,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0632",
+    "nl": "de vrouw",
+    "en": "woman",
+    "category": "People and communication",
+    "rank": 632,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0633",
+    "nl": "het kind",
+    "en": "child",
+    "category": "People and communication",
+    "rank": 633,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0634",
+    "nl": "de jongen",
+    "en": "boy",
+    "category": "People and communication",
+    "rank": 634,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0635",
+    "nl": "het meisje",
+    "en": "girl",
+    "category": "People and communication",
+    "rank": 635,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0636",
+    "nl": "de volwassene",
+    "en": "adult",
+    "category": "People and communication",
+    "rank": 636,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0637",
+    "nl": "de baby",
+    "en": "baby",
+    "category": "People and communication",
+    "rank": 637,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0638",
+    "nl": "de familie",
+    "en": "family",
+    "category": "People and communication",
+    "rank": 638,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0639",
+    "nl": "het gezin",
+    "en": "household / family",
+    "category": "People and communication",
+    "rank": 639,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0640",
+    "nl": "de partner",
+    "en": "partner",
+    "category": "People and communication",
+    "rank": 640,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0641",
+    "nl": "de echtgenoot",
+    "en": "husband",
+    "category": "People and communication",
+    "rank": 641,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0642",
+    "nl": "de echtgenote",
+    "en": "wife",
+    "category": "People and communication",
+    "rank": 642,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0643",
+    "nl": "de vader",
+    "en": "father",
+    "category": "People and communication",
+    "rank": 643,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0644",
+    "nl": "de moeder",
+    "en": "mother",
+    "category": "People and communication",
+    "rank": 644,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0645",
+    "nl": "de ouder",
+    "en": "parent",
+    "category": "People and communication",
+    "rank": 645,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0646",
+    "nl": "de zoon",
+    "en": "son",
+    "category": "People and communication",
+    "rank": 646,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0647",
+    "nl": "de dochter",
+    "en": "daughter",
+    "category": "People and communication",
+    "rank": 647,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0648",
+    "nl": "de broer",
+    "en": "brother",
+    "category": "People and communication",
+    "rank": 648,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0649",
+    "nl": "de zus",
+    "en": "sister",
+    "category": "People and communication",
+    "rank": 649,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0650",
+    "nl": "de opa",
+    "en": "grandfather",
+    "category": "People and communication",
+    "rank": 650,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0651",
+    "nl": "de oma",
+    "en": "grandmother",
+    "category": "People and communication",
+    "rank": 651,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0652",
+    "nl": "de oom",
+    "en": "uncle",
+    "category": "People and communication",
+    "rank": 652,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0653",
+    "nl": "de tante",
+    "en": "aunt",
+    "category": "People and communication",
+    "rank": 653,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0654",
+    "nl": "de neef",
+    "en": "nephew / cousin",
+    "category": "People and communication",
+    "rank": 654,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0655",
+    "nl": "de nicht",
+    "en": "niece / cousin",
+    "category": "People and communication",
+    "rank": 655,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0656",
+    "nl": "de vriend",
+    "en": "friend (male)",
+    "category": "People and communication",
+    "rank": 656,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0657",
+    "nl": "de vriendin",
+    "en": "friend (female) / girlfriend",
+    "category": "People and communication",
+    "rank": 657,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0658",
+    "nl": "de buurman",
+    "en": "male neighbor",
+    "category": "People and communication",
+    "rank": 658,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0659",
+    "nl": "de buurvrouw",
+    "en": "female neighbor",
+    "category": "People and communication",
+    "rank": 659,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0660",
+    "nl": "de buur",
+    "en": "neighbor",
+    "category": "People and communication",
+    "rank": 660,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0661",
+    "nl": "de collega",
+    "en": "colleague",
+    "category": "People and communication",
+    "rank": 661,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0662",
+    "nl": "de baas",
+    "en": "boss",
+    "category": "People and communication",
+    "rank": 662,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0663",
+    "nl": "de klant",
+    "en": "customer",
+    "category": "People and communication",
+    "rank": 663,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0664",
+    "nl": "de medewerker",
+    "en": "employee",
+    "category": "People and communication",
+    "rank": 664,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0665",
+    "nl": "het team",
+    "en": "team",
+    "category": "People and communication",
+    "rank": 665,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0666",
+    "nl": "de groep",
+    "en": "group",
+    "category": "People and communication",
+    "rank": 666,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0667",
+    "nl": "de gast",
+    "en": "guest",
+    "category": "People and communication",
+    "rank": 667,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0668",
+    "nl": "de bezoeker",
+    "en": "visitor",
+    "category": "People and communication",
+    "rank": 668,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0669",
+    "nl": "de inwoner",
+    "en": "resident",
+    "category": "People and communication",
+    "rank": 669,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0670",
+    "nl": "de Nederlander",
+    "en": "Dutch person",
+    "category": "People and communication",
+    "rank": 670,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0671",
+    "nl": "de buitenlander",
+    "en": "foreigner",
+    "category": "People and communication",
+    "rank": 671,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0672",
+    "nl": "de kennismaking",
+    "en": "introduction",
+    "category": "People and communication",
+    "rank": 672,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0673",
+    "nl": "het contact",
+    "en": "contact",
+    "category": "People and communication",
+    "rank": 673,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0674",
+    "nl": "het gesprek",
+    "en": "conversation",
+    "category": "People and communication",
+    "rank": 674,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0675",
+    "nl": "de vraag",
+    "en": "question",
+    "category": "People and communication",
+    "rank": 675,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0676",
+    "nl": "het antwoord",
+    "en": "answer",
+    "category": "People and communication",
+    "rank": 676,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0677",
+    "nl": "het bericht",
+    "en": "message",
+    "category": "People and communication",
+    "rank": 677,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0678",
+    "nl": "de e-mail",
+    "en": "email",
+    "category": "People and communication",
+    "rank": 678,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0679",
+    "nl": "het telefoontje",
+    "en": "phone call",
+    "category": "People and communication",
+    "rank": 679,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0680",
+    "nl": "het woord",
+    "en": "word",
+    "category": "People and communication",
+    "rank": 680,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0681",
+    "nl": "de zin",
+    "en": "sentence",
+    "category": "People and communication",
+    "rank": 681,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0682",
+    "nl": "de taal",
+    "en": "language",
+    "category": "People and communication",
+    "rank": 682,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0683",
+    "nl": "het Nederlands",
+    "en": "Dutch language",
+    "category": "People and communication",
+    "rank": 683,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0684",
+    "nl": "het Engels",
+    "en": "English language",
+    "category": "People and communication",
+    "rank": 684,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0685",
+    "nl": "het verhaal",
+    "en": "story",
+    "category": "People and communication",
+    "rank": 685,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0686",
+    "nl": "de uitleg",
+    "en": "explanation",
+    "category": "People and communication",
+    "rank": 686,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0687",
+    "nl": "het voorbeeld",
+    "en": "example",
+    "category": "People and communication",
+    "rank": 687,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0688",
+    "nl": "het verschil",
+    "en": "difference",
+    "category": "People and communication",
+    "rank": 688,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0689",
+    "nl": "de overeenkomst",
+    "en": "similarity",
+    "category": "People and communication",
+    "rank": 689,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0690",
+    "nl": "het idee",
+    "en": "idea",
+    "category": "People and communication",
+    "rank": 690,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0691",
+    "nl": "het onderwerp",
+    "en": "topic",
+    "category": "People and communication",
+    "rank": 691,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0692",
+    "nl": "het nieuws",
+    "en": "news",
+    "category": "People and communication",
+    "rank": 692,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0693",
+    "nl": "de informatie",
+    "en": "information",
+    "category": "People and communication",
+    "rank": 693,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0694",
+    "nl": "de mening",
+    "en": "opinion",
+    "category": "People and communication",
+    "rank": 694,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0695",
+    "nl": "het advies",
+    "en": "advice",
+    "category": "People and communication",
+    "rank": 695,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0696",
+    "nl": "de reden",
+    "en": "reason",
+    "category": "People and communication",
+    "rank": 696,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0697",
+    "nl": "het probleem",
+    "en": "problem",
+    "category": "People and communication",
+    "rank": 697,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0698",
+    "nl": "de oplossing",
+    "en": "solution",
+    "category": "People and communication",
+    "rank": 698,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0699",
+    "nl": "de keuze",
+    "en": "choice",
+    "category": "People and communication",
+    "rank": 699,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0700",
+    "nl": "het besluit",
+    "en": "decision",
+    "category": "People and communication",
+    "rank": 700,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0701",
+    "nl": "het plan",
+    "en": "plan",
+    "category": "People and communication",
+    "rank": 701,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0702",
+    "nl": "het doel",
+    "en": "goal",
+    "category": "People and communication",
+    "rank": 702,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0703",
+    "nl": "het resultaat",
+    "en": "result",
+    "category": "People and communication",
+    "rank": 703,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0704",
+    "nl": "het succes",
+    "en": "success",
+    "category": "People and communication",
+    "rank": 704,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0705",
+    "nl": "de fout",
+    "en": "mistake",
+    "category": "People and communication",
+    "rank": 705,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0706",
+    "nl": "het misverstand",
+    "en": "misunderstanding",
+    "category": "People and communication",
+    "rank": 706,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0707",
+    "nl": "de afspraak",
+    "en": "appointment / agreement",
+    "category": "People and communication",
+    "rank": 707,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0708",
+    "nl": "het verzoek",
+    "en": "request",
+    "category": "People and communication",
+    "rank": 708,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0709",
+    "nl": "het huis",
+    "en": "house",
+    "category": "Everyday home",
+    "rank": 709,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0710",
+    "nl": "de kamer",
+    "en": "room",
+    "category": "Everyday home",
+    "rank": 710,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0711",
+    "nl": "de keuken",
+    "en": "kitchen",
+    "category": "Everyday home",
+    "rank": 711,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0712",
+    "nl": "de badkamer",
+    "en": "bathroom",
+    "category": "Everyday home",
+    "rank": 712,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0713",
+    "nl": "de deur",
+    "en": "door",
+    "category": "Everyday home",
+    "rank": 713,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0714",
+    "nl": "het raam",
+    "en": "window",
+    "category": "Everyday home",
+    "rank": 714,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0715",
+    "nl": "de sleutel",
+    "en": "key",
+    "category": "Everyday home",
+    "rank": 715,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0716",
+    "nl": "de tafel",
+    "en": "table",
+    "category": "Everyday home",
+    "rank": 716,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0717",
+    "nl": "de stoel",
+    "en": "chair",
+    "category": "Everyday home",
+    "rank": 717,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0718",
+    "nl": "de bank",
+    "en": "sofa",
+    "category": "Everyday home",
+    "rank": 718,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0719",
+    "nl": "het bed",
+    "en": "bed",
+    "category": "Everyday home",
+    "rank": 719,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0720",
+    "nl": "de kast",
+    "en": "cabinet",
+    "category": "Everyday home",
+    "rank": 720,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0721",
+    "nl": "de telefoon",
+    "en": "phone",
+    "category": "Everyday home",
+    "rank": 721,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0722",
+    "nl": "de laptop",
+    "en": "laptop",
+    "category": "Everyday home",
+    "rank": 722,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0723",
+    "nl": "de computer",
+    "en": "computer",
+    "category": "Everyday home",
+    "rank": 723,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0724",
+    "nl": "de koelkast",
+    "en": "refrigerator",
+    "category": "Everyday home",
+    "rank": 724,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0725",
+    "nl": "de wasmachine",
+    "en": "washing machine",
+    "category": "Everyday home",
+    "rank": 725,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0726",
+    "nl": "het toilet",
+    "en": "toilet",
+    "category": "Everyday home",
+    "rank": 726,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0727",
+    "nl": "de jas",
+    "en": "coat",
+    "category": "Everyday home",
+    "rank": 727,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0728",
+    "nl": "de broek",
+    "en": "trousers",
+    "category": "Everyday home",
+    "rank": 728,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0729",
+    "nl": "de schoen",
+    "en": "shoe",
+    "category": "Everyday home",
+    "rank": 729,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0730",
+    "nl": "de sok",
+    "en": "sock",
+    "category": "Everyday home",
+    "rank": 730,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0731",
+    "nl": "de handdoek",
+    "en": "towel",
+    "category": "Everyday home",
+    "rank": 731,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0732",
+    "nl": "de douche",
+    "en": "shower",
+    "category": "Everyday home",
+    "rank": 732,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0733",
+    "nl": "de tandenborstel",
+    "en": "toothbrush",
+    "category": "Everyday home",
+    "rank": 733,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0734",
+    "nl": "de oplader",
+    "en": "charger",
+    "category": "Everyday home",
+    "rank": 734,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0735",
+    "nl": "het internet",
+    "en": "internet",
+    "category": "Everyday home",
+    "rank": 735,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0736",
+    "nl": "de woning",
+    "en": "home / dwelling",
+    "category": "Everyday home",
+    "rank": 736,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0737",
+    "nl": "het appartement",
+    "en": "apartment",
+    "category": "Everyday home",
+    "rank": 737,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0738",
+    "nl": "de woonkamer",
+    "en": "living room",
+    "category": "Everyday home",
+    "rank": 738,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0739",
+    "nl": "de slaapkamer",
+    "en": "bedroom",
+    "category": "Everyday home",
+    "rank": 739,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0740",
+    "nl": "de gang",
+    "en": "hallway",
+    "category": "Everyday home",
+    "rank": 740,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0741",
+    "nl": "de trap",
+    "en": "stairs",
+    "category": "Everyday home",
+    "rank": 741,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0742",
+    "nl": "de verdieping",
+    "en": "floor / level",
+    "category": "Everyday home",
+    "rank": 742,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0743",
+    "nl": "het dak",
+    "en": "roof",
+    "category": "Everyday home",
+    "rank": 743,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0744",
+    "nl": "de muur",
+    "en": "wall",
+    "category": "Everyday home",
+    "rank": 744,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0745",
+    "nl": "de vloer",
+    "en": "floor",
+    "category": "Everyday home",
+    "rank": 745,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0746",
+    "nl": "het plafond",
+    "en": "ceiling",
+    "category": "Everyday home",
+    "rank": 746,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0747",
+    "nl": "het slot",
+    "en": "lock",
+    "category": "Everyday home",
+    "rank": 747,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0748",
+    "nl": "de bel",
+    "en": "doorbell",
+    "category": "Everyday home",
+    "rank": 748,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0749",
+    "nl": "de tuin",
+    "en": "garden",
+    "category": "Everyday home",
+    "rank": 749,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0750",
+    "nl": "het balkon",
+    "en": "balcony",
+    "category": "Everyday home",
+    "rank": 750,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0751",
+    "nl": "het terras",
+    "en": "terrace",
+    "category": "Everyday home",
+    "rank": 751,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0752",
+    "nl": "de schuur",
+    "en": "shed",
+    "category": "Everyday home",
+    "rank": 752,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0753",
+    "nl": "het hek",
+    "en": "fence / gate",
+    "category": "Everyday home",
+    "rank": 753,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0754",
+    "nl": "de oprit",
+    "en": "driveway",
+    "category": "Everyday home",
+    "rank": 754,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0755",
+    "nl": "het meubilair",
+    "en": "furniture",
+    "category": "Everyday home",
+    "rank": 755,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0756",
+    "nl": "het bureau",
+    "en": "desk",
+    "category": "Everyday home",
+    "rank": 756,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0757",
+    "nl": "het kussen",
+    "en": "pillow",
+    "category": "Everyday home",
+    "rank": 757,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0758",
+    "nl": "de deken",
+    "en": "blanket",
+    "category": "Everyday home",
+    "rank": 758,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0759",
+    "nl": "het laken",
+    "en": "sheet",
+    "category": "Everyday home",
+    "rank": 759,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0760",
+    "nl": "de matras",
+    "en": "mattress",
+    "category": "Everyday home",
+    "rank": 760,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0761",
+    "nl": "het gordijn",
+    "en": "curtain",
+    "category": "Everyday home",
+    "rank": 761,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0762",
+    "nl": "het tapijt",
+    "en": "carpet",
+    "category": "Everyday home",
+    "rank": 762,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0763",
+    "nl": "het licht",
+    "en": "light",
+    "category": "Everyday home",
+    "rank": 763,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0764",
+    "nl": "het stopcontact",
+    "en": "electrical outlet",
+    "category": "Everyday home",
+    "rank": 764,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0765",
+    "nl": "de stekker",
+    "en": "plug",
+    "category": "Everyday home",
+    "rank": 765,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0766",
+    "nl": "het snoer",
+    "en": "cord",
+    "category": "Everyday home",
+    "rank": 766,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0767",
+    "nl": "de lamp",
+    "en": "lamp",
+    "category": "Everyday home",
+    "rank": 767,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0768",
+    "nl": "de televisie",
+    "en": "television",
+    "category": "Everyday home",
+    "rank": 768,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0769",
+    "nl": "de afstandsbediening",
+    "en": "remote control",
+    "category": "Everyday home",
+    "rank": 769,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0770",
+    "nl": "het scherm",
+    "en": "screen",
+    "category": "Everyday home",
+    "rank": 770,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0771",
+    "nl": "de batterij",
+    "en": "battery",
+    "category": "Everyday home",
+    "rank": 771,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0772",
+    "nl": "het wachtwoord",
+    "en": "password",
+    "category": "Everyday home",
+    "rank": 772,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0773",
+    "nl": "het account",
+    "en": "account",
+    "category": "Everyday home",
+    "rank": 773,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0774",
+    "nl": "de vriezer",
+    "en": "freezer",
+    "category": "Everyday home",
+    "rank": 774,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0775",
+    "nl": "het fornuis",
+    "en": "stove",
+    "category": "Everyday home",
+    "rank": 775,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0776",
+    "nl": "de oven",
+    "en": "oven",
+    "category": "Everyday home",
+    "rank": 776,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0777",
+    "nl": "de magnetron",
+    "en": "microwave",
+    "category": "Everyday home",
+    "rank": 777,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0778",
+    "nl": "het apparaat",
+    "en": "device",
+    "category": "Everyday home",
+    "rank": 778,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0779",
+    "nl": "de droger",
+    "en": "dryer",
+    "category": "Everyday home",
+    "rank": 779,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0780",
+    "nl": "de vaatwasser",
+    "en": "dishwasher",
+    "category": "Everyday home",
+    "rank": 780,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0781",
+    "nl": "de stofzuiger",
+    "en": "vacuum cleaner",
+    "category": "Everyday home",
+    "rank": 781,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0782",
+    "nl": "de kraan",
+    "en": "tap / faucet",
+    "category": "Everyday home",
+    "rank": 782,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0783",
+    "nl": "het water",
+    "en": "water",
+    "category": "Everyday home",
+    "rank": 783,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0784",
+    "nl": "de verwarming",
+    "en": "heating",
+    "category": "Everyday home",
+    "rank": 784,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0785",
+    "nl": "de radiator",
+    "en": "radiator",
+    "category": "Everyday home",
+    "rank": 785,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0786",
+    "nl": "het afval",
+    "en": "waste",
+    "category": "Everyday home",
+    "rank": 786,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0787",
+    "nl": "het vuilnis",
+    "en": "garbage",
+    "category": "Everyday home",
+    "rank": 787,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0788",
+    "nl": "de vuilnisbak",
+    "en": "trash can",
+    "category": "Everyday home",
+    "rank": 788,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0789",
+    "nl": "de zak",
+    "en": "bag",
+    "category": "Everyday home",
+    "rank": 789,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0790",
+    "nl": "de doos",
+    "en": "box",
+    "category": "Everyday home",
+    "rank": 790,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0791",
+    "nl": "de fles",
+    "en": "bottle",
+    "category": "Everyday home",
+    "rank": 791,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0792",
+    "nl": "het glas",
+    "en": "glass",
+    "category": "Everyday home",
+    "rank": 792,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0793",
+    "nl": "het bord",
+    "en": "plate",
+    "category": "Everyday home",
+    "rank": 793,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0794",
+    "nl": "de kom",
+    "en": "bowl",
+    "category": "Everyday home",
+    "rank": 794,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0795",
+    "nl": "de mok",
+    "en": "mug",
+    "category": "Everyday home",
+    "rank": 795,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0796",
+    "nl": "het kopje",
+    "en": "cup",
+    "category": "Everyday home",
+    "rank": 796,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0797",
+    "nl": "de lepel",
+    "en": "spoon",
+    "category": "Everyday home",
+    "rank": 797,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0798",
+    "nl": "de vork",
+    "en": "fork",
+    "category": "Everyday home",
+    "rank": 798,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0799",
+    "nl": "het eten",
+    "en": "food",
+    "category": "Food and shopping",
+    "rank": 799,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0800",
+    "nl": "het drinken",
+    "en": "drink",
+    "category": "Food and shopping",
+    "rank": 800,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0801",
+    "nl": "het ontbijt",
+    "en": "breakfast",
+    "category": "Food and shopping",
+    "rank": 801,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0802",
+    "nl": "de lunch",
+    "en": "lunch",
+    "category": "Food and shopping",
+    "rank": 802,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0803",
+    "nl": "het avondeten",
+    "en": "dinner",
+    "category": "Food and shopping",
+    "rank": 803,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0804",
+    "nl": "de supermarkt",
+    "en": "supermarket",
+    "category": "Food and shopping",
+    "rank": 804,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0805",
+    "nl": "de winkel",
+    "en": "shop",
+    "category": "Food and shopping",
+    "rank": 805,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0806",
+    "nl": "het restaurant",
+    "en": "restaurant",
+    "category": "Food and shopping",
+    "rank": 806,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0807",
+    "nl": "de koffie",
+    "en": "coffee",
+    "category": "Food and shopping",
+    "rank": 807,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0808",
+    "nl": "de thee",
+    "en": "tea",
+    "category": "Food and shopping",
+    "rank": 808,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0809",
+    "nl": "het brood",
+    "en": "bread",
+    "category": "Food and shopping",
+    "rank": 809,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0810",
+    "nl": "de kaas",
+    "en": "cheese",
+    "category": "Food and shopping",
+    "rank": 810,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0811",
+    "nl": "het ei",
+    "en": "egg",
+    "category": "Food and shopping",
+    "rank": 811,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0812",
+    "nl": "de appel",
+    "en": "apple",
+    "category": "Food and shopping",
+    "rank": 812,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0813",
+    "nl": "de aardappel",
+    "en": "potato",
+    "category": "Food and shopping",
+    "rank": 813,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0814",
+    "nl": "de groente",
+    "en": "vegetable",
+    "category": "Food and shopping",
+    "rank": 814,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0815",
+    "nl": "het fruit",
+    "en": "fruit",
+    "category": "Food and shopping",
+    "rank": 815,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0816",
+    "nl": "de prijs",
+    "en": "price",
+    "category": "Food and shopping",
+    "rank": 816,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0817",
+    "nl": "de korting",
+    "en": "discount",
+    "category": "Food and shopping",
+    "rank": 817,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0818",
+    "nl": "de kassa",
+    "en": "checkout",
+    "category": "Food and shopping",
+    "rank": 818,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0819",
+    "nl": "de rekening",
+    "en": "bill",
+    "category": "Food and shopping",
+    "rank": 819,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0820",
+    "nl": "het geld",
+    "en": "money",
+    "category": "Food and shopping",
+    "rank": 820,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0821",
+    "nl": "het product",
+    "en": "product",
+    "category": "Food and shopping",
+    "rank": 821,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0822",
+    "nl": "de maat",
+    "en": "size",
+    "category": "Food and shopping",
+    "rank": 822,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0823",
+    "nl": "het bonnetje",
+    "en": "receipt",
+    "category": "Food and shopping",
+    "rank": 823,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0824",
+    "nl": "de maaltijd",
+    "en": "meal",
+    "category": "Food and shopping",
+    "rank": 824,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0825",
+    "nl": "het café",
+    "en": "café",
+    "category": "Food and shopping",
+    "rank": 825,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0826",
+    "nl": "de boterham",
+    "en": "slice of bread",
+    "category": "Food and shopping",
+    "rank": 826,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0827",
+    "nl": "het broodje",
+    "en": "bread roll",
+    "category": "Food and shopping",
+    "rank": 827,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0828",
+    "nl": "het beleg",
+    "en": "sandwich topping",
+    "category": "Food and shopping",
+    "rank": 828,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0829",
+    "nl": "de boter",
+    "en": "butter",
+    "category": "Food and shopping",
+    "rank": 829,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0830",
+    "nl": "de melk",
+    "en": "milk",
+    "category": "Food and shopping",
+    "rank": 830,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0831",
+    "nl": "de yoghurt",
+    "en": "yogurt",
+    "category": "Food and shopping",
+    "rank": 831,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0832",
+    "nl": "het vlees",
+    "en": "meat",
+    "category": "Food and shopping",
+    "rank": 832,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0833",
+    "nl": "de kip",
+    "en": "chicken",
+    "category": "Food and shopping",
+    "rank": 833,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0834",
+    "nl": "het rundvlees",
+    "en": "beef",
+    "category": "Food and shopping",
+    "rank": 834,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0835",
+    "nl": "het varkensvlees",
+    "en": "pork",
+    "category": "Food and shopping",
+    "rank": 835,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0836",
+    "nl": "de vis",
+    "en": "fish",
+    "category": "Food and shopping",
+    "rank": 836,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0837",
+    "nl": "het zout",
+    "en": "salt",
+    "category": "Food and shopping",
+    "rank": 837,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0838",
+    "nl": "de peper",
+    "en": "pepper",
+    "category": "Food and shopping",
+    "rank": 838,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0839",
+    "nl": "de suiker",
+    "en": "sugar",
+    "category": "Food and shopping",
+    "rank": 839,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0840",
+    "nl": "de honing",
+    "en": "honey",
+    "category": "Food and shopping",
+    "rank": 840,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0841",
+    "nl": "het meel",
+    "en": "flour",
+    "category": "Food and shopping",
+    "rank": 841,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0842",
+    "nl": "het deeg",
+    "en": "dough",
+    "category": "Food and shopping",
+    "rank": 842,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0843",
+    "nl": "de rijst",
+    "en": "rice",
+    "category": "Food and shopping",
+    "rank": 843,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0844",
+    "nl": "de pasta",
+    "en": "pasta",
+    "category": "Food and shopping",
+    "rank": 844,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0845",
+    "nl": "de friet",
+    "en": "fries",
+    "category": "Food and shopping",
+    "rank": 845,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0846",
+    "nl": "de peer",
+    "en": "pear",
+    "category": "Food and shopping",
+    "rank": 846,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0847",
+    "nl": "de banaan",
+    "en": "banana",
+    "category": "Food and shopping",
+    "rank": 847,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0848",
+    "nl": "de sinaasappel",
+    "en": "orange (fruit)",
+    "category": "Food and shopping",
+    "rank": 848,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0849",
+    "nl": "de aardbei",
+    "en": "strawberry",
+    "category": "Food and shopping",
+    "rank": 849,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0850",
+    "nl": "de druif",
+    "en": "grape",
+    "category": "Food and shopping",
+    "rank": 850,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0851",
+    "nl": "de citroen",
+    "en": "lemon",
+    "category": "Food and shopping",
+    "rank": 851,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0852",
+    "nl": "de tomaat",
+    "en": "tomato",
+    "category": "Food and shopping",
+    "rank": 852,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0853",
+    "nl": "de komkommer",
+    "en": "cucumber",
+    "category": "Food and shopping",
+    "rank": 853,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0854",
+    "nl": "de wortel",
+    "en": "carrot",
+    "category": "Food and shopping",
+    "rank": 854,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0855",
+    "nl": "de ui",
+    "en": "onion",
+    "category": "Food and shopping",
+    "rank": 855,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0856",
+    "nl": "de knoflook",
+    "en": "garlic",
+    "category": "Food and shopping",
+    "rank": 856,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0857",
+    "nl": "de sla",
+    "en": "lettuce",
+    "category": "Food and shopping",
+    "rank": 857,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0858",
+    "nl": "de broccoli",
+    "en": "broccoli",
+    "category": "Food and shopping",
+    "rank": 858,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0859",
+    "nl": "de paprika",
+    "en": "bell pepper",
+    "category": "Food and shopping",
+    "rank": 859,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0860",
+    "nl": "de erwt",
+    "en": "pea",
+    "category": "Food and shopping",
+    "rank": 860,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0861",
+    "nl": "de boon",
+    "en": "bean",
+    "category": "Food and shopping",
+    "rank": 861,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0862",
+    "nl": "de champignon",
+    "en": "mushroom",
+    "category": "Food and shopping",
+    "rank": 862,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0863",
+    "nl": "de soep",
+    "en": "soup",
+    "category": "Food and shopping",
+    "rank": 863,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0864",
+    "nl": "de straat",
+    "en": "street",
+    "category": "Travel and public life",
+    "rank": 864,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0865",
+    "nl": "de weg",
+    "en": "road",
+    "category": "Travel and public life",
+    "rank": 865,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0866",
+    "nl": "de gemeente",
+    "en": "municipality",
+    "category": "Travel and public life",
+    "rank": 866,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0867",
+    "nl": "het formulier",
+    "en": "form",
+    "category": "Travel and public life",
+    "rank": 867,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0868",
+    "nl": "het paspoort",
+    "en": "passport",
+    "category": "Travel and public life",
+    "rank": 868,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0869",
+    "nl": "de bus",
+    "en": "bus",
+    "category": "Travel and public life",
+    "rank": 869,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0870",
+    "nl": "de trein",
+    "en": "train",
+    "category": "Travel and public life",
+    "rank": 870,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0871",
+    "nl": "de fiets",
+    "en": "bicycle",
+    "category": "Travel and public life",
+    "rank": 871,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0872",
+    "nl": "de auto",
+    "en": "car",
+    "category": "Travel and public life",
+    "rank": 872,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0873",
+    "nl": "het station",
+    "en": "station",
+    "category": "Travel and public life",
+    "rank": 873,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0874",
+    "nl": "het perron",
+    "en": "platform",
+    "category": "Travel and public life",
+    "rank": 874,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0875",
+    "nl": "de halte",
+    "en": "stop (bus/tram)",
+    "category": "Travel and public life",
+    "rank": 875,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0876",
+    "nl": "de vertraging",
+    "en": "delay",
+    "category": "Travel and public life",
+    "rank": 876,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0877",
+    "nl": "de overstap",
+    "en": "transfer",
+    "category": "Travel and public life",
+    "rank": 877,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0878",
+    "nl": "de route",
+    "en": "route",
+    "category": "Travel and public life",
+    "rank": 878,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0879",
+    "nl": "de reis",
+    "en": "journey",
+    "category": "Travel and public life",
+    "rank": 879,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0880",
+    "nl": "de bestemming",
+    "en": "destination",
+    "category": "Travel and public life",
+    "rank": 880,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0881",
+    "nl": "het ziekenhuis",
+    "en": "hospital",
+    "category": "Travel and public life",
+    "rank": 881,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0882",
+    "nl": "de huisarts",
+    "en": "general practitioner",
+    "category": "Travel and public life",
+    "rank": 882,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0883",
+    "nl": "de apotheek",
+    "en": "pharmacy",
+    "category": "Travel and public life",
+    "rank": 883,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0884",
+    "nl": "de arts",
+    "en": "doctor",
+    "category": "Travel and public life",
+    "rank": 884,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0885",
+    "nl": "de verzekering",
+    "en": "insurance",
+    "category": "Travel and public life",
+    "rank": 885,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0886",
+    "nl": "de stoep",
+    "en": "sidewalk",
+    "category": "Travel and public life",
+    "rank": 886,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0887",
+    "nl": "het fietspad",
+    "en": "cycle path",
+    "category": "Travel and public life",
+    "rank": 887,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0888",
+    "nl": "het kruispunt",
+    "en": "intersection",
+    "category": "Travel and public life",
+    "rank": 888,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0889",
+    "nl": "het stoplicht",
+    "en": "traffic light",
+    "category": "Travel and public life",
+    "rank": 889,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0890",
+    "nl": "het zebrapad",
+    "en": "pedestrian crossing",
+    "category": "Travel and public life",
+    "rank": 890,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0891",
+    "nl": "de rotonde",
+    "en": "roundabout",
+    "category": "Travel and public life",
+    "rank": 891,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0892",
+    "nl": "de brug",
+    "en": "bridge",
+    "category": "Travel and public life",
+    "rank": 892,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0893",
+    "nl": "de tunnel",
+    "en": "tunnel",
+    "category": "Travel and public life",
+    "rank": 893,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0894",
+    "nl": "het dorp",
+    "en": "village",
+    "category": "Travel and public life",
+    "rank": 894,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0895",
+    "nl": "de stad",
+    "en": "city",
+    "category": "Travel and public life",
+    "rank": 895,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0896",
+    "nl": "de wijk",
+    "en": "neighborhood",
+    "category": "Travel and public life",
+    "rank": 896,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0897",
+    "nl": "het centrum",
+    "en": "town center",
+    "category": "Travel and public life",
+    "rank": 897,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0898",
+    "nl": "de buurt",
+    "en": "neighborhood",
+    "category": "Travel and public life",
+    "rank": 898,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0899",
+    "nl": "de omgeving",
+    "en": "surroundings",
+    "category": "Travel and public life",
+    "rank": 899,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0900",
+    "nl": "het adres",
+    "en": "address",
+    "category": "Travel and public life",
+    "rank": 900,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0901",
+    "nl": "het nummer",
+    "en": "number",
+    "category": "Travel and public life",
+    "rank": 901,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0902",
+    "nl": "de postcode",
+    "en": "postal code",
+    "category": "Travel and public life",
+    "rank": 902,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0903",
+    "nl": "het gebouw",
+    "en": "building",
+    "category": "Travel and public life",
+    "rank": 903,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0904",
+    "nl": "het kantoor",
+    "en": "office",
+    "category": "Travel and public life",
+    "rank": 904,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0905",
+    "nl": "het bedrijf",
+    "en": "company",
+    "category": "Travel and public life",
+    "rank": 905,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0906",
+    "nl": "het gemeentehuis",
+    "en": "town hall",
+    "category": "Travel and public life",
+    "rank": 906,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0907",
+    "nl": "het loket",
+    "en": "service desk",
+    "category": "Travel and public life",
+    "rank": 907,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0908",
+    "nl": "het document",
+    "en": "document",
+    "category": "Travel and public life",
+    "rank": 908,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0909",
+    "nl": "het bewijs",
+    "en": "proof / certificate",
+    "category": "Travel and public life",
+    "rank": 909,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0910",
+    "nl": "de vergunning",
+    "en": "permit",
+    "category": "Travel and public life",
+    "rank": 910,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0911",
+    "nl": "de identiteitskaart",
+    "en": "identity card",
+    "category": "Travel and public life",
+    "rank": 911,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0912",
+    "nl": "de handtekening",
+    "en": "signature",
+    "category": "Travel and public life",
+    "rank": 912,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0913",
+    "nl": "het abonnement",
+    "en": "subscription",
+    "category": "Travel and public life",
+    "rank": 913,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0914",
+    "nl": "het contract",
+    "en": "contract",
+    "category": "Travel and public life",
+    "rank": 914,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0915",
+    "nl": "het openbaar vervoer",
+    "en": "public transport",
+    "category": "Travel and public life",
+    "rank": 915,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0916",
+    "nl": "het vervoer",
+    "en": "transport",
+    "category": "Travel and public life",
+    "rank": 916,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0917",
+    "nl": "het verkeer",
+    "en": "traffic",
+    "category": "Travel and public life",
+    "rank": 917,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0918",
+    "nl": "het voertuig",
+    "en": "vehicle",
+    "category": "Travel and public life",
+    "rank": 918,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0919",
+    "nl": "het werk",
+    "en": "work",
+    "category": "Work, study and planning",
+    "rank": 919,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0920",
+    "nl": "de baan",
+    "en": "job",
+    "category": "Work, study and planning",
+    "rank": 920,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0921",
+    "nl": "de functie",
+    "en": "position / role",
+    "category": "Work, study and planning",
+    "rank": 921,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0922",
+    "nl": "de taak",
+    "en": "task",
+    "category": "Work, study and planning",
+    "rank": 922,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0923",
+    "nl": "het project",
+    "en": "project",
+    "category": "Work, study and planning",
+    "rank": 923,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0924",
+    "nl": "de opdracht",
+    "en": "assignment",
+    "category": "Work, study and planning",
+    "rank": 924,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0925",
+    "nl": "de vergadering",
+    "en": "meeting",
+    "category": "Work, study and planning",
+    "rank": 925,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0926",
+    "nl": "de vacature",
+    "en": "job opening",
+    "category": "Work, study and planning",
+    "rank": 926,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0927",
+    "nl": "de sollicitatie",
+    "en": "job application",
+    "category": "Work, study and planning",
+    "rank": 927,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0928",
+    "nl": "het sollicitatiegesprek",
+    "en": "job interview",
+    "category": "Work, study and planning",
+    "rank": 928,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0929",
+    "nl": "het cv",
+    "en": "resume / CV",
+    "category": "Work, study and planning",
+    "rank": 929,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0930",
+    "nl": "de opleiding",
+    "en": "education / course",
+    "category": "Work, study and planning",
+    "rank": 930,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0931",
+    "nl": "de cursus",
+    "en": "course",
+    "category": "Work, study and planning",
+    "rank": 931,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0932",
+    "nl": "het examen",
+    "en": "exam",
+    "category": "Work, study and planning",
+    "rank": 932,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0933",
+    "nl": "de ervaring",
+    "en": "experience",
+    "category": "Work, study and planning",
+    "rank": 933,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0934",
+    "nl": "de kennis",
+    "en": "knowledge",
+    "category": "Work, study and planning",
+    "rank": 934,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0935",
+    "nl": "de vaardigheid",
+    "en": "skill",
+    "category": "Work, study and planning",
+    "rank": 935,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0936",
+    "nl": "de deadline",
+    "en": "deadline",
+    "category": "Work, study and planning",
+    "rank": 936,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0937",
+    "nl": "het rapport",
+    "en": "report",
+    "category": "Work, study and planning",
+    "rank": 937,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0938",
+    "nl": "de analyse",
+    "en": "analysis",
+    "category": "Work, study and planning",
+    "rank": 938,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0939",
+    "nl": "de gegevens",
+    "en": "data / details",
+    "category": "Work, study and planning",
+    "rank": 939,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0940",
+    "nl": "de data",
+    "en": "data",
+    "category": "Work, study and planning",
+    "rank": 940,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0941",
+    "nl": "de grafiek",
+    "en": "chart",
+    "category": "Work, study and planning",
+    "rank": 941,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0942",
+    "nl": "het voorstel",
+    "en": "proposal",
+    "category": "Work, study and planning",
+    "rank": 942,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0943",
+    "nl": "het proces",
+    "en": "process",
+    "category": "Work, study and planning",
+    "rank": 943,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0944",
+    "nl": "het systeem",
+    "en": "system",
+    "category": "Work, study and planning",
+    "rank": 944,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0945",
+    "nl": "het beroep",
+    "en": "profession",
+    "category": "Work, study and planning",
+    "rank": 945,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0946",
+    "nl": "het salaris",
+    "en": "salary",
+    "category": "Work, study and planning",
+    "rank": 946,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0947",
+    "nl": "het loon",
+    "en": "wage",
+    "category": "Work, study and planning",
+    "rank": 947,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0948",
+    "nl": "het inkomen",
+    "en": "income",
+    "category": "Work, study and planning",
+    "rank": 948,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0949",
+    "nl": "het uur",
+    "en": "hour",
+    "category": "Work, study and planning",
+    "rank": 949,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0950",
+    "nl": "de minuut",
+    "en": "minute",
+    "category": "Work, study and planning",
+    "rank": 950,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0951",
+    "nl": "de seconde",
+    "en": "second",
+    "category": "Work, study and planning",
+    "rank": 951,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0952",
+    "nl": "het rooster",
+    "en": "timetable / schedule",
+    "category": "Work, study and planning",
+    "rank": 952,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0953",
+    "nl": "de planning",
+    "en": "planning / schedule",
+    "category": "Work, study and planning",
+    "rank": 953,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0954",
+    "nl": "de agenda",
+    "en": "diary / calendar",
+    "category": "Work, study and planning",
+    "rank": 954,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0955",
+    "nl": "de verantwoordelijkheid",
+    "en": "responsibility",
+    "category": "Work, study and planning",
+    "rank": 955,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0956",
+    "nl": "de stap",
+    "en": "step",
+    "category": "Work, study and planning",
+    "rank": 956,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0957",
+    "nl": "het onderdeel",
+    "en": "component",
+    "category": "Work, study and planning",
+    "rank": 957,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0958",
+    "nl": "het programma",
+    "en": "program",
+    "category": "Work, study and planning",
+    "rank": 958,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0959",
+    "nl": "het bestand",
+    "en": "file",
+    "category": "Work, study and planning",
+    "rank": 959,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0960",
+    "nl": "het bestandstype",
+    "en": "file type",
+    "category": "Work, study and planning",
+    "rank": 960,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0961",
+    "nl": "het overzicht",
+    "en": "overview",
+    "category": "Work, study and planning",
+    "rank": 961,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0962",
+    "nl": "het verslag",
+    "en": "report / minutes",
+    "category": "Work, study and planning",
+    "rank": 962,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0963",
+    "nl": "het cijfer",
+    "en": "number / grade",
+    "category": "Work, study and planning",
+    "rank": 963,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0964",
+    "nl": "het getal",
+    "en": "number",
+    "category": "Work, study and planning",
+    "rank": 964,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0965",
+    "nl": "het percentage",
+    "en": "percentage",
+    "category": "Work, study and planning",
+    "rank": 965,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0966",
+    "nl": "het gemiddelde",
+    "en": "average",
+    "category": "Work, study and planning",
+    "rank": 966,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0967",
+    "nl": "het totaal",
+    "en": "total",
+    "category": "Work, study and planning",
+    "rank": 967,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0968",
+    "nl": "de uitkomst",
+    "en": "outcome",
+    "category": "Work, study and planning",
+    "rank": 968,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0969",
+    "nl": "de dag",
+    "en": "day",
+    "category": "Nature, leisure and daily events",
+    "rank": 969,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0970",
+    "nl": "de week",
+    "en": "week",
+    "category": "Nature, leisure and daily events",
+    "rank": 970,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0971",
+    "nl": "de maand",
+    "en": "month",
+    "category": "Nature, leisure and daily events",
+    "rank": 971,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0972",
+    "nl": "het jaar",
+    "en": "year",
+    "category": "Nature, leisure and daily events",
+    "rank": 972,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0973",
+    "nl": "het weekend",
+    "en": "weekend",
+    "category": "Nature, leisure and daily events",
+    "rank": 973,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0974",
+    "nl": "maandag",
+    "en": "Monday",
+    "category": "Nature, leisure and daily events",
+    "rank": 974,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0975",
+    "nl": "dinsdag",
+    "en": "Tuesday",
+    "category": "Nature, leisure and daily events",
+    "rank": 975,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0976",
+    "nl": "woensdag",
+    "en": "Wednesday",
+    "category": "Nature, leisure and daily events",
+    "rank": 976,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0977",
+    "nl": "donderdag",
+    "en": "Thursday",
+    "category": "Nature, leisure and daily events",
+    "rank": 977,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0978",
+    "nl": "vrijdag",
+    "en": "Friday",
+    "category": "Nature, leisure and daily events",
+    "rank": 978,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0979",
+    "nl": "zaterdag",
+    "en": "Saturday",
+    "category": "Nature, leisure and daily events",
+    "rank": 979,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0980",
+    "nl": "zondag",
+    "en": "Sunday",
+    "category": "Nature, leisure and daily events",
+    "rank": 980,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0981",
+    "nl": "de lente",
+    "en": "spring",
+    "category": "Nature, leisure and daily events",
+    "rank": 981,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0982",
+    "nl": "de zomer",
+    "en": "summer",
+    "category": "Nature, leisure and daily events",
+    "rank": 982,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0983",
+    "nl": "de herfst",
+    "en": "autumn",
+    "category": "Nature, leisure and daily events",
+    "rank": 983,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0984",
+    "nl": "de winter",
+    "en": "winter",
+    "category": "Nature, leisure and daily events",
+    "rank": 984,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0985",
+    "nl": "de zon",
+    "en": "sun",
+    "category": "Nature, leisure and daily events",
+    "rank": 985,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0986",
+    "nl": "de regen",
+    "en": "rain",
+    "category": "Nature, leisure and daily events",
+    "rank": 986,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0987",
+    "nl": "de wind",
+    "en": "wind",
+    "category": "Nature, leisure and daily events",
+    "rank": 987,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0988",
+    "nl": "het weer",
+    "en": "weather",
+    "category": "Nature, leisure and daily events",
+    "rank": 988,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0989",
+    "nl": "het paard",
+    "en": "horse",
+    "category": "Nature, leisure and daily events",
+    "rank": 989,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0990",
+    "nl": "de hond",
+    "en": "dog",
+    "category": "Nature, leisure and daily events",
+    "rank": 990,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0991",
+    "nl": "de kat",
+    "en": "cat",
+    "category": "Nature, leisure and daily events",
+    "rank": 991,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0992",
+    "nl": "januari",
+    "en": "January",
+    "category": "Nature, leisure and daily events",
+    "rank": 992,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0993",
+    "nl": "februari",
+    "en": "February",
+    "category": "Nature, leisure and daily events",
+    "rank": 993,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0994",
+    "nl": "maart",
+    "en": "March",
+    "category": "Nature, leisure and daily events",
+    "rank": 994,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0995",
+    "nl": "april",
+    "en": "April",
+    "category": "Nature, leisure and daily events",
+    "rank": 995,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0996",
+    "nl": "mei",
+    "en": "May",
+    "category": "Nature, leisure and daily events",
+    "rank": 996,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0997",
+    "nl": "juni",
+    "en": "June",
+    "category": "Nature, leisure and daily events",
+    "rank": 997,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0998",
+    "nl": "juli",
+    "en": "July",
+    "category": "Nature, leisure and daily events",
+    "rank": 998,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w0999",
+    "nl": "augustus",
+    "en": "August",
+    "category": "Nature, leisure and daily events",
+    "rank": 999,
+    "example_nl": "",
+    "example_en": ""
+  },
+  {
+    "id": "w1000",
+    "nl": "september",
+    "en": "September",
+    "category": "Nature, leisure and daily events",
+    "rank": 1000,
+    "example_nl": "",
+    "example_en": ""
+  }
+]
