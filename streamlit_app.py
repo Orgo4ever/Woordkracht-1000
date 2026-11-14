@@ -9,10 +9,13 @@ from datetime import date, timedelta
 from html import escape
 import json
 from pathlib import Path
+from uuid import uuid4
 
 import pandas as pd
 import streamlit as st
 import streamlit.components.v1 as components
+
+from browser_progress import browser_storage, decode_browser_value
 
 from vocab_core import (
     add_custom_word, all_words, counts, due_words, fresh_progress, json_backup,
@@ -23,7 +26,6 @@ from vocab_core import (
 
 st.set_page_config(page_title="Woordkracht 1000 | Dutch vocabulary", page_icon="🇳🇱", layout="centered", initial_sidebar_state="collapsed")
 
-APP_STORAGE_KEY = "woordkracht-streamlit-v1"
 ROOT = Path(__file__).resolve().parent
 
 st.markdown('''
@@ -59,78 +61,106 @@ def cached_bank() -> tuple[list[dict], set[str]]:
 WORDS, A1 = cached_bank()
 
 
-def get_store():
-    """Optional browser-side storage; never rely on an ephemeral shared server file."""
-    try:
-        from streamlit_local_storage import LocalStorage
-        return LocalStorage()
-    except Exception:
-        return None
-
-
-store = get_store()
+def push_update() -> None:
+    """Mark in-session changes for a durable browser write before next card."""
+    st.session_state.save_revision = f"{st.session_state.profile_session}:{st.session_state.get('save_count', 0) + 1}"
+    st.session_state.save_count = st.session_state.get("save_count", 0) + 1
+    st.rerun()
 
 
 def init_progress() -> None:
+    """Restore first; never replace a pending browser read with a blank profile."""
+    st.session_state.setdefault("profile_session", uuid4().hex)
     if "progress" in st.session_state:
-        return
-    # LocalStorage component answers asynchronously; don't mistake a pending read
-    # for an empty profile, and never overwrite a potentially existing profile.
-    saved = None
-    if store is not None:
-        try:
-            saved = store.getItem(APP_STORAGE_KEY, key="woordkracht_restore_browser")
-        except Exception:
-            saved = None
-    if saved not in (None, "", "null"):
-        try:
-            st.session_state.progress = load_progress(saved)
-            st.session_state.loaded_from_browser = True
+        if st.session_state.get("storage_unavailable"):
+            browser_storage(action="idle")
             return
-        except (ValueError, TypeError, json.JSONDecodeError) as exc:
-            st.warning(f"A saved profile was detected but could not be opened: {exc}. You can restore a backup below.")
-    st.markdown('<div class="brand-panel"><div class="eyebrow">WOORDKRACHT · STREAMLIT</div><h1>Your vocabulary, ready to grow.</h1><p>Flip cards, type words, and revisit the ones you nearly forget.</p></div>', unsafe_allow_html=True)
-    if store is None:
-        st.warning("Browser storage is unavailable in this installation. Learning progress lasts for this Streamlit session unless you download a JSON backup.")
+        pending = st.session_state.get("save_revision")
+        if pending is None:
+            browser_storage(action="idle")
+            return
+        result = browser_storage(action="write", value=json_backup(st.session_state.progress), revision=pending)
+        ack = getattr(result, "ack", None)
+        if ack == f"ok:{pending}":
+            st.session_state.saved_revision = pending
+            st.session_state.save_revision = None
+            return
+        if isinstance(ack, str) and ack.startswith(f"error:{pending}:"):
+            st.error("This browser blocked saving your study history. Your current session is still available.")
+            st.download_button("Download an emergency JSON backup", json_backup(st.session_state.progress),
+                               file_name=f"woordkracht-backup-{today()}.json", mime="application/json")
+            if st.button("Continue without autosave (not recommended)"):
+                st.session_state.save_revision = None
+                st.session_state.storage_unavailable = True
+                st.rerun()
+        else:
+            st.info("Saving your progress to this browser…")
+        st.stop()
+
+    result = browser_storage(action="read")
+    response = getattr(result, "loaded", None)
+    if not isinstance(response, str):
+        st.info("Restoring your vocabulary progress from this browser…")
+        st.stop()
+    try:
+        data = json.loads(response)
+    except (ValueError, TypeError):
+        data = {"ok": False, "error": "The browser returned an unreadable storage response."}
+
+    if data.get("ok") and data.get("present"):
+        try:
+            st.session_state.progress = decode_browser_value(data["raw"])
+            st.session_state.loaded_from_browser = True
+            st.rerun()
+        except (TypeError, ValueError, json.JSONDecodeError) as exc:
+            st.error(f"Existing study data was found but could not be restored: {exc}")
+            st.warning("Do not start a new profile until you have recovered or backed up your data.")
+            st.download_button("Download the raw stored data for recovery", data["raw"],
+                               file_name="woordkracht-raw-recovery.txt", mime="text/plain")
+    elif not data.get("ok"):
+        st.error(f"Browser storage is unavailable: {data.get('error', 'unknown error')}")
+        st.warning("Your history will not survive closing the page without a downloaded backup.")
     else:
-        st.info("Checking this browser for saved progress. If this is your first visit, choose **Start new profile**. If you have a backup from the original web app, import it here.")
-    col1, col2 = st.columns(2)
-    with col1:
-        if st.button("Start new profile", type="primary", use_container_width=True):
+        st.info("No previous Woordkracht Streamlit profile was found in this browser. You can create one or import a backup.")
+
+    st.markdown('<div class="brand-panel"><div class="eyebrow">WOORDKRACHT · STREAMLIT</div><h1>Continue learning Dutch.</h1><p>Your learning progress belongs to your browser, not a temporary Streamlit session.</p></div>', unsafe_allow_html=True)
+    if data.get("ok") and not data.get("present"):
+        if st.button("Start a new profile", type="primary", use_container_width=True):
             st.session_state.progress = fresh_progress()
             st.session_state.loaded_from_browser = False
+            push_update()
+        if st.button("Try recovering progress from the previous Streamlit version", use_container_width=True):
+            st.session_state.try_legacy_recovery = True
             st.rerun()
-    with col2:
-        st.link_button("Open original app", "https://orgo4ever.github.io/Woordkracht-1000/", use_container_width=True)
-    uploaded = st.file_uploader("Or import a Woordkracht progress backup (.json)", type=["json"], key="initial_backup")
+        if st.session_state.get("try_legacy_recovery"):
+            try:
+                from streamlit_local_storage import LocalStorage
+                old_saved = LocalStorage().getItem("woordkracht-streamlit-v1", key="woordkracht_old_progress_recovery")
+                if old_saved is not None:
+                    st.session_state.progress = load_progress(old_saved)
+                    st.session_state.try_legacy_recovery = False
+                    st.success("Recovered a profile from the old Streamlit storage component!")
+                    push_update()
+                st.info("Checking the old storage location. If nothing appears, use your JSON backup instead.")
+            except (ValueError, TypeError, json.JSONDecodeError) as exc:
+                st.warning(f"The older saved profile could not be decoded: {exc}")
+            except Exception as exc:
+                st.warning(f"The old storage component was unavailable: {exc}")
+    st.link_button("Open original GitHub Pages app", "https://orgo4ever.github.io/Woordkracht-1000/", use_container_width=True)
+    uploaded = st.file_uploader("Restore a previously downloaded Woordkracht progress backup (.json)", type=["json"], key="initial_backup")
     if uploaded and st.button("Import this backup", use_container_width=True):
         try:
             st.session_state.progress = load_progress(uploaded.getvalue())
             st.session_state.loaded_from_browser = False
-            st.rerun()
+            push_update()
         except (ValueError, UnicodeError, json.JSONDecodeError) as exc:
             st.error(str(exc))
-    st.caption("Backups exported from the GitHub Pages version use the same v1 format. Automatic cross-site import is not possible because the two websites have different browser-storage origins.")
+    st.caption("Browser storage is specific to each site, browser and device. Restoring a JSON backup also migrates progress from the original GitHub Pages app.")
     st.stop()
 
 
 init_progress()
 p = st.session_state.progress
-
-
-def persist() -> None:
-    """Render a browser component that saves the *current* session profile."""
-    if store is not None:
-        try:
-            store.setItem(APP_STORAGE_KEY, json_backup(p), key="woordkracht_save_browser")
-        except Exception:
-            st.session_state.storage_error = True
-
-
-def push_update() -> None:
-    # Always resave on the next rerun (and on this render if we complete it).
-    st.session_state.save_counter = st.session_state.get("save_counter", 0) + 1
-    st.rerun()
 
 
 def pool() -> list[dict]:
@@ -391,7 +421,7 @@ def settings() -> None:
             push_update()
     st.divider()
     st.markdown("#### Save your progress")
-    st.warning("Progress is stored in this browser when supported. **Streamlit Community Cloud's session state is temporary**, and browser storage can still be cleared. Download a backup regularly, especially before changing browsers/devices.")
+    st.info("Flashcard changes are written to this browser before your next card is shown. This saves continuation on the same browser/device; another phone or computer needs a JSON backup and import. Keep a backup in case browser data is cleared.")
     st.download_button("↓ Download JSON backup", json_backup(p), file_name=f"woordkracht-backup-{today()}.json", mime="application/json", use_container_width=True)
     restored = st.file_uploader("Restore a Woordkracht v1 backup (.json)", type=["json"], key="restore_backup")
     if restored is not None:
@@ -431,6 +461,7 @@ elif page == "Progress":
 else:
     settings()
 
-persist()
-if st.session_state.get("storage_error") or store is None:
-    st.caption("Browser autosave is unavailable right now. Use Settings → Download JSON backup to preserve this session.")
+if st.session_state.get("storage_unavailable"):
+    st.warning("Autosave is disabled in this browser. Use Settings → Download JSON backup before leaving.")
+else:
+    st.caption("Progress is saved in this browser after each rated card. For another device, export/import a JSON backup.")
