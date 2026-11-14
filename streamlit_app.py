@@ -137,7 +137,7 @@ def init_progress() -> None:
                 from streamlit_local_storage import LocalStorage
                 old_saved = LocalStorage().getItem("woordkracht-streamlit-v1", key="woordkracht_old_progress_recovery")
                 if old_saved is not None:
-                    st.session_state.progress = load_progress(old_saved)
+                    st.session_state.progress = decode_browser_value(old_saved) if isinstance(old_saved, str) else load_progress(old_saved)
                     st.session_state.try_legacy_recovery = False
                     st.success("Recovered a profile from the old Streamlit storage component!")
                     push_update()
