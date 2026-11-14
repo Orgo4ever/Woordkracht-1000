@@ -1,3 +1,5 @@
+> **A2+ default learning mode:** The original 1,000-word list now excludes 552 estimated A1 words by default, leaving 448 intermediate candidates. To reach 1,000 A2+ words, the bank will need further expansion. This is not an official CEFR word-level classification.
+
 # Thirty days to a more usable Dutch vocabulary
 
 ## Target
