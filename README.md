@@ -4,6 +4,12 @@
 
 Woordkracht is a mobile-friendly, offline-capable web app designed to help build a **usable** 1,000-item Dutch vocabulary in roughly a month. Instead of accumulating passive recognition, it emphasizes **English → Dutch typed recall**: the skill needed when you want to say something and cannot find the word.
 
+## A2+ focus (default)
+
+**Beginner words are hidden by default.** The manually selected `a1-words.json` excludes 552 introductory items from learning, review, and the familiarity check, leaving 448 active A2+ candidates from the original 1,000-word bank. The original entries remain intact. These are **editorial estimates, not certified CEFR levels**, and a word's difficulty depends on usage. Change the filter in Settings. Skip other easy words with **Too easy · skip** and restore them in Settings. Existing learning data is preserved.
+
+**The goal remains 1,000 words beyond A1.** The current filtered bank contains 448 candidates, so more intermediate words will need to be added to reach that goal.
+
 ## What's included
 
 - Exactly **1,000 original, hand-selected Dutch vocabulary entries** in `words.json`. Words are grouped by practical use, not claimed to be a scientific top-1,000 frequency ranking. The bank includes a few short, reusable word combinations alongside headwords.
@@ -59,6 +65,7 @@ Alternative: deploy the static folder to any static HTTPS host.
 | `styles.css` | Mobile-first design |
 | `app.js` | Learning/review logic and progress storage |
 | `words.json` | 1,000 core vocabulary entries |
+| `a1-words.json` | Manually estimated A1 exclusions, editable |
 | `words.csv` | Readable/editable CSV export of the entire vocabulary bank |
 | `anki_import.tsv` | Optional English → Dutch import file for Anki, including tags |
 | `seed_words.py` | Regenerates JSON and Anki exports from the editable `words.csv` source |
