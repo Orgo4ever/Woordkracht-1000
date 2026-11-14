@@ -15,7 +15,7 @@ import pandas as pd
 import streamlit as st
 import streamlit.components.v1 as components
 
-from browser_progress import browser_storage, decode_browser_value
+from browser_progress import browser_storage, decode_browser_value, recover_prefer_new
 
 from vocab_core import (
     add_custom_word, all_words, counts, due_words, fresh_progress, json_backup,
@@ -107,25 +107,41 @@ def init_progress() -> None:
     except (ValueError, TypeError):
         data = {"ok": False, "error": "The browser returned an unreadable storage response."}
 
-    if data.get("ok") and data.get("present"):
-        try:
-            st.session_state.progress = decode_browser_value(data["raw"])
-            st.session_state.loaded_from_browser = True
-            st.rerun()
-        except (TypeError, ValueError, json.JSONDecodeError) as exc:
-            st.error(f"Existing study data was found but could not be restored: {exc}")
-            st.warning("Do not start a new profile until you have recovered or backed up your data.")
-            st.download_button("Download the raw stored data for recovery", data["raw"],
-                               file_name="woordkracht-raw-recovery.txt", mime="text/plain")
+    if not isinstance(data, dict):
+        data = {"ok": False, "error": "Unexpected browser storage response"}
+    saved, source = recover_prefer_new(data.get("raw"), data.get("legacyRaw")) if data.get("ok") else (None, None)
+    if saved is not None:
+        st.session_state.progress = saved
+        st.session_state.loaded_from_browser = True
+        # Only after validating old data do we migrate it to the v2 key.
+        # Never delete or overwrite original v1 storage during recovery.
+        if source == "legacy":
+            st.session_state.save_revision = f"{st.session_state.profile_session}:migrate"
+        st.rerun()
+
+    has_unreadable = bool(data.get("ok") and data.get("present"))
+    if has_unreadable:
+        st.error("Saved browser data exists, but it does not contain a recognized Woordkracht profile.")
+        st.warning("Keep a copy of the raw data before starting fresh. Old v1 storage will not be overwritten.")
+        if data.get("raw") is not None:
+            st.download_button("Download current raw storage for recovery", str(data["raw"]),
+                               file_name="woordkracht-current-raw-recovery.txt", mime="text/plain")
+        if data.get("legacyRaw") is not None:
+            st.download_button("Download older raw storage for recovery", str(data["legacyRaw"]),
+                               file_name="woordkracht-legacy-raw-recovery.txt", mime="text/plain")
     elif not data.get("ok"):
         st.error(f"Browser storage is unavailable: {data.get('error', 'unknown error')}")
-        st.warning("Your history will not survive closing the page without a downloaded backup.")
+        st.warning("Without a JSON backup, learning history will not survive a page reload.")
     else:
-        st.info("No previous Woordkracht Streamlit profile was found in this browser. You can create one or import a backup.")
+        st.info("No saved Woordkracht Streamlit profile was found in this browser.")
 
     st.markdown('<div class="brand-panel"><div class="eyebrow">WOORDKRACHT · STREAMLIT</div><h1>Continue learning Dutch.</h1><p>Your learning progress belongs to your browser, not a temporary Streamlit session.</p></div>', unsafe_allow_html=True)
-    if data.get("ok") and not data.get("present"):
-        if st.button("Start a new profile", type="primary", use_container_width=True):
+
+    if data.get("ok"):
+        can_start = not has_unreadable
+        if has_unreadable:
+            can_start = st.checkbox("I've downloaded the raw recovery files and understand they could not be restored automatically.", key="confirm_raw_backup")
+        if st.button("Start a new profile", type="primary", use_container_width=True, disabled=not can_start):
             st.session_state.progress = fresh_progress()
             st.session_state.loaded_from_browser = False
             push_update()
@@ -137,15 +153,15 @@ def init_progress() -> None:
                 from streamlit_local_storage import LocalStorage
                 old_saved = LocalStorage().getItem("woordkracht-streamlit-v1", key="woordkracht_old_progress_recovery")
                 if old_saved is not None:
-                    st.session_state.progress = decode_browser_value(old_saved) if isinstance(old_saved, str) else load_progress(old_saved)
+                    st.session_state.progress = decode_browser_value(old_saved)
                     st.session_state.try_legacy_recovery = False
-                    st.success("Recovered a profile from the old Streamlit storage component!")
-                    push_update()
-                st.info("Checking the old storage location. If nothing appears, use your JSON backup instead.")
+                    st.session_state.save_revision = f"{st.session_state.profile_session}:migrate"
+                    st.rerun()
+                st.info("Checking the old storage location. If nothing appears, import your downloaded JSON backup.")
             except (ValueError, TypeError, json.JSONDecodeError) as exc:
                 st.warning(f"The older saved profile could not be decoded: {exc}")
             except Exception as exc:
-                st.warning(f"The old storage component was unavailable: {exc}")
+                st.warning(f"The older storage component was unavailable: {exc}")
     st.link_button("Open original GitHub Pages app", "https://orgo4ever.github.io/Woordkracht-1000/", use_container_width=True)
     uploaded = st.file_uploader("Restore a previously downloaded Woordkracht progress backup (.json)", type=["json"], key="initial_backup")
     if uploaded and st.button("Import this backup", use_container_width=True):
