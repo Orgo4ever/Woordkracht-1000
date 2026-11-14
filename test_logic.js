@@ -27,3 +27,14 @@ assert.strictEqual(a.counts().mastered,1,'reveals/misses must not give mastery')
 assert.strictEqual(a.counts().today,2);
 assert(a.counts().due>=1);
 console.log('PASS: app source parses; local normalization, new words, SRS schedule, conservative two-day verification, wrong answer');
+
+const basic=new Set(JSON.parse(fs.readFileSync(__dirname+'/a1-words.json','utf8')).excluded);
+ctx.a1ForTest=[...basic];a.testSetup(words);
+vm.runInContext('a1Words=new Set(a1ForTest);normalizeSettings()',ctx);
+assert.strictEqual(a.counts().total,448,'A1 excluded by default');
+assert.strictEqual(vm.runInContext("unseenWords().some(w=>w.nl==='ik')",ctx),false);
+vm.runInContext("progress.settings.includeA1=true",ctx);
+assert.strictEqual(a.counts().total,1000,'A1 toggle restores bank');
+vm.runInContext("progress.settings.includeA1=false;progress.settings.skippedIds=['w0015']",ctx);
+assert.strictEqual(a.counts().total,447,'Manual skip works');
+console.log('PASS: A2+ filtering, toggling A1 and manual skips');
