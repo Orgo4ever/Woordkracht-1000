@@ -6,9 +6,49 @@ Woordkracht is a mobile-friendly, offline-capable web app designed to help build
 
 ## A2+ focus (default)
 
-**Beginner words are hidden by default.** The manually selected `a1-words.json` excludes 552 introductory items from learning, review, and the familiarity check, leaving 448 active A2+ candidates from the original 1,000-word bank. The original entries remain intact. These are **editorial estimates, not certified CEFR levels**, and a word's difficulty depends on usage. Change the filter in Settings. Skip other easy words with **Too easy · skip** and restore them in Settings. Existing learning data is preserved.
+**Beginner vocabulary is hidden by default.** The manually reviewed `a1-words.json` currently excludes 552 introductory items from learning, review, familiarity checks and progress calculations. The original 1,000-entry bank remains intact and the default active pool is 448 A2+ candidates. These labels are practical **estimates**, not official CEFR certifications; a word's difficulty depends on its meaning and use. You can include A1 again in Settings and skip additional words via **Too easy · skip**. Skipping does not delete saved progress; restore skipped entries from Settings. Custom missing words are always included by default.
 
-**The goal remains 1,000 words beyond A1.** The current filtered bank contains 448 candidates, so more intermediate words will need to be added to reach that goal.
+**The target remains 1,000 useful words beyond A1**, but the current bank needs additional A2/B1 entries to reach that target. Do not interpret the 448 active entries as 1,000 advanced words.
+
+## New: Streamlit flashcard application (November 2026)
+
+The repository offers **two independent interfaces** that use the same word bank:
+
+- **Existing GitHub Pages**: `index.html` and `app.js` (still live, offline capable, unchanged).
+- **Streamlit flashcards**: `streamlit_app.py`, `vocab_core.py`, and `requirements.txt` (an online Python-powered app; deploy separately on Streamlit Community Cloud).
+
+### Flashcard-first features
+
+- **Flip cards**: English → Dutch, reveal, browser pronunciation, bilingual example when available, then rate **Again / Hard / Good / Easy**.
+- **Typed recall**: type the Dutch word (with `de` or `het` where applicable), check without revealing, and receive stricter mastery credit.
+- **Review queue**: due words first, with intervals based on ratings; daily new-word target defaults to 35.
+- **A1 filter**: excludes the same 552 estimated A1 entries by default, leaving 448 active A2+ candidates. You can turn them on in Settings.
+- **Placement / library**: familiar-word checklist, search and filter, skip easy words, and add words you needed in conversation.
+- **Dashboard**: seven-day study activity, topic coverage, introduced and verified counts.
+- **Progress import/export**: reads the exact same version-1 JSON backup format as GitHub Pages. Use Pages → Settings → Download progress backup, then import in the Streamlit app.
+
+**Mastery distinction:** rating a flashcard Good/Easy schedules spaced review but does *not* claim verified production. A word becomes **Verified** only after two correct **typed** English→Dutch recalls on different dates. This rule is shared with the original app.
+
+### Deploy on Streamlit Community Cloud
+
+1. Open [Streamlit Community Cloud](https://share.streamlit.io/) and sign in with GitHub.
+2. Click **Create app → Deploy a public app from GitHub** (the wording may vary).
+3. Set repository to `Orgo4ever/Woordkracht-1000`, branch to `main`, and main-file path to `streamlit_app.py`.
+4. Deploy. `requirements.txt` at the repository root installs the dependencies. Do **not** replace or remove the GitHub Pages deployment.
+
+For local development:
+
+```sh
+python -m pip install -r requirements.txt
+streamlit run streamlit_app.py
+python test_streamlit_core.py
+```
+
+### Progress reliability and privacy
+
+The Streamlit app uses a browser-local-storage component where supported, with **JSON backup and restore** as a portable fallback. **Streamlit Session State is not durable**: it is lost on reload/reconnection if browser storage does not restore the profile. Browser storage may be cleared and does not automatically sync across domains, devices, or browsers. Download backups regularly and import your existing Pages backup once. **Do not commit personal backup JSON files to this public repository.** No login or cloud database is configured.
+
+**Testing:** `vocab_core.py` has nine standard-library regression tests that cover flashcard scheduling, typed-only verified mastery, the A1 filter, skipping/adding words, familiar-word placement, and compatibility with the existing Pages backup. The Streamlit UI still needs a browser smoke test after deployment; dependencies couldn't be installed in the build environment used to author this update.
 
 ## What's included
 
@@ -28,7 +68,7 @@ Woordkracht is a mobile-friendly, offline-capable web app designed to help build
 
 ### Important data caveat
 
-All progress lives in **localStorage in the browser where you study**. Clearing browser data, using a different browser/device, or a browser privacy mode can lose access to it. **Download a backup at least weekly** in Settings and restore the JSON on another device as needed. There is deliberately *no* cloud sync in v1.
+All progress lives in **localStorage in the browser where you study**. Updating the app or switching the A1 filter does not intentionally reset progress. Clearing browser data, using a different browser/device, or a browser privacy mode can lose access to it. **Download a backup at least weekly** in Settings and restore the JSON on another device as needed. There is deliberately *no* cloud sync in v1.
 
 ### How learning is counted
 
@@ -65,15 +105,15 @@ Alternative: deploy the static folder to any static HTTPS host.
 | `styles.css` | Mobile-first design |
 | `app.js` | Learning/review logic and progress storage |
 | `words.json` | 1,000 core vocabulary entries |
-| `a1-words.json` | Manually estimated A1 exclusions, editable |
+| `a1-words.json` | Editable estimated A1 exclusions (default A2+ focus) |
 | `words.csv` | Readable/editable CSV export of the entire vocabulary bank |
 | `anki_import.tsv` | Optional English → Dutch import file for Anki, including tags |
-| `seed_words.py` | Regenerates JSON and Anki exports from the editable `words.csv` source |
+| `seed_words.py` | Editable, independently authored word-bank source and reproducible generator |
 | `manifest.webmanifest`, `icon.svg`, `sw.js` | Installable/offline web app |
 | `PLAN.md` | 30-day study program and goals |
 | `test_vocab.py`, `test_logic.js` | Dataset and scheduling checks |
 
-To regenerate the JSON and Anki exports after editing `words.csv`:
+To regenerate the data file after editing `seed_words.py`:
 
 ```sh
 python seed_words.py
@@ -93,7 +133,7 @@ Helpful background sources used for study-method decisions, **not copied into th
 
 ## Next improvements worth prioritizing
 
-1. **Richer placement testing**: make the existing familiarity check more diagnostic with short recall tests.
+1. **Quick-placement test**: mark familiar items in batches and test them rather than spending days relearning basics.
 2. **Word families / conjugation cues**: e.g. `gaan → ga, gaat, ging`, because active sentences also require forms.
 3. **Better example phrases** on more cards, especially confusing high-frequency function words.
 4. **Flexible accepted answers and manual corrections** for common synonyms without creating false positives.
@@ -101,4 +141,4 @@ Helpful background sources used for study-method decisions, **not copied into th
 
 ### Privacy
 
-The app makes no accounts and sends no vocabulary progress to any server. The only network requests it makes are for its own static files when first installed or refreshed. Dutch pronunciation uses the speech synthesis feature of the browser/device, where available.
+The **GitHub Pages** app makes no accounts and stores its progress in local browser storage. The **Streamlit** app sends interaction data to its Streamlit server during normal use and attempts to save progress in browser storage using a third-party component. Neither frontend has a private cloud-sync database. Avoid putting progress backups into the public GitHub repository. Dutch pronunciation uses the browser/device speech-synthesis feature where available.
