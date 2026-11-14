@@ -61,12 +61,12 @@ Alternative: deploy the static folder to any static HTTPS host.
 | `words.json` | 1,000 core vocabulary entries |
 | `words.csv` | Readable/editable CSV export of the entire vocabulary bank |
 | `anki_import.tsv` | Optional English → Dutch import file for Anki, including tags |
-| `seed_words.py` | Editable, independently authored word-bank source and reproducible generator |
+| `seed_words.py` | Regenerates JSON and Anki exports from the editable `words.csv` source |
 | `manifest.webmanifest`, `icon.svg`, `sw.js` | Installable/offline web app |
 | `PLAN.md` | 30-day study program and goals |
 | `test_vocab.py`, `test_logic.js` | Dataset and scheduling checks |
 
-To regenerate the data file after editing `seed_words.py`:
+To regenerate the JSON and Anki exports after editing `words.csv`:
 
 ```sh
 python seed_words.py
@@ -86,7 +86,7 @@ Helpful background sources used for study-method decisions, **not copied into th
 
 ## Next improvements worth prioritizing
 
-1. **Quick-placement test**: mark familiar items in batches and test them rather than spending days relearning basics.
+1. **Richer placement testing**: make the existing familiarity check more diagnostic with short recall tests.
 2. **Word families / conjugation cues**: e.g. `gaan → ga, gaat, ging`, because active sentences also require forms.
 3. **Better example phrases** on more cards, especially confusing high-frequency function words.
 4. **Flexible accepted answers and manual corrections** for common synonyms without creating false positives.
