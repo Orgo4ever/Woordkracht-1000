@@ -16,6 +16,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 from browser_progress import browser_storage, decode_browser_value, recover_prefer_new
+from free_practice import SOURCES, make_deck, practice_candidates, shuffle_deck
 
 from vocab_core import (
     add_custom_word, all_words, counts, due_words, fresh_progress, json_backup,
@@ -284,6 +285,9 @@ def study(review_only: bool = False) -> None:
         st.success("You're caught up on reviews!" if review_only else "No more words for this session.")
         if c["new"] and c["today_new"] >= c["goal"] and not review_only:
             st.info("You've reached today's new-word goal. Increase it in Settings if you'd like to continue.")
+        if st.button("Practice previously encountered words instead", use_container_width=True):
+            st.session_state._navigate_to = "Practice"
+            st.rerun()
         return
     record = p["cards"].get(word["id"])
     st.markdown(f'<span class="pill">{escape(word.get("category", ""))}</span><span class="pill">{"Due for review" if record else "New word"}</span>', unsafe_allow_html=True)
@@ -330,6 +334,97 @@ def study(review_only: bool = False) -> None:
         clear_card()
         push_update()
 
+
+
+def free_practice_page() -> None:
+    """Repeat a hand-sized vocabulary deck without touching study history."""
+    st.subheader("Free Practice · Vrij oefenen")
+    st.write("Choose a set of words, flip through it as many times as you like, or shuffle its order.")
+    st.caption("Free Practice does not change review dates, mastery, the daily goal, or saved progress.")
+
+    source = st.selectbox("Choose your vocabulary", SOURCES, key="practice_source")
+    candidates = practice_candidates(pool(), p, source)
+    st.caption(f"{len(candidates)} words available for this selection.")
+    if source == "Difficult words":
+        st.caption("Difficult = words whose most recent scheduled-study rating was Again or Hard.")
+
+    if candidates:
+        count = st.number_input(
+            "Number of words in the deck", min_value=1, max_value=len(candidates),
+            value=min(20, len(candidates)), step=1,
+        )
+        if st.button("Build a new practice deck", type="primary", use_container_width=True, key="practice_build"):
+            st.session_state.practice_deck = make_deck(candidates, int(count))
+            st.session_state.practice_deck_source = source
+            st.session_state.practice_index = 0
+            st.session_state.practice_round = 1
+            st.session_state.practice_revealed = False
+            st.rerun()
+    else:
+        st.info("No words match this selection yet. Choose All eligible words or study a few words first.")
+
+    deck = st.session_state.get("practice_deck", [])
+    if not deck:
+        st.info("Build a deck to start practicing. You can repeat it indefinitely.")
+        return
+
+    # Resolve IDs against the bank including custom words; keep the existing
+    # deck even if the source selector changes, until a new deck is requested.
+    by_id = {word["id"]: word for word in all_words(WORDS, p)}
+    available_deck = [word_id for word_id in deck if word_id in by_id]
+    if not available_deck:
+        st.warning("This practice deck no longer contains available words. Build a new one.")
+        return
+    if len(available_deck) != len(deck):
+        st.session_state.practice_deck = available_deck
+        st.session_state.practice_index = 0
+        st.session_state.practice_round = 1
+        st.session_state.practice_revealed = False
+        deck = available_deck
+
+    index = int(st.session_state.get("practice_index", 0)) % len(deck)
+    st.session_state.practice_index = index
+    word = by_id[deck[index]]
+    round_number = int(st.session_state.get("practice_round", 1))
+    st.divider()
+    st.markdown(f"**Card {index + 1} of {len(deck)}** · Round {round_number}")
+    st.progress((index + 1) / len(deck))
+    st.caption(f"Current deck: {st.session_state.get('practice_deck_source', 'Custom')} · The same words stay available after the last card.")
+    face(word, bool(st.session_state.get("practice_revealed")), "practice")
+
+    if not st.session_state.get("practice_revealed"):
+        if st.button("Flip card · Show Dutch", type="primary", use_container_width=True, key="practice_flip"):
+            st.session_state.practice_revealed = True
+            st.rerun()
+    else:
+        if st.button("Hide answer", use_container_width=True, key="practice_hide"):
+            st.session_state.practice_revealed = False
+            st.rerun()
+
+    left, right = st.columns(2)
+    if left.button("← Previous", use_container_width=True, key="practice_previous"):
+        st.session_state.practice_index = (index - 1) % len(deck)
+        st.session_state.practice_revealed = False
+        st.rerun()
+    if right.button("Next →", type="primary", use_container_width=True, key="practice_next"):
+        st.session_state.practice_index = (index + 1) % len(deck)
+        if index == len(deck) - 1:
+            st.session_state.practice_round = round_number + 1
+        st.session_state.practice_revealed = False
+        st.rerun()
+
+    shuffle_col, restart_col = st.columns(2)
+    if shuffle_col.button("🔀 Shuffle deck", use_container_width=True, key="practice_shuffle"):
+        st.session_state.practice_deck = shuffle_deck(deck)
+        st.session_state.practice_index = 0
+        st.session_state.practice_round = 1
+        st.session_state.practice_revealed = False
+        st.rerun()
+    if restart_col.button("↻ Restart deck", use_container_width=True, key="practice_restart"):
+        st.session_state.practice_index = 0
+        st.session_state.practice_round = 1
+        st.session_state.practice_revealed = False
+        st.rerun()
 
 def familiarity() -> None:
     st.subheader("Quick familiarity check")
@@ -455,7 +550,7 @@ def settings() -> None:
 
 st.markdown('<div class="brand-panel"><div class="eyebrow">WOORDKRACHT · THE VOCABULARY PROJECT</div><h1>Words that come to mind.</h1><p>Flashcards, typed recall, and intelligent spaced review — with A1 words out of your way.</p></div>', unsafe_allow_html=True)
 
-PAGES = ["Study", "Review", "Library", "Progress", "Settings"]
+PAGES = ["Study", "Review", "Practice", "Library", "Progress", "Settings"]
 if st.session_state.get("_navigate_to") in PAGES:
     st.session_state.page = st.session_state.pop("_navigate_to")
 if "page" not in st.session_state:
@@ -470,6 +565,8 @@ if page in ("Study", "Review"):
     if page == "Study":
         with st.expander("Already know many of these? Quick familiarity check"):
             familiarity()
+elif page == "Practice":
+    free_practice_page()
 elif page == "Library":
     library()
 elif page == "Progress":
