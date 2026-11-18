@@ -22,12 +22,23 @@ The repository offers **two independent interfaces** that use the same word bank
 - **Flip cards**: English → Dutch, reveal, browser pronunciation, bilingual example when available, then rate **Again / Hard / Good / Easy**.
 - **Typed recall**: type the Dutch word (with `de` or `het` where applicable), check without revealing, and receive stricter mastery credit.
 - **Review queue**: due words first, with intervals based on ratings; daily new-word target defaults to 35.
+- **Free Practice / Vrij oefenen**: create a repeatable deck of any size from previously encountered, difficult (last rated Again/Hard), or all eligible words; move backward/forward, flip cards, restart, and shuffle. Next wraps to the beginning instead of ending.
 - **A1 filter**: excludes the same 552 estimated A1 entries by default, leaving 448 active A2+ candidates. You can turn them on in Settings.
 - **Placement / library**: familiar-word checklist, search and filter, skip easy words, and add words you needed in conversation.
 - **Dashboard**: seven-day study activity, topic coverage, introduced and verified counts.
 - **Progress import/export**: reads the exact same version-1 JSON backup format as GitHub Pages. Use Pages → Settings → Download progress backup, then import in the Streamlit app.
 
 **Mastery distinction:** rating a flashcard Good/Easy schedules spaced review but does *not* claim verified production. A word becomes **Verified** only after two correct **typed** English→Dutch recalls on different dates. This rule is shared with the original app.
+
+### Free Practice (independent of spaced repetition)
+
+Open the **Practice** tab in Streamlit. Choose a vocabulary source and deck size, then click **Build a new practice deck**. The deck can be repeated indefinitely; **Next** wraps after the last card, **Previous** revisits earlier cards, **Shuffle deck** rearranges the *same* selected words, and **Restart deck** starts from the first card in the current order.
+
+- **Previously encountered** includes any active word already recorded in your progress, even if its next review is days away.
+- **Difficult words** includes words last rated Again or Hard in the regular Study/Review sessions.
+- **All eligible words** includes the entire currently visible vocabulary pool, respecting your A1 setting and personally skipped words. Custom words are included when eligible.
+- Free Practice is intentionally **ungraded** and **does not change** your next due dates, daily word allowance, mastery status, progress records, or saved backup format.
+- The selected deck survives tab changes in the active Streamlit session, but it is not included in the browser progress backup and can reset on a full app reload. Build a fresh deck whenever needed.
 
 ### Deploy on Streamlit Community Cloud
 
@@ -41,7 +52,7 @@ For local development:
 ```sh
 python -m pip install -r requirements.txt
 streamlit run streamlit_app.py
-python test_streamlit_core.py
+python -m unittest discover -v
 ```
 
 ### Continuation fix (November 14, 2026)
